@@ -1,0 +1,39 @@
+{
+  "name": "phoenix-blaze",
+  "version": "0.1.0",
+  "description": "A conscious zombie survival game with cannabis-based crafting",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "zombie",
+    "survival",
+    "crafting",
+    "sandbox",
+    "phaser",
+    "game"
+  ],
+  "author": "reeferguyai",
+  "license": "PRIVATE",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.40.0",
+    "jest": "^29.5.0",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
