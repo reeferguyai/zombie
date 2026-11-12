@@ -1,10 +1,10 @@
-# Playable Prototype Controls
+# Game feature controls
 
-- **WASD / arrow keys:** Move around the world.
-- **Space:** Attack a nearby zombie.
-- **E:** Talk to a nearby survivor or claim a completed quest.
-- **C:** Open field crafting.
-- **M:** Open the region map.
-- **Escape:** Pause, save, load, or return to the title menu.
+- **WASD / arrows:** Move; player and zombie sprites have generated pixel-frame idle/walk animations.
+- **Space:** Attack nearby zombies. Enemies transition between idle, wander, chase, and attack states.
+- **E:** Speak with nearby faction NPCs, accept/claim quests, select moral choices, trade, or use a nearby workbench.
+- **C:** Open crafting. Recipes can only be made near the workbench.
+- **M:** Open region map; a minimap is visible in the top-right of the play screen.
+- **Escape:** Pause, save/load, and return to title.
 
-The prototype uses generated pixel-art textures and a hand-built tile-like world so it runs without downloading external art. Progress is stored locally in the browser. The four map regions are revealed as you explore; quests award XP and items.
+The title menu lets you cycle Easy/Normal/Hard difficulty and access options. Faction reputation, accepted quest progress, discoveries, and player progress are persisted in local browser storage. Periodic world events include alerts, supply caches, and calm intervals. Visuals are procedurally generated pixel-style sprites and tile-like ground graphics; external art assets still need to be sourced/licensed for final production.
