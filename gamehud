@@ -1,0 +1,87 @@
+import { ITEMS } from '@/lib/gameData';
+
+function StatBar({ label, value, max, color, icon }) {
+  const pct = Math.max(0, Math.min(100, (value / max) * 100));
+  return (
+    <div className="flex items-center gap-2">
+      <span className="text-sm w-5 text-center">{icon}</span>
+      <div className="flex-1">
+        <div className="flex justify-between text-[10px] text-stone-400 mb-0.5">
+          <span>{label}</span>
+          <span>{Math.round(value)}/{max}</span>
+        </div>
+        <div className="h-2 bg-stone-800 rounded-full overflow-hidden">
+          <div className="h-full rounded-full transition-all duration-300" style={{ width: `${pct}%`, background: color }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function GameHUD({ stats, biome, timeLabel, onInventory, onCrafting, onSmoke, onBlend, onMix, onPerks, onNotes, onBuild, onStash, canStash, messages }) {
+  const isNight = stats.gameMinutes % 1440 >= 1080 || stats.gameMinutes % 1440 < 360;
+  return (
+    <>
+      {/* Top bar — stats */}
+      <div className="absolute top-0 left-0 right-0 p-3 pointer-events-none z-20">
+        <div className="max-w-md mx-auto bg-black/55 backdrop-blur-md border border-stone-800/80 rounded-2xl p-3 pointer-events-auto">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-semibold text-stone-300 tracking-wide">{biome}</span>
+            <span className={`text-xs font-medium ${isNight ? 'text-indigo-300' : 'text-amber-300'}`}>
+              {isNight ? '🌙' : '☀️'} {timeLabel}
+            </span>
+          </div>
+          <div className="space-y-1.5">
+            <StatBar label="Health" value={stats.hp} max={100} color="#dc2626" icon="❤️" />
+            <StatBar label="Blood Lust" value={stats.bloodLust} max={100} color="#7c1d1d" icon="🩸" />
+            <StatBar label="Hunger" value={stats.hunger} max={100} color="#d97706" icon="🍖" />
+            <StatBar label="Thirst" value={stats.thirst} max={100} color="#0ea5e9" icon="💧" />
+            <StatBar label="Humanity" value={stats.humanity} max={100} color="#a78bfa" icon="🧠" />
+            <StatBar label="Stamina" value={stats.stamina} max={100} color="#65a30d" icon="⚡" />
+          </div>
+          <div className="flex gap-1.5 mt-2 text-[10px] flex-wrap">
+            <span className="px-2 py-0.5 rounded bg-stone-800/80 text-stone-400">Z-Blend {Math.round(stats.zombieBlend)}</span>
+            <span className="px-2 py-0.5 rounded bg-stone-800/80 text-stone-400">H-Blend {Math.round(stats.humanBlend)}</span>
+            <span className="px-2 py-0.5 rounded bg-stone-800/80 text-amber-400">Str {Math.round(stats.strength)}</span>
+            <span className="px-2 py-0.5 rounded bg-rose-900/70 text-rose-300 font-bold">{stats.ep} EP</span>
+            {stats.weather && stats.weather !== 'clear' && (
+              <span className="px-2 py-0.5 rounded bg-indigo-900/70 text-indigo-200">{({ fog: '🌫️ Fog', acid_rain: '🌧️ Acid Rain', storm: '⛈️ Storm' })[stats.weather]}</span>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Action buttons */}
+      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex gap-2 flex-wrap justify-center max-w-[95vw]">
+        <HudBtn label="Inventory" sub="Tab" onClick={onInventory} />
+        <HudBtn label="Craft" sub="C" onClick={onCrafting} />
+        <HudBtn label="Perks" sub="P" onClick={onPerks} />
+        <HudBtn label="Notes" sub="N" onClick={onNotes} />
+        <HudBtn label="Smoke" sub="Q" onClick={onSmoke} />
+        <HudBtn label="Blend" sub="B" onClick={onBlend} />
+        <HudBtn label="Mix Blood" sub="M" onClick={onMix} />
+        <HudBtn label="Build" sub="V" onClick={onBuild} />
+        <HudBtn label="Stash" sub="Z" onClick={onStash} dim={!canStash} />
+      </div>
+
+      {/* Message log */}
+      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 w-full max-w-sm px-4 pointer-events-none">
+        {messages.slice(-3).map((m, i) => (
+          <div key={i} className="text-center text-sm text-stone-300 mb-1 animate-fade" style={{ opacity: 1 - i * 0.3 }}>
+            {m}
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+function HudBtn({ label, sub, onClick, dim }) {
+  return (
+    <button onClick={onClick}
+      className={`flex flex-col items-center bg-black/60 backdrop-blur border rounded-xl px-3 py-1.5 transition group ${dim ? 'border-stone-800 opacity-50' : 'border-stone-800 hover:border-rose-600/60'}`}>
+      <span className="text-xs font-semibold text-stone-200 group-hover:text-rose-300">{label}</span>
+      <span className="text-[9px] text-stone-500">{sub}</span>
+    </button>
+  );
+}

@@ -1,0 +1,109 @@
+1
+Blend in and survive
+Sneak among humans and zombies while managing hunger, decay, and disguise.
+
+2
+Scavenge and craft
+Gather resources, make primitive tools, and build a safe hideout in the ruined world.
+
+3
+Uncover your past
+Explore the newly fallen city, piece together your scientist’s memories, and navigate encounters with humans and zombies.
+
+1
+Control the blood lust
+Keep your zombie instincts in check while finding ways to stay nourished and manage decay.
+
+2
+Escape the outbreak chaos
+Make your way through the newly overrun city as humans flee, loot, and fight to survive.
+
+3
+Piece together the experiment
+Follow memory flashes to discover how the scientist became a conscious zombie.
+
+
+
+
+1
+Build a safe hideout
+Scavenge essentials and make a sheltered place to rest while danger closes in.
+
+2
+Pass among the living
+Use stealth and disguise to move between humans and zombies without being exposed.
+
+3
+Uncover your past
+Explore unsettling places and piece together the failed experiment through memory fragments.
+
+1
+Keep the hunger at bay
+Balance blood lust and decay while scavenging for food and supplies.
+
+2
+Make do with scraps
+Gather rough materials and craft simple tools to survive the changed city.
+
+3
+Navigate uneasy encounters
+Decide how to approach humans and other zombies as you search for a place in this new world.
+
+
+
+1
+Piece together the outbreak
+Explore the newly fallen city and trigger memories of the failed resurrection experiment.
+
+2
+Pass among the living
+Use stealth and disguise to move through human-held areas without drawing attention.
+
+3
+Find shelter in the wild
+Scavenge nearby ruins and natural spaces to establish a basic refuge beyond the chaos.
+
+
+1
+Grow and manage bloodlust
+Plant cannabis, harvest flowers, and use them to steady your zombie instincts.
+
+2
+Make an animal ally
+Find and tame a wild animal to help you survive the forest edge.
+
+3
+Craft a way across
+Gather primitive materials and build a raft to explore nearby waters.
+
+
+
+
+
+
+
+
+
+
+
+Give humans and rival zombies readable attack moments with hit reactions, damage feedback, and escalating danger. When health reaches zero, show a clear defeat screen with a restart path so every hunt and territorial clash has meaningful stakes.
+
+Turn a crafted workbench or lab into the start of a hideout that can be claimed, upgraded, and revisited as a safe territory. Add a simple shelter objective and storage or recovery benefit so exploration leads toward building a lasting home.
+
+Add the opening scene where I stumble outside, see the chaos, realize I’m a zombie, and pass out before waking up.
+
+Mix blood vials at the lab to choose a mutation such as heightened speed, stronger bites, or improved scavenging. Each adaptation should change how the zombie survives and give the player a clear reason to pursue different blood sources.
+
+
+
+1
+Establish a forest hideout
+Gather basic resources and build a simple shelter among the trees.
+
+2
+Blend into both factions
+Use scent and stealth to avoid suspicion from human survivors and undead.
+
+3
+Explore the wild districts
+Venture from the city edge into the forest, farm, and beach for supplies.

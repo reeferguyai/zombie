@@ -1,0 +1,76 @@
+Add a stealth mode: when the player presses E near a dumpster or barricade, the zombie becomes invisible to both humans and zombies for 6 seconds, then reappears.
+
+Implement a cannabis grow mechanic: the zombie can plant seeds in dirt plots, let them grow over time, harvest flowers, and smoke them to temporarily reduce bloodlust.
+
+Create a simple crafting system: allow the zombie to combine a stick and a stone to produce a sharpened stick that can be used as a melee weapon.
+
+
+add blood mixing, animal taming, rafts, factions, treehouses, weather, etc.
+
+
+the character creator, blood-mixing progression, primitive crafting (sharpened stick → spear → bow), sound design, and pushing the street out into the forest/farm/beach districts.
+
+Visual style: pixel art (fits the gritty survival vibe and runs great in browsers) or smooth cartoon 2D?
+Controls: keyboard and mobile touch support too?
+For character creation, stylized/customizable is fine 
+
+you're a zombie who has to blend in with both factions, using stealth, smell-masking, and cannabis to manage bloodlust. That's a genuinely unique game loop, and it's totally buildable.
+
+ build everything gameplay-related — the survival, crafting, stealth, zombie-vs-human blending, cannabis mechanics (marijuana as a game resource/mechanic is fine — lots of games do this, e.g. Weed Shop-style survival mods), blood-mixing, taming animals, digging, building rafts and lean-tos. What I can't do is generate explicit sexual/NSFW content. I can support mature themes (blood, gore, dark humor, survival grit) and leave hooks where adult content could later be added by me,
+ A full Days of Z/Rust/The Forest-style open world is thousands of hours of work. The good news: we build it like real games are made — small playable slices, tested and improved one at a time. A 2D top-down open world (city + a bit of decaying town edge) you explore freely
+Play as your zombie: sneak past humans who attack on sight, and act "zombie-like" near zombie hordes so they ignore you
+A bloodlust meter that rises over time — if it maxes out, trouble. Smoking cannabis you find/grow lowers it
+The multi-stick as your first craft: whack trees/grass for wood and fiber, dig with it, sharpen it on a rock to make a weapon/fishing spear
+Primitive crafting: hemp fiber → rope, sharpened stick, maybe a lean-to
+Character creation screen with body, skin-tone/rot, hair, and outfit options (stylized, not explicit)
+
+
+
+I want to make an HTML5 game that I can play in the browser and make money off of i want it to be an nsfw, open-world, sandbox survival crafting zombie game where you play as a newly turned zombie who in some way regains Consciousness slowly instead of a human character. This game will be similar to in all aspects as ZGirls2 Last One, Rust, The Last of Us, the forest this game will be in nsfw and will incorporate cannabis throughout the whole game. So instead of playing as a human where you are against the zombies you are a zombie against the humans and guess what you also are against the zombies you have to blend in stealthy. You can interact with both humans and zombies you have to blend in with the humans by just hiding from them you can sneaking around or eventually getting making clothes to fit in and you also have to stealthy against the zombies by doing things like rubbing around the meat on you so you to smell like a zombie and doing things like acting and walking like a zombie and speaking like a zombie not only that but zombies don't eat what we eat they need blood so in that aspect you can mix different Bloods like you can take human blood and zombie blood or human blood and human blood or dog blood and can't blood or whatever and it'll help you get stronger when you smoke marijuana in the game it makes it to where your blood lust heals a little bit You will be able to gather things like wood Stone cannabis berries grass random things laying around from what have you to do real-like crafting rub a stick against a rock and make it Sharp or you can take cannabis hemp stocks stems whatever and grind them into a weavable fabric or you can do that with grass. You can dig and find random things even by digging with a stick you can build rafts and floatation devices you can even float using logs that you can find or cut down you can make Traps and lean-tos, treehouses, you can use a cave or whatever. You can have sfw and nsfw interactions with both zombies and humans. The first thing you can craft is a handy dandy multi-stick which is a stick that you can use to walk with hold things up with reach things fight with whack dig with you can sharpen it on the end with rubbing it and make it to where you can fish with it or you can hit with it and hunt or all kinds of other things and you can craft from there bigger and better. You can find tame and keep random animals and get them to do things and help you with different things. AI will generate everything that it can generate for the whole game. The beginning setting is a recently turned Zombie World where everything is just going on they're still riding they're still looting and pillaging and all that going on as you're trying to figure out what's going on they're different teams and factions and characters throughout the game that you'll meet and come across Dynamic weather changes The game starts with a custom character creation screen with robust amounts of both NSFW and SFW options.
+
+Handy-dandy multi-stick
+
+Used for walking, wacking, chopping, prying, digging, fighting, lifting, reaching, stabbing, fishing, leverage
+
+you can sharpen a stick by rubbing it over and over against a rock to use it as a weapon and to chop grass with and you can use that same stick to jab and catch fish with and you can use it to dig like a shovel and many more uses Open-world sandbox 2D NSFW Zombie realistic crafting survival game like ZGirls2 Last One, Days of Zombie, Last Days, The Forest, Rust in all aspects but the fact that instead of playing as a human character you instead play as a newly turned super sexy petite zombie that that smokes marijuana instead of play as a human character. In a just turned post-apocalyptic world overrun by zombies with riots and looting, players assume the role of a newly turned, super sexy petite zombie who is uniquely empowered by marijuana. Unlike other zombies, you retain some of your human intelligence and can use marijuana in various ways to enhance your abilities and survival chances. An open-world, post-apocalyptic landscape overrun by zombies. The environment is a mix of decaying urban areas, overgrown forests, and makeshift survivor settlements. A newly turned, petite, and alluring zombie with a unique ability to harness and use marijuana for various effects. Players assume the role of a newly turned super sexy female zombie who retains a unique blend of allure and power. This zombie is petite, with exaggerated, stylized features reflecting their newfound abilities and the game's mature themes. They use marijuana as a primary resource for survival and enhancement. trying to survive against both humans and the zombies who in a way similar to the movie/book Warm Bodies realizes they were once human. Use stealth including but not limited to rubbing rotted meat and blood on u, hiding, sneaking to keep safe. NSFW and Cannabis/Marijuana are seamlessly blended from the beginning till the end. If the zombie character that you play smokes marijuana it helps with blood lust. Gather hemp to craft with. Smash and weave hemp into rope. Crafting, fighting, hunting, gathering, are all super primitive. The game starts with a custom character creation screen with robust amounts of both NSFW and SFW options. Can find and train and keep and use animals. Mixing blood including but not limited to rats, rabbit, dog, cat, deer, human, zombie makes you stronger. AI creates everything it can. You can dig anywhere even with a stick. You can make a multi-stick (hit with it, chop weeds down, walking, fighting, sharpen with a rock, stab at fish with, etc) which is very versatile, sharpen a stick by rubbing the stick against a rock. you can float on water with wood a lean-to, a tree-house, rope out of hemp
+
+This game concept has a lot of depth and uniqueness to it! I can see the blend of survival mechanics with crafting and exploration, paired with a dark, humorous narrative where the protagonist is a newly turned, super sexy petite zombie. The use of marijuana
+
+ A mature zombie survival game is fine — gore, blood, swearing, drugs (the cannabis system you described), dark themes, all of it. What I won't do is generate explicit sexual content or a nude/explicit character creator. So: the character creator can do face shape, body type, skin tone, build, hair colour/length/style, eyes, tattoos, scars, clothing/outfits, personality — everything except the explicit anatomical options. The rest of your vision I can absolutely build.
+
+2. On scope. This document describes years of work — an open world, taming and breeding animals, raft building, blood-mixing progression, bikes with motors, relationship systems, a full world with a dozen biomes. Real games like the ones you listed were made by studios over multiple years. What we can do together is build a vertical slice: one small city block where the core fantasy — "I'm a zombie, nobody knows it, and I have to pass as human or as one of them" — is actually playable and fun. Then we grow it outward, one iteration at a time, testing as we go. That's how real games get made.
+
+
+
+Camera view — top-down (like Days After / classic survival games), or side-on 2D?
+For the very first playable version, which two things matter most?
+The blend-in / disguise system (humans get suspicious if you're covered in gore or moving oddly; zombies leave you alone if you smell like rot, humans don't)
+Gathering + primitive crafting (sticks, stones, sharpened stick, fire)
+Melee combat (bite, scratch, and later punch/kick/stick)
+The cannabis system (find seed → plant → grow → smoke → calm the bloodlust)
+Which setting for the opening scene — the rioting, freshly-turned city street you described, or somewhere quieter like the woods/beach?
+Once you answer, I'll lay out a step-by-step plan for the first slice and we'll start building.
+
+top-down, do all of these first The blend-in / disguise system (humans get suspicious if you're covered in gore or moving oddly; zombies leave you alone if you smell like rot, humans don't) Gathering + primitive crafting (sticks, stones, sharpened stick, fire) and Melee combat (bite, scratch, and later punch/kick/stick) The cannabis system (find seed → plant → grow → smoke → calm the bloodlust) and the rioting, freshly-turned city street I described
+
+The street — a rioting city block: cracked asphalt road with sidewalks, ruined building rows on both sides, wrecked traffic, riot barricades, dumpsters, overgrown bushes and rubble to harvest. Camera follows you; the world extends well beyond one screen.
+
+You are the zombie — the protagonist is tinted sickly green and controlled like any survivor (joystick/WASD). Three bars top-left: Health, Bloodlust, Disguise, plus your Seeds/BUDS count.
+
+Blend-in (the core hook) — one stat governs both masks, and it pulls in opposite directions:
+
+Disguise high → humans ignore you… but NPC_Zombie feral zombies hunt you (you smell like food)
+Disguise low → ferals barely turn their heads… but NPC_Human survivors bolt in terror when you get near
+Biting and feeding lowers it (gore); Clean_Clothes pickups raise it (+45)
+Ducking into a Dumpster with E hides you for 6 seconds (it sets you to neutral, briefly invisible to both sides) and you climb out reeking, permanently dirtier
+Melee — Z or tap/click = BITE (45 dmg, big bloodlust gain, dirties you, and a kill feeds you: −30 Bloodlust). X = SCRATCH (fast, 18 dmg). Both use the Health behavior, so humans and zombies die properly. Zombies that catch your scent bite back.
+
+Cannabis loop — find Cannabis_Seeds lying around → E at a Dirt_Plot to plant → the Cannabis_Plant visibly grows over ~45s → E to harvest 3 buds → C to smoke: −30 Bloodlust, +25s of calm (bloodlust stops rising), and +6 Disguise (decay management). Above 90 Bloodlust you start taking damage from your own hunger, so smoking is survival, not flavour.
+
+Controls are shown in-game for the first 10 seconds, and Blend-in reactions is saved as a test you can re-run.
+
+Scene variables BloodLust, Decay, Disguise, DayTime, HempFiber
+Text StatsHUD + CraftHint on the UI layer showing Blood / Decay / Disguise / Hour live
+New groups Zombie survival stats + Crafting and disguise: blood drains every 5s, decay rises, disguise fades, 24h clock ticks, C/G/H keys for fiber-gather, rot-disguise, craft hint
+Existing harvest/inventory (Log, Rock, Harvest_Tree, Harvest_Rock) untouched and still feeds this
+Want next: real sharpened-stick recipe consuming 1x Log + 1x Rock, blood-drink from animals, and night-darkness + shelters

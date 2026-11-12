@@ -1,0 +1,1870 @@
+Core Premise: You play as a protagonist who has survived the transformation into a zombie but somehow retained their human consciousness, memories, and emotions—creating a constant tension between survival instincts and humanity.
+
+Key Mechanics: Features unique survival loops such as managing bloodlust, fictional cannabis-based crafting for suppression and enhancement, stealth, social disguise, and branching moral choices.
+
+Project Architecture: Details directory structures (src/game/core, systems, entities, etc.), a technology stack (Phaser 3, JavaScript ES6+, Webpack/Parcel, Jest), and setup/installation instructions for local development.
+
+Development Roadmap & Expansion: Outlines a 4-phase development roadmap (Foundation, Core Mechanics, Content, and Polish) followed by a massive append-only expansion compendium covering advanced visual styling, world regions, combat design, NPC intelligence, and production readiness.
+
+
+That inversion of the classic survival formula—turning the Last Day on Earth or Dawn of Zombies top-down isometric survival loop completely on its head—creates a brilliant mechanical and narrative playground.
+
+In standard isometric survival RPGs, your enemy is the mindless horde, and human settlements represent safety and trade. In Phoenix Blaze, that dynamic is shattered: you are the monster trying to pass as human, and humanity is the most dangerous, unpredictable faction in the wasteland.
+
+🕹️ Translating Isometric Survival Mechanics to a Conscious Undead Protagonist
+Adapting the proven mechanics of games like Last Day on Earth, Prey Day, and Lost in Blue to a half-human/half-zombie protagonist redefines every core loop:
+
+Traditional Survival Mechanic	Phoenix Blaze Inverted Mechanic	Strategic Implication
+Hunger & Thirst Meters	Bloodlust & Humanity Meters	Eating raw meat or scavenging rations doesn't just stave off starvation—it feeds your internal monster. Suppressing bloodlust requires specialized crafting (cannabis-derived terpenes and strains) to keep your human consciousness anchored.
+Stealth & Sound Cones	Disguise & Decay Management	You have to actively mask your physical deterioration. If your skin sloughs off or your gait falters near a human patrol outpost, your disguise fails and they treat you as a hostile threat. Conversely, walking too upright among a zombie horde triggers their predatory aggression.
+Base Building & Fortification	The Sanctuary / Hideout	Instead of just building walls to keep zombies out, you need specialized workstations: a botanical grow-room to refine suppressants, a concealment workshop to craft human disguises, and a medical bench to treat tissue necrosis.
+Zone Grinding & Resource Runs	Bifurcated Territory Access	Exploring zones requires navigating two entirely different threat tables: Human Sectors (where you risk detection, traps, and scavengers) and Necrotic Sectors (where mindless hordes ignore you, but apex undead mutations and environmental decay hazards threaten you).
+Co-op & Multiplayer Raids	Faction Infiltration & Betrayal	Posing as a survivor to infiltrate human settlements allows you to trade or sabotage from the inside, but a single slip in social interaction or scent masking turns the entire settlement hostile.
+
+0:17
+Last Day on Earth — Part 1 | Your first craft #ldoe #gaming #survival
+YouTube
+ · 
+Kefir Games
+
+15:27
+Last Day on Earth: Survival EP 1 | Bakit Lv99 na ako? (TAGALOG)
+YouTube
+ · 
+King MCAJ PH
+
+2:50
+LDOE EP 3 - Turn On Radio & A Little Crafting. Last Day On Earth: Survival Gameplay
+YouTube
+ · 
+WowPowGamer
+The videos above showcase the classic top-down isometric gathering, base management, and stealth navigation mechanics that provide the structural backbone for browser-based survival engines like Phaser 3.
+
+🧠 DESIGN INTENT
+By utilizing the familiar, addictive progression loops of mobile and browser survival games (resource grinding, workbench upgrades, map exploration), the player instantly understands how to play. The innovation lies entirely in why they are doing it: managing an internal civil war between human reason and undead hunger.
+
+2D NSFW zombie crafting survival game where instead of a human you play as a zombie from the zombie perspective instead of just blood lust you also lust for marijuana marijuana will help ease your bloodlust you can make a completely customizable customizing everything character It's very first thing you can cramp is a multi sticking with a multi stick is it all I hope you walk it'll help you fight it up yoo chop it'll help you lift it'll help you dig and help you pry things to help you in all kinds of ways you can make a fishing pole out of it you can sharpen it and want in to make it into like a spear. It has day and night cycles you can grow things you can find marijuana and grow marijuana and you can grow corn and wheat and all that kind of stuff you can find things around you can dig you can chop trees and rocks and everything just like normal survival games. You can float around on logs and plastic and swim.  u can make and use bongs, pipes, papers and bowls for cannabis use to ease blood;kust
+
+1. **Character Creation**: Begin with a basic character model. Focus on implementing simple character customization—skin color, clothing, and body features. Unity’s **ProBuilder** and **Character Creator** tools can help you get this up and running.
+
+2. **Movement & Controls**: Get basic player movement down. Use Unity's built-in **CharacterController** for smooth movement and simple animations for walking, sneaking, and idle poses. 
+
+3. **Basic Survival System**: Implement a simple hunger, thirst, or health system. Add a basic marijuana mechanic where consuming it can regenerate health or manage bloodlust. You can build the system with Unity’s **UI** tools to track and display these stats.
+
+4. **Environment Setup**: Create a small test area—a basic urban or forest environment. Use Unity’s **Terrain Tools** to quickly shape the landscape, and **Asset Store** assets for buildings or props (if you need them). You could start with just a small patch of world to explore and test mechanics.
+
+5. **Simple Crafting System**: Start by allowing the player to gather basic materials (like sticks and hemp) and craft simple tools (like a sharpened stick). Use **Inventory Systems** in Unity to track the materials and items created.
+
+6. **AI Behavior (Zombies/Animals)**: Set up basic AI for zombies or animals. Zombies can roam aimlessly or be triggered by noise, and animals can be interacted with (hunting, taming). Unity’s **NavMesh** and **Animator** can help you create simple AI and animations for them.
+
+7. **Basic Stealth/Combat**: Implement a simple stealth system where the player can hide or crouch to avoid detection. Zombies could be given a simple “line of sight” AI behavior, and you could experiment with rudimentary combat—like a basic attack with a stick or other tool.
+
+8. **Testing and Iteration**: As you build, constantly test the mechanics and make sure things feel smooth. Iterate based on what works and refine the features over time.
+
+Unity’s flexibility makes it great for taking gradual steps. With each milestone, you can refine and expand the game. Would you like some tips on setting up any of these systems in Unity?
+
+1. **Character Creation Refinement:**
+* Delve deeper into specific AI applications for body sliders, facial morphing, hairstyle generation, clothing/texture creation, and NSFW options.
+
+2. **Initial Gameplay Loop:**
+* ## Tutorial Level Design: "Waking Nightmare"
+
+**Objective:** Introduce players to core mechanics in a safe environment that reinforces the narrative context.
+
+**Environment:**
+
+* **Starting Point:** The bathroom where the character wakes up. Dimly lit, disheveled, with the mirror reflecting their zombified form.
+* **Adjacent Offices:** Mostly empty, with overturned furniture and scattered debris providing opportunities for stealth and exploration. Some interactive elements like a flickering light or dripping faucet add atmosphere.
+* **Hallway:** A linear path leading to an exit, with a few blind corners and obstacles. This introduces basic movement and the concept of navigating the environment.
+* **Small Courtyard:** An enclosed outdoor area with overgrown plants, offering hiding spots and a chance to experiment with stealth mechanics. A couple of low-level zombies wander aimlessly.
+
+**Core Mechanic Introductions:**
+
+* **Movement:**
+    * Upon waking up, the character feels sluggish and disoriented. Movement is initially slow and clunky, reflecting their newfound state.
+    * A prompt guides the player to use basic movement controls (WASD or arrow keys). 
+    * As they move, they gain more control, eventually reaching a normal walking speed. This subtly reinforces the idea of adapting to their new body.
+
+* **Stealth:**
+    * Entering the offices, the player encounters their first zombie. It's slow and easily avoidable, but a prompt suggests trying to sneak past it.
+    * The game introduces a simple stealth meter, indicating how visible the character is. Crouching and staying in shadows reduce visibility.
+    * The player is encouraged to use environmental objects like overturned desks and cabinets for cover.
+
+* **Combat:**
+    * Further down the hallway, a zombie blocks the path and cannot be avoided. A prompt suggests finding a weapon.
+    * A nearby broken chair leg serves as the first weapon. Picking it up triggers a basic combat tutorial.
+    * Combat focuses on simple melee attacks and timing. The goal is to defeat the zombie without taking too much damage.
+
+* **Crafting:**
+    * Reaching the courtyard, the player encounters a locked gate. A prompt suggests finding a way to open it.
+    * Scattered nearby are some loose nails and a plank of wood. The game introduces a basic crafting menu.
+    * Combining these items creates a makeshift crowbar, which can then be used to pry open the gate.
+
+**Narrative Integration:**
+
+* Throughout the level, internal monologues and flashbacks continue the story.
+* The character struggles with their newfound identity, questioning their sanity and humanity.
+* Finding a note or audio log from another survivor could introduce the concept of factions and the broader world.
+
+**Additional Considerations:**
+
+* **Visual Cues:** Use subtle visual effects to indicate interactive elements, stealth zones, and potential crafting materials.
+* **Audio Feedback:** Sound effects play a vital role in immersion and gameplay. Footsteps, zombie groans, and environmental sounds help players navigate and anticipate threats.
+* **Difficulty Curve:** Keep the initial challenges manageable to build confidence and encourage experimentation.
+* **Replayability:** Include optional objectives or hidden areas to reward exploration and offer a reason to revisit the tutorial later.
+
+**Example Tutorial Flow:**
+
+1. Wake up in the bathroom, struggle with movement controls.
+2. Explore the offices, learn to sneak past a zombie.
+3. Encounter a blocking zombie, find a weapon, and engage in combat.
+4. Reach the courtyard, craft a crowbar to open the gate.
+5. Exit the courtyard, ending the tutorial and transitioning to the open world.
+
+**AI Integration:**
+
+* Procedural Generation: Could be used later to create variations of the office layout for replayability.
+* Dynamic Difficulty: The AI could adjust zombie behavior or item placement based on player performance, ensuring a smooth learning curve.
+* Narrative Adaptation: The character's internal monologue could be subtly tailored based on player choices or actions, adding a personal touch to the experience.
+
+This tutorial level design aims to create a seamless onboarding experience that not only teaches the game's core mechanics but also immerses players in the narrative and prepares them for the challenges of the open world.
+
+
+3. **Technical Considerations:**
+* Choose a browser-compatible game framework..
+
+4. **AI Integration:**
+* Decide how AI will be used for procedural generation (levels, resources, encounters).
+
+5. **Narrative Design:**
+* Outline branching storylines and character development.
+* ## Deeper into the Apocalypse: The World of High and Undead
+
+**ChroniX: The Biotech Behemoth**
+
+ChroniX wasn't simply a corporation; it was an empire built on innovation and ambition, its tendrils reaching into every facet of modern life. Founded by the enigmatic Dr. Elias Thorne, a visionary geneticist with a penchant for pushing ethical boundaries, ChroniX quickly rose to prominence, its groundbreaking advancements in biotechnology and pharmaceuticals earning it both accolades and controversy.
+
+Their sprawling headquarters, a gleaming monument to their success, was a fortress of laboratories, research facilities, and corporate offices. The company's influence extended far beyond its walls, shaping government policies, funding academic institutions, and even sponsoring popular culture events. But beneath the glossy exterior, a darkness festered. Rumors of clandestine experiments, ruthless corporate espionage, and a disregard for human life painted a chilling portrait of a company willing to do anything to achieve its goals.
+
+The legalization of cannabis provided ChroniX with a new frontier to conquer. Their "Green Initiative" promised to revolutionize the industry, harnessing the plant's potential for both profit and progress. The "Euphoria" project, spearheaded by Dr. Thorne himself, was the crown jewel of this initiative. A genetically modified strain, engineered for unparalleled potency and effects, it was poised to become the next blockbuster drug, a cash cow that would solidify ChroniX's dominance for years to come.
+
+**The Outbreak: A Night of Revelry Turned Nightmare**
+
+The annual ChroniX employee party was a spectacle of excess, a celebration of the company's achievements and a testament to its power. Champagne flowed freely, gourmet food was plentiful, and the air crackled with the energy of ambition and success.  
+
+But amidst the revelry, a silent killer lurked.  A single vial of the "Euphoria" strain, contaminated with an experimental viral agent, found its way into the hands of an unsuspecting partygoer. Within hours, the virus had spread throughout the venue, transforming the joyous celebration into a scene of unimaginable horror.
+
+The infected turned on their colleagues, their minds consumed by an insatiable hunger for flesh. The once-familiar faces of friends and coworkers became grotesque parodies of themselves, their eyes glazed over, their bodies contorted in a macabre dance of death.  The security forces, caught completely off guard, were quickly overwhelmed.  Within a matter of hours, the ChroniX campus was transformed into a nightmarish hellscape, a breeding ground for the undead.
+
+**Factions: A Fractured Landscape**
+
+* **The ChroniX Inner Circle:** Dr. Thorne and a select group of loyalists retreated to a fortified underground bunker, their sanctuary hidden beneath the ruins of the corporate headquarters. Determined to salvage their legacy and regain control, they cling to the hope of developing a cure or a weapon to turn the tide of the outbreak. However, their isolation and desperation have bred paranoia and infighting, threatening to tear them apart from within.
+
+* **The Resistance: Flames of Defiance:**  Born from the ashes of the outbreak, the Resistance is a ragtag alliance of survivors, united by their shared hatred of ChroniX and their refusal to surrender to the darkness. Led by a charismatic former ChroniX scientist, Dr. Anya Petrova, they operate from hidden bases, launching guerrilla attacks on corporate strongholds and scavenging for supplies. Their ranks are diverse, comprising scientists, engineers, soldiers, and everyday citizens who have found a common purpose in their fight for freedom.
+
+* **The Scavengers: Survival at Any Cost:**  In the harsh reality of the apocalypse, morality is a luxury few can afford. The Scavengers are a testament to this grim truth, their loyalty lying solely with themselves. They roam the wasteland in packs, preying on the weak and vulnerable, their survival dependent on their cunning and ruthlessness. They are a constant threat to other factions, their presence a reminder of the brutal nature of this new world.
+
+* **The Cultists: Embracing the Darkness:**  Drawn to the power and mystique of the undead, the Cultists see the outbreak as a divine revelation, a chance to transcend their mortal limitations and achieve a twisted form of immortality. Led by a enigmatic figure known only as "The Harbinger," they conduct dark rituals and embrace the infection, their bodies and minds becoming warped reflections of the undead they worship. Their ultimate goals remain shrouded in mystery, but their presence casts a sinister shadow over the wasteland.
+
+* **The Lone Wolves: Solitary Wanderers:** The apocalypse has forced many to confront their own mortality, their trust in others shattered by the horrors they've witnessed. The Lone Wolves are survivors who have chosen to navigate this treacherous world alone, their independence their greatest strength and their isolation their heaviest burden. They are often skilled hunters, trackers, or scavengers, their knowledge of the wasteland invaluable to those who can earn their trust.
+
+**Unraveling the Mystery: The Player's Role**
+
+As a newly turned zombie with a unique consciousness, the player character stands at the crossroads of this fractured world. Their journey will lead them to encounter these various factions, each with their own agendas and motivations. Will they join forces with the Resistance to overthrow ChroniX? Will they succumb to the allure of the Cultists and embrace their newfound power? Or will they forge their own path, navigating the wasteland as a lone wolf, seeking answers and a way to reclaim their humanity?
+
+The choices they make will shape the course of their journey and determine the fate of this shattered world. The truth behind the outbreak, the secrets of the "Euphoria" strain, and the possibility of a cure all lie waiting to be discovered. The player's unique abilities, their resilience, and their unwavering spirit will be their greatest weapons in this fight for survival and redemption. 
+
+6. **Art Style and Visuals:**
+* Refine character design, environment art, and UI/UX.
+
+7. **Sound Design:**
+* Gather ambient sounds and consider music choices.
+
+**Iteration and Prototyping:**
+* Start prototyping core mechanics early for testing and feedback.
+
+This is an excellent foundation for a compelling NSFW zombie survival game. Here are some additional thoughts and suggestions to further refine your concept:
+
+**Character Customization:**
+
+* **Detailed Body Customization:** Allow players to customize their zombie's body type, muscle tone, and body hair.
+* **Facial Customization:** Provide extensive options for facial features, including eyes, nose, mouth, and skin tone.
+* **Scarring and Tattoo Options:** Offer a variety of scars and tattoos to personalize the character's appearance.
+* **NSFW Customization:** Include explicit options for genital size, shape, and appearance.
+
+**Gameplay Mechanics:**
+
+* **Marijuana Cultivation:** Allow players to cultivate their own marijuana plants, experimenting with different strains and growing techniques.
+* **Zombie Evolution:** Introduce a system where zombies can evolve based on the resources they consume. A zombie feeding on human flesh might become stronger and more aggressive, while one feeding on plants could develop regenerative abilities.
+* **Moral Choices:** Incorporate choices that affect the player's reputation and the world. Will the player help survivors or exploit them? Embrace their undead nature or cling to humanity?
+
+**World Design:**
+
+* **Dynamic Weather System:** Implement a dynamic weather system that affects gameplay. Heavy rain could hinder movement, while fog could limit visibility.
+* **Day and Night Cycle:** The world should feel more alive with a day and night cycle. Zombies might become more aggressive at night, while humans could be more vulnerable.
+* **Immersive Sound Design:** Create a haunting and atmospheric soundscape including ambient noise, creepy music, and the sounds of the undead.
+
+**NSFW Elements:**
+
+* **Consensual Relationships:** Allow players to form relationships with both human and zombie characters, with the potential for NSFW interactions.
+* **Sexual Tension and Exploration:** The game could explore themes of sexuality, desire, and the loss of inhibitions in a chaotic world.
+
+**Technical Considerations:**
+
+* **Unity or Unreal Engine:** Both are powerful game engines suitable for 2D and 3D games.
+* **Browser-Based Development:** Consider using a framework like Phaser or PixiJS for web-based games.
+
+**AI Integration:**
+
+* **Procedural Generation:** Use procedural generation to create diverse environments, encounters, and quests.
+* **Behavior Trees:** Implement behavior trees to create complex and realistic zombie AI.
+* **Machine Learning:** Explore machine learning techniques to improve AI decision-making and adaptation.
+
+**Narrative Design:**
+
+* **Branching Narratives:** Offer multiple paths and endings based on player choices.
+* **Character Development:** Allow players to develop their character's personality and skills through interactions and choices.
+* **Moral Ambiguity:** Present complex moral dilemmas and explore the consequences of different actions.
+# High and Undead / Phoenix Blaze
+
+## The Complete Content & World-Building Data Bible
+
+This is the next major layer of the game: turning the concepts into actual game-ready content.
+
+The difference is important. Saying the game has blood crafting, cannabis genetics, animals, enemies, regions, and civilization simulation describes the systems. Building the data bible means defining what exists, what it does, where it appears, how it behaves, what it produces, and how it affects everything else.
+
+I would organize this into five connected content databases:
+
+1. Blood & Biological Systems
+2. Cannabis Genetics, Cultivation & Processing
+3. Complete Crafting and Item Catalog
+4. Creatures, Enemies & Wildlife
+5. World Geography, Population & Civilization Simulation
+
+The values below are proposed original game-design data. Fictional recipes and biological effects are designed as gameplay mechanics, not real-world medical or cultivation instructions.
+
+# 1. Blood System
+
+The Blood System should be a complete survival, crafting, research, and transformation mechanic.
+
+Blood is not just a consumable. It is a biological resource with different characteristics, qualities, compatibility ratings, contamination risks, and mutation interactions.
+
+## 1.1 Blood source catalog
+
+Create at least 10 blood-source classifications, each with unique gameplay properties.
+
+| ID      | Blood source             | Rarity    | Quality | Primary gameplay property      |
+| ------- | ------------------------ | --------- | ------- | ------------------------------ |
+| BLO-001 | Human survivor           | Common    | 60      | Balanced biological resource   |
+| BLO-002 | Infected human           | Common    | 45      | Infection progression          |
+| BLO-003 | Fresh infected           | Uncommon  | 65      | Strong undead compatibility    |
+| BLO-004 | Mutated infected         | Rare      | 75      | Mutation research              |
+| BLO-005 | Alpha infected           | Very rare | 90      | Advanced mutation catalyst     |
+| BLO-006 | Hybrid blood             | Rare      | 85      | Hybrid compatibility           |
+| BLO-007 | Animal blood             | Common    | 40      | Basic biological resource      |
+| BLO-008 | Predatory animal         | Uncommon  | 60      | Sensory mutation research      |
+| BLO-009 | Infected animal          | Rare      | 70      | Unstable biological properties |
+| BLO-010 | Apex creature            | Legendary | 100     | Rare mutation research         |
+| BLO-011 | Preserved blood sample   | Uncommon  | 80      | Research stability             |
+| BLO-012 | Synthetic blood          | Rare      | 70      | Controlled compatibility       |
+| BLO-013 | Ancient strain sample    | Legendary | 95      | Historical infection research  |
+| BLO-014 | Contaminated blood       | Common    | 15      | High contamination risk        |
+| BLO-015 | Stabilized hybrid sample | Legendary | 95      | Advanced hybrid research       |
+
+### Blood quality attributes
+
+Each blood sample should store:
+
+- Source species.
+- Infection classification.
+- Sample quality.
+- Freshness.
+- Contamination.
+- Compatibility.
+- Mutation signature.
+- Storage condition.
+- Collection date.
+- Expiration time.
+- Research value.
+- Traceability information.
+
+Suggested numerical ranges:
+
+| Attribute          | Range |
+| ------------------ | ----- |
+| Quality            | 0–100 |
+| Freshness          | 0–100 |
+| Contamination      | 0–100 |
+| Compatibility      | 0–100 |
+| Mutation intensity | 0–100 |
+| Research value     | 0–100 |
+
+## 1.2 Blood crafting recipes
+
+These are fictional in-game laboratory recipes. They describe resource requirements and gameplay outcomes, not real biological preparation procedures.
+
+| ID     | Recipe                    | Required materials                         | Output              | Gameplay effect                         |
+| ------ | ------------------------- | ------------------------------------------ | ------------------- | --------------------------------------- |
+| BR-001 | Basic blood ration        | Blood sample, sealed container             | Blood ration        | Reduces blood hunger                    |
+| BR-002 | Stabilized blood ration   | Blood ration, stabilizer                   | Stable ration       | Reduced contamination risk              |
+| BR-003 | Synthetic blood pack      | Synthetic base, container                  | Synthetic pack      | Alternative feeding resource            |
+| BR-004 | Hybrid serum              | Hybrid sample, research component          | Hybrid serum        | Temporary hybrid enhancement            |
+| BR-005 | Sensory catalyst          | Animal sample, catalyst                    | Sensory extract     | Temporary perception bonus              |
+| BR-006 | Regeneration serum        | Mutant sample, medical component           | Recovery serum      | Temporary regeneration                  |
+| BR-007 | Bloodlust suppressant     | Stabilizer, medical component              | Suppressant         | Reduces bloodlust                       |
+| BR-008 | Mutation catalyst         | Alpha sample, rare component               | Mutation catalyst   | Unlocks mutation research               |
+| BR-009 | Compatibility serum       | Stabilized sample, research component      | Compatibility serum | Improves mutation compatibility         |
+| BR-010 | Infection inhibitor       | Medical component, stabilizer              | Inhibitor           | Temporarily slows infection progression |
+| BR-011 | Research specimen         | Preserved sample, sample container         | Research specimen   | Laboratory research resource            |
+| BR-012 | Advanced hybrid serum     | Hybrid sample, rare catalyst               | Advanced serum      | Unlocks advanced hybrid ability         |
+| BR-013 | Biological scanner charge | Synthetic base, electronic component       | Scanner charge      | Powers biological detection             |
+| BR-014 | Evolution catalyst        | Apex sample, legendary component           | Evolution catalyst  | Enables high-tier evolution event       |
+| BR-015 | Purified sample           | Contaminated sample, purification resource | Purified specimen   | Reduces research contamination          |
+
+## 1.3 Blood effects
+
+| Effect                  | Strength   | Duration         | Description                       |
+| ----------------------- | ---------- | ---------------- | --------------------------------- |
+| Hunger relief           | 25–100     | Variable         | Reduces biological hunger         |
+| Bloodlust reduction     | 5–25       | Immediate        | Restores control                  |
+| Regeneration            | 1–5 HP/sec | 10–30 sec        | Temporary recovery                |
+| Sensory enhancement     | 5–25%      | 30–120 sec       | Improved detection                |
+| Strength enhancement    | 5–20%      | 30–90 sec        | Increased physical power          |
+| Infection stabilization | 5–20%      | 1–5 min          | Slows fictional progression       |
+| Mutation activation     | Variable   | Permanent unlock | Opens mutation progression        |
+| Contamination           | 5–50       | Variable         | Introduces biological instability |
+
+## 1.4 Blood risks
+
+Every sample should have a risk profile.
+
+| Risk                 | Trigger                        | Gameplay consequence            |
+| -------------------- | ------------------------------ | ------------------------------- |
+| Contamination        | Low-quality sample             | Increased instability           |
+| Rejection            | Poor compatibility             | Reduced effect                  |
+| Bloodlust spike      | High-intensity sample          | Increased aggression            |
+| Mutation instability | Unstable catalyst              | Random mutation event           |
+| Sensory overload     | Excessive sensory effect       | Temporary perception distortion |
+| Cellular degradation | Expired sample                 | Reduced effectiveness           |
+| Dependency           | Repeated use of specific serum | Increased resource demand       |
+| Biological conflict  | Incompatible mutation          | Temporary ability penalty       |
+
+## 1.5 Blood-to-mutation relationships
+
+| Blood source     | Possible mutation              |
+| ---------------- | ------------------------------ |
+| Human survivor   | Memory preservation            |
+| Fresh infected   | Improved undead senses         |
+| Mutated infected | Increased resilience           |
+| Alpha infected   | Advanced regeneration          |
+| Hybrid blood     | Balanced hybrid traits         |
+| Predatory animal | Enhanced tracking              |
+| Infected animal  | Unstable sensory evolution     |
+| Apex creature    | Advanced biological adaptation |
+| Ancient strain   | Rare ancestral mutation        |
+| Synthetic blood  | Improved stability             |
+
+Mutation outcomes should be influenced by compatibility, player stage, existing mutations, and research progression. No sample should guarantee a specific result unless the player has unlocked the necessary research.
+
+# 2. Cannabis System
+
+The Cannabis System should be a complete fictional agricultural and product ecosystem inside the game.
+
+It needs its own genetics database, strain identities, growth simulation, plant conditions, harvest quality, processing outputs, market demand, and crafting connections.
+
+The system should not be limited to growing a plant and collecting an item. It should connect to the economy, settlement industry, research, culture, faction identity, and character progression.
+
+## 2.1 Strain catalog
+
+Original fictional game strains, not real-world cultivar specifications.
+
+| ID      | Strain            | Genetic family  | Rarity    | Fictional trait                 |
+| ------- | ----------------- | --------------- | --------- | ------------------------------- |
+| CAN-001 | Phoenix OG        | Hybrid          | Common    | Balanced production             |
+| CAN-002 | Toxic Sunrise     | Sativa-inspired | Uncommon  | Alertness theme                 |
+| CAN-003 | Midnight Kush     | Indica-inspired | Common    | Relaxation theme                |
+| CAN-004 | Green Reaper      | Hybrid          | Rare      | Resilience                      |
+| CAN-005 | Zombie Breath     | Hybrid          | Rare      | Unusual aroma                   |
+| CAN-006 | Ghost Train       | Sativa-inspired | Uncommon  | High energy theme               |
+| CAN-007 | Purple Apocalypse | Indica-inspired | Rare      | Distinctive coloration          |
+| CAN-008 | Nuclear Nectar    | Hybrid          | Epic      | High-value harvest              |
+| CAN-009 | Widowmaker        | Hybrid          | Rare      | High-demand genetics            |
+| CAN-010 | Emerald Wraith    | Hybrid          | Epic      | Unusual genetic stability       |
+| CAN-011 | Blood Moon        | Indica-inspired | Epic      | Rare pigment expression         |
+| CAN-012 | Graveyard Haze    | Sativa-inspired | Rare      | Distinctive flavor profile      |
+| CAN-013 | Mutation Mist     | Hybrid          | Legendary | Experimental genetics           |
+| CAN-014 | Paradise Lost     | Hybrid          | Epic      | Premium market appeal           |
+| CAN-015 | Last Light        | Hybrid          | Legendary | Rare heritage genetics          |
+| CAN-016 | Undead OG         | Hybrid          | Legendary | Unique fictional mutation trait |
+
+## 2.2 Genetic attributes
+
+Each strain needs a genetic record.
+
+| Attribute           | Range | Purpose                 |
+| ------------------- | ----- | ----------------------- |
+| Genetic stability   | 0–100 | Predictability          |
+| Growth vigor        | 0–100 | Growth performance      |
+| Yield potential     | 0–100 | Harvest potential       |
+| Resilience          | 0–100 | Environmental tolerance |
+| Water efficiency    | 0–100 | Water demand modifier   |
+| Disease resistance  | 0–100 | Disease tolerance       |
+| Aroma intensity     | 0–100 | Product identity        |
+| Color expression    | 0–100 | Appearance              |
+| Processing quality  | 0–100 | Output quality          |
+| Market desirability | 0–100 | Commercial demand       |
+| Research value      | 0–100 | Scientific interest     |
+
+## 2.3 Growth simulation
+
+Every plant should have the following gameplay states:
+
+1. Seed inventory.
+2. Germination.
+3. Seedling.
+4. Vegetative growth.
+5. Flowering.
+6. Harvest readiness.
+7. Harvest.
+8. Processing.
+9. Finished product.
+10. Storage or sale.
+
+Proposed fictional game durations:
+
+| Growth stage      | Game duration |
+| ----------------- | ------------- |
+| Germination       | 1 day         |
+| Seedling          | 3 days        |
+| Vegetative        | 7 days        |
+| Flowering         | 10 days       |
+| Harvest readiness | 2 days        |
+| Total base cycle  | 23 days       |
+
+Strain modifiers can change the total game duration.
+
+| Genetic type | Growth-time modifier |
+| ------------ | -------------------- |
+| Fast-cycle   | -20%                 |
+| Standard     | 0%                   |
+| Slow-cycle   | +20%                 |
+| Experimental | Variable             |
+
+Plant condition attributes:
+
+- Health.
+- Hydration.
+- Nutrition.
+- Temperature suitability.
+- Light suitability.
+- Environmental stress.
+- Disease pressure.
+- Genetic stability.
+- Growth progress.
+- Harvest quality.
+
+## 2.4 Harvest quality
+
+A proposed harvest score:
+
+\\[ Q_h = 0.25G + 0.20E + 0.20H + 0.15R + 0.20P \\]
+
+Where:
+
+- \\(G\\) = genetic quality.
+- \\(E\\) = environmental suitability.
+- \\(H\\) = plant health.
+- \\(R\\) = resilience.
+- \\(P\\) = processing quality.
+
+| Harvest score | Product grade |
+| ------------- | ------------- |
+| 0–19          | Failed        |
+| 20–39         | Low           |
+| 40–59         | Standard      |
+| 60–74         | Good          |
+| 75–89         | Premium       |
+| 90–100        | Legendary     |
+
+## 2.5 Processing outputs
+
+| Processing category | Output           | Gameplay use                  |
+| ------------------- | ---------------- | ----------------------------- |
+| Raw harvest         | Plant material   | Base crafting resource        |
+| Dried harvest       | Dried product    | Storage and trade             |
+| Refined product     | Refined material | Premium economy               |
+| Botanical extract   | Extract          | Fictional crafting ingredient |
+| Seed recovery       | Seeds            | Genetic collection            |
+| Fiber recovery      | Plant fiber      | Textile crafting              |
+| Composting          | Organic material | Settlement agriculture        |
+| Research sample     | Genetic specimen | Research progression          |
+| Decorative product  | Display item     | Settlement morale and trade   |
+
+## 2.6 Cannabis system effects
+
+In the fictional game world, different products can influence:
+
+- Character morale.
+- Companion relationship events.
+- Settlement culture.
+- Trade demand.
+- Reputation.
+- Relaxation-themed buffs.
+- Perception effects.
+- Crafting and research.
+- Festival and community events.
+
+Each effect needs a defined duration, magnitude, stacking rule, and drawback.
+
+## 2.7 Genetic breeding system
+
+Breeding should use inherited traits rather than simply selecting a random new strain.
+
+| Trait              | Inheritance method                      |
+| ------------------ | --------------------------------------- |
+| Growth vigor       | Weighted parental average               |
+| Resilience         | Weighted parental average               |
+| Yield potential    | Weighted parental average               |
+| Color expression   | Dominant/recessive trait rules          |
+| Aroma              | Weighted trait inheritance              |
+| Genetic stability  | Parental average with mutation variance |
+| Disease resistance | Weighted parental average               |
+
+A breeding result should have:
+
+- Unique genetic identifier.
+- Parent strain identifiers.
+- Inherited trait values.
+- Mutation events.
+- Stability score.
+- Generation number.
+- Breeding history.
+- Discovery status.
+
+The game should allow players to discover original strains and register them in a genetic archive.
+
+# 3. Complete Crafting Catalog
+
+Crafting needs a unified item database. Every object must have a unique ID, category, rarity, stack limit, weight, value, durability, unlock requirement, crafting station, and recipe.
+
+## 3.1 Materials
+
+| ID      | Material          | Rarity    | Base value | Primary use                   |
+| ------- | ----------------- | --------- | ---------- | ----------------------------- |
+| MAT-001 | Scrap metal       | Common    | 2          | Construction                  |
+| MAT-002 | Hardwood          | Common    | 3          | Structures                    |
+| MAT-003 | Softwood          | Common    | 2          | Basic construction            |
+| MAT-004 | Cloth             | Common    | 4          | Clothing                      |
+| MAT-005 | Leather           | Uncommon  | 8          | Armor                         |
+| MAT-006 | Rubber            | Uncommon  | 7          | Components                    |
+| MAT-007 | Glass             | Common    | 3          | Containers                    |
+| MAT-008 | Plastic           | Common    | 3          | Components                    |
+| MAT-009 | Copper            | Uncommon  | 9          | Electronics                   |
+| MAT-010 | Steel             | Uncommon  | 12         | Weapons                       |
+| MAT-011 | Aluminum          | Uncommon  | 10         | Equipment                     |
+| MAT-012 | Concrete          | Common    | 5          | Structures                    |
+| MAT-013 | Fiber             | Common    | 3          | Clothing                      |
+| MAT-014 | Chemicals         | Rare      | 20         | Research                      |
+| MAT-015 | Organic matter    | Common    | 2          | Agriculture                   |
+| MAT-016 | Electronic waste  | Uncommon  | 10         | Components                    |
+| MAT-017 | Rare alloy        | Epic      | 50         | Advanced equipment            |
+| MAT-018 | Bio-material      | Rare      | 35         | Fictional biological crafting |
+| MAT-019 | Ancient component | Legendary | 100        | High-tier research            |
+| MAT-020 | Energy cell       | Rare      | 25         | Electronics                   |
+
+## 3.2 Components
+
+| ID      | Component           | Materials                 | Use                |
+| ------- | ------------------- | ------------------------- | ------------------ |
+| COM-001 | Basic fastener      | Metal                     | Construction       |
+| COM-002 | Reinforced hinge    | Metal, alloy              | Doors              |
+| COM-003 | Electrical wire     | Copper, plastic           | Power              |
+| COM-004 | Circuit board       | Electronic waste, copper  | Electronics        |
+| COM-005 | Mechanical gear     | Steel                     | Machinery          |
+| COM-006 | Pressure valve      | Metal, rubber             | Industrial systems |
+| COM-007 | Battery pack        | Components, energy cell   | Power              |
+| COM-008 | Optical sensor      | Glass, electronics        | Detection          |
+| COM-009 | Radio module        | Electronics               | Communications     |
+| COM-010 | Reinforcement plate | Steel                     | Armor              |
+| COM-011 | Bio-interface       | Bio-material, electronics | Hybrid equipment   |
+| COM-012 | Advanced processor  | Rare alloy, electronics   | Research           |
+
+## 3.3 Weapons
+
+| ID      | Weapon          | Damage | Durability | Rarity    |
+| ------- | --------------- | ------ | ---------- | --------- |
+| WPN-001 | Improvised club | 18     | 45         | Common    |
+| WPN-002 | Scrap pipe      | 22     | 55         | Common    |
+| WPN-003 | Hunting knife   | 24     | 70         | Uncommon  |
+| WPN-004 | Machete         | 32     | 85         | Uncommon  |
+| WPN-005 | Fire axe        | 45     | 90         | Rare      |
+| WPN-006 | Reinforced bat  | 35     | 100        | Uncommon  |
+| WPN-007 | Spear           | 35     | 70         | Uncommon  |
+| WPN-008 | Compound bow    | 40     | 90         | Rare      |
+| WPN-009 | Crossbow        | 55     | 100        | Rare      |
+| WPN-010 | Handgun         | 35     | 100        | Uncommon  |
+| WPN-011 | Revolver        | 48     | 110        | Rare      |
+| WPN-012 | Shotgun         | 90     | 120        | Rare      |
+| WPN-013 | Assault rifle   | 28     | 150        | Epic      |
+| WPN-014 | Hunting rifle   | 85     | 140        | Epic      |
+| WPN-015 | Hybrid claw     | 38     | 100        | Epic      |
+| WPN-016 | Bio-blade       | 50     | 125        | Legendary |
+
+## 3.4 Clothing and armor
+
+| ID      | Equipment         | Armor | Weight | Special property         |
+| ------- | ----------------- | ----- | ------ | ------------------------ |
+| CLO-001 | Survivor clothing | 2     | 3      | No movement penalty      |
+| CLO-002 | Work jacket       | 4     | 4      | Weather protection       |
+| CLO-003 | Leather vest      | 8     | 6      | Light armor              |
+| CLO-004 | Reinforced jacket | 12    | 7      | Balanced protection      |
+| CLO-005 | Scrap armor       | 15    | 12     | Improvised protection    |
+| CLO-006 | Tactical vest     | 22    | 9      | Ballistic protection     |
+| CLO-007 | Military armor    | 30    | 15     | Heavy protection         |
+| CLO-008 | Heavy plated suit | 40    | 22     | High defense             |
+| CLO-009 | Bio-adaptive suit | 35    | 10     | Hybrid compatibility     |
+| CLO-010 | Stealth clothing  | 8     | 4      | Reduced movement noise   |
+| CLO-011 | Hazmat suit       | 10    | 12     | Contamination resistance |
+| CLO-012 | Explorer outfit   | 6     | 5      | Environmental protection |
+
+## 3.5 Tools
+
+| ID      | Tool          | Durability  | Primary use        |
+| ------- | ------------- | ----------- | ------------------ |
+| TLS-001 | Hammer        | 80          | Construction       |
+| TLS-002 | Wrench        | 90          | Mechanical repairs |
+| TLS-003 | Screwdriver   | 70          | Electronics        |
+| TLS-004 | Pliers        | 75          | Components         |
+| TLS-005 | Crowbar       | 100         | Salvage            |
+| TLS-006 | Shovel        | 90          | Excavation         |
+| TLS-007 | Pickaxe       | 110         | Mining             |
+| TLS-008 | Hunting knife | 70          | Harvesting         |
+| TLS-009 | Medical kit   | 1 use       | Medical recovery   |
+| TLS-010 | Repair kit    | 3 uses      | Equipment repair   |
+| TLS-011 | Scanner       | 100 charges | Detection          |
+| TLS-012 | Field radio   | 100         | Communication      |
+
+## 3.6 Structures
+
+| ID      | Structure           | Materials               | HP    | Function          |
+| ------- | ------------------- | ----------------------- | ----- | ----------------- |
+| STR-001 | Sleeping shelter    | Wood, cloth             | 250   | Rest              |
+| STR-002 | Storage crate       | Wood, metal             | 150   | Storage           |
+| STR-003 | Reinforced wall     | Wood, steel             | 500   | Defense           |
+| STR-004 | Metal wall          | Steel, components       | 900   | Defense           |
+| STR-005 | Watchtower          | Wood, metal             | 650   | Observation       |
+| STR-006 | Workshop            | Wood, components        | 700   | Crafting          |
+| STR-007 | Medical station     | Components, supplies    | 500   | Medical services  |
+| STR-008 | Research laboratory | Components, electronics | 900   | Research          |
+| STR-009 | Water collector     | Metal, components       | 350   | Water             |
+| STR-010 | Farm plot           | Wood, organic matter    | 200   | Agriculture       |
+| STR-011 | Power generator     | Components, metal       | 600   | Electricity       |
+| STR-012 | Radio tower         | Metal, electronics      | 750   | Communications    |
+| STR-013 | Trade depot         | Wood, metal             | 650   | Commerce          |
+| STR-014 | Animal enclosure    | Wood, metal             | 400   | Animal management |
+| STR-015 | Community hall      | Wood, concrete          | 800   | Social events     |
+| STR-016 | Advanced bio-lab    | Rare alloy, electronics | 1,200 | Mutation research |
+
+## 3.7 Crafting rules
+
+Every recipe should include:
+
+- Recipe ID.
+- Input item IDs.
+- Input quantities.
+- Output item IDs.
+- Output quantities.
+- Required skill level.
+- Required station.
+- Crafting duration.
+- Failure probability.
+- Quality modifier.
+- Unlock condition.
+- XP reward.
+
+Crafting quality should be calculated from skill, station quality, material quality, and environmental conditions.
+
+# 4. Enemies, Creatures & Wildlife
+
+The creature database should include much more than health and damage.
+
+Every creature needs a complete stat sheet, AI behavior, sensory abilities, movement characteristics, animation states, spawn conditions, loot, and relationships with other species.
+
+## 4.1 Enemy stat sheets
+
+| ID     | Enemy          | HP    | Damage | Speed | Detection | Threat     |
+| ------ | -------------- | ----- | ------ | ----- | --------- | ---------- |
+| EN-001 | Crawler        | 45    | 8      | 25    | 30        | Low        |
+| EN-002 | Shambler       | 70    | 12     | 35    | 40        | Low        |
+| EN-003 | Runner         | 90    | 18     | 90    | 65        | Medium     |
+| EN-004 | Stalker        | 110   | 22     | 70    | 80        | Medium     |
+| EN-005 | Screamer       | 160   | 15     | 45    | 90        | High       |
+| EN-006 | Spitter        | 130   | 20     | 40    | 70        | High       |
+| EN-007 | Brute          | 250   | 35     | 30    | 55        | High       |
+| EN-008 | Armored undead | 350   | 30     | 35    | 60        | High       |
+| EN-009 | Mutated hunter | 400   | 45     | 100   | 95        | Very high  |
+| EN-010 | Alpha infected | 750   | 55     | 65    | 85        | Boss       |
+| EN-011 | Horde champion | 1,200 | 65     | 55    | 90        | Boss       |
+| EN-012 | Apex mutation  | 2,500 | 85     | 80    | 100       | World boss |
+
+## 4.2 Enemy behavior definitions
+
+| Enemy          | Behavior                 | Special ability         |
+| -------------- | ------------------------ | ----------------------- |
+| Crawler        | Ambush from ground level | Grabs                   |
+| Shambler       | Slow group pursuit       | Horde attraction        |
+| Runner         | Fast direct pursuit      | Sprint attack           |
+| Stalker        | Hides and follows        | Ambush                  |
+| Screamer       | Maintains distance       | Summons nearby infected |
+| Spitter        | Ranged harassment        | Biological projectile   |
+| Brute          | Charges obstacles        | Heavy impact            |
+| Armored undead | Advances defensively     | Armor resistance        |
+| Mutated hunter | Tracks player            | Leap attack             |
+| Alpha infected | Controls nearby infected | Rally behavior          |
+| Horde champion | Leads large groups       | Rally and charge        |
+| Apex mutation  | Multi-phase boss AI      | Adaptive attacks        |
+
+## 4.3 Enemy AI states
+
+Each enemy should support:
+
+1. Idle.
+2. Patrol.
+3. Wander.
+4. Investigate sound.
+5. Detect scent.
+6. Detect player.
+7. Alert.
+8. Pursue.
+9. Attack.
+10. Defend.
+11. Search.
+12. Retreat.
+13. Call allies.
+14. Return to territory.
+15. Feed.
+16. Rest.
+17. Mutate.
+18. Die.
+
+Enemies should remember recent player activity according to their intelligence and sensory capabilities.
+
+## 4.4 Animation requirements
+
+| Animation     | Required states                  |
+| ------------- | -------------------------------- |
+| Idle          | Standing, breathing, twitching   |
+| Movement      | Walk, run, crawl                 |
+| Combat        | Light attack, heavy attack, grab |
+| Defense       | Block, stagger, recoil           |
+| Detection     | Listen, sniff, investigate       |
+| Damage        | Hit reactions, knockback         |
+| Death         | Collapse, fall, disintegration   |
+| Special       | Scream, spit, charge, mutation   |
+| Environmental | Climb, climb over, break through |
+
+Animation speed should match movement speed and attack timing. Hit detection should use defined animation frames or animation events, not visual guesswork.
+
+## 4.5 Loot tables
+
+| Enemy          | Common loot         | Uncommon loot         | Rare loot             |
+| -------------- | ------------------- | --------------------- | --------------------- |
+| Crawler        | Organic matter      | Cloth                 | Biological sample     |
+| Shambler       | Organic matter      | Scrap                 | Preserved sample      |
+| Runner         | Organic matter      | Chemicals             | Mutation sample       |
+| Stalker        | Organic matter      | Electronic scrap      | Sensory catalyst      |
+| Screamer       | Organic matter      | Bio-material          | Vocal mutation sample |
+| Spitter        | Organic matter      | Chemicals             | Biological catalyst   |
+| Brute          | Scrap, bio-material | Rare alloy            | Mutation core         |
+| Armored undead | Metal plates        | Components            | Armor parts           |
+| Mutated hunter | Bio-material        | Mutation catalyst     | Rare genetic sample   |
+| Alpha infected | Rare bio-material   | Research specimen     | Alpha catalyst        |
+| Horde champion | Rare components     | Mutation core         | Legendary sample      |
+| Apex mutation  | Legendary materials | Advanced bio-material | Apex core             |
+
+Loot should use weighted probability tables.
+
+Example:
+
+| Drop category | Chance |
+| ------------- | ------ |
+| Common        | 65%    |
+| Uncommon      | 25%    |
+| Rare          | 8%     |
+| Epic          | 1.8%   |
+| Legendary     | 0.2%   |
+
+These are illustrative category probabilities. Individual enemy tables need separate item weights and quantity ranges.
+
+## 4.6 Spawn tables
+
+Spawn generation should consider:
+
+- Region danger rating.
+- Time of day.
+- Weather.
+- Player level.
+- Infection stage.
+- Noise level.
+- Settlement activity.
+- World simulation events.
+- Faction territory.
+- Recent player actions.
+
+| Region danger | Common enemies      | Uncommon enemies | Rare enemies    |
+| ------------- | ------------------- | ---------------- | --------------- |
+| 1             | Crawlers, shamblers | None             | None            |
+| 2             | Shamblers, runners  | Stalkers         | None            |
+| 3             | Runners, stalkers   | Spitters         | Brutes          |
+| 4             | Brutes, screamers   | Armored undead   | Mutated hunters |
+| 5             | Mixed hordes        | Alpha infected   | Horde champions |
+| 6             | Advanced mutations  | Apex hunters     | Apex mutation   |
+
+# 5. Animal System
+
+Animals should function as living wildlife rather than decorative scenery.
+
+They need their own needs, habitats, territorial behavior, reproduction, food chains, taming, domestication, and relationships with the player and settlements.
+
+## 5.1 Species catalog
+
+| ID      | Species       | Type           | Temperament       | Primary role         |
+| ------- | ------------- | -------------- | ----------------- | -------------------- |
+| ANI-001 | Domestic dog  | Mammal         | Loyal             | Companion            |
+| ANI-002 | Feral dog     | Mammal         | Aggressive        | Predator             |
+| ANI-003 | Wolf          | Mammal         | Territorial       | Pack predator        |
+| ANI-004 | Deer          | Mammal         | Skittish          | Prey                 |
+| ANI-005 | Wild boar     | Mammal         | Aggressive        | Prey/predator threat |
+| ANI-006 | Rabbit        | Mammal         | Skittish          | Small prey           |
+| ANI-007 | Fox           | Mammal         | Cautious          | Scavenger            |
+| ANI-008 | Bear          | Mammal         | Territorial       | Apex predator        |
+| ANI-009 | Crow          | Bird           | Intelligent       | Scavenger            |
+| ANI-010 | Raven         | Bird           | Intelligent       | Scavenger            |
+| ANI-011 | Rat           | Mammal         | Cautious          | Scavenger            |
+| ANI-012 | Infected dog  | Mutated mammal | Aggressive        | Infected predator    |
+| ANI-013 | Infected wolf | Mutated mammal | Pack aggressive   | Infected predator    |
+| ANI-014 | Mutated deer  | Mutated mammal | Unpredictable     | Mutated wildlife     |
+| ANI-015 | Apex predator | Mutated mammal | Highly aggressive | Rare boss wildlife   |
+| ANI-016 | Domestic goat | Mammal         | Calm              | Settlement livestock |
+
+## 5.2 Animal attributes
+
+Every species should have:
+
+| Attribute       | Range   |
+| --------------- | ------- |
+| Health          | 1–1,000 |
+| Stamina         | 1–500   |
+| Speed           | 1–100   |
+| Aggression      | 0–100   |
+| Fear            | 0–100   |
+| Intelligence    | 0–100   |
+| Loyalty         | 0–100   |
+| Hunger          | 0–100   |
+| Thirst          | 0–100   |
+| Trust           | 0–100   |
+| Detection       | 0–100   |
+| Social behavior | 0–100   |
+
+Additional species fields:
+
+- Habitat.
+- Diet.
+- Activity cycle.
+- Territory radius.
+- Pack size.
+- Breeding season.
+- Gestation or incubation duration.
+- Lifespan.
+- Infected variants.
+- Predators.
+- Prey.
+- Environmental requirements.
+
+## 5.3 Taming rules
+
+Animal taming should be a progression system.
+
+| Stage    | Trust | Behavior                  |
+| -------- | ----- | ------------------------- |
+| Wild     | 0–19  | Avoids or attacks player  |
+| Aware    | 20–39 | Recognizes player         |
+| Familiar | 40–59 | Approaches cautiously     |
+| Friendly | 60–74 | Accepts interaction       |
+| Bonded   | 75–89 | Responds to commands      |
+| Loyal    | 90–99 | Strong companion behavior |
+| Devoted  | 100   | Maximum relationship      |
+
+Taming should depend on:
+
+- Species temperament.
+- Player behavior.
+- Food preferences.
+- Time spent together.
+- Environmental safety.
+- Existing bonds.
+- Threat exposure.
+
+Not every animal should be tamable. Large predators and certain mutated creatures may only be temporarily calmed, trained through rare story events, or remain permanently wild.
+
+## 5.4 Loyalty system
+
+Loyalty should increase through care, successful commands, protection, and companionship.
+
+Loyalty should decrease through neglect, abuse, abandonment, and repeated dangerous situations.
+
+| Event              | Loyalty change |
+| ------------------ | -------------- |
+| Feed               | +2             |
+| Play               | +2             |
+| Successful command | +1             |
+| Protect animal     | +5             |
+| Rescue animal      | +10            |
+| Neglect            | -2/day         |
+| Abandon            | -15            |
+| Harm animal        | -25            |
+| Repeated betrayal  | -30            |
+
+## 5.5 Animal commands
+
+| Command  | Function                       |
+| -------- | ------------------------------ |
+| Follow   | Follow player                  |
+| Stay     | Remain in place                |
+| Guard    | Protect assigned area          |
+| Attack   | Engage designated target       |
+| Defend   | Protect player or companion    |
+| Search   | Investigate nearby area        |
+| Track    | Follow a scent trail           |
+| Retrieve | Collect a designated item      |
+| Hunt     | Search for prey                |
+| Return   | Go to settlement               |
+| Rest     | Enter recovery state           |
+| Dismiss  | Return to independent behavior |
+
+Command success depends on species intelligence, loyalty, training, distance, environmental danger, and competing instincts.
+
+## 5.6 Breeding rules
+
+Animal breeding requires:
+
+- Compatible species.
+- Compatible genetics.
+- Appropriate age.
+- Health.
+- Adequate habitat.
+- Appropriate environmental conditions.
+- A successful breeding event.
+
+Offspring inherit weighted parental traits, including speed, resilience, temperament, intelligence, appearance, and infection resistance.
+
+Mutation inheritance should be rare and governed by the game's fictional infection genetics.
+
+# 6. World-Building Data
+
+The world needs to become a fully defined playable environment, not simply a collection of locations on a map.
+
+Every region needs geography, coordinates, entrances, exits, points of interest, structures, inhabitants, resources, threats, environmental conditions, and simulation rules.
+
+I recommend an interconnected world made up of 12 major regions, with smaller subregions and discoverable locations inside each.
+
+## 6.1 World geography
+
+[Game Studio Naughty Dog shares 'The Last of Us' Concept Art](https://images.openai.com/static-rsc-4/BhobBQSB4HiXKdHR2oFSAbZpduKRoRAnbfHVHRtTT2fP53EGO62jPtOR1uLpwUfzZXi6GnHimwsYo64bGAZZPpPZE-6Fv427K2Ay1KiBy0oKgse-qXcumOvMf3dzkot0LvMrQoOO3Vwt2994jnvoGqwnXCM0fm7BPtX2pVIZY7Q?purpose=inline)
+
+[PlayGround.ru](https://images.openai.com/static-rsc-4/sZk9aRu-WJpoQ2zNvenLaejI3b3TFfuDm9PLUvXujcHQpe4KIwaTXOWfPyiCXeTBbXTgUPg5oMvSQCxsI_mi0wSdruz_WPDHSAR_QbSA2g4nC21ubMgHYQ7LMRAxJavYA_D-_gq5iL9ke3FHNkNQi4eKjpgbBM4zsoWS5VD-4G4?purpose=inline)
+
+[Blackthorn Productions | Creative technology](https://images.openai.com/static-rsc-4/njuJZQEmBaEcaJL8pfGjJunKeKOxUqR3FCJ4mwAaxvLhGGsypZ1JUKWAo8LhTzrPmbRCBbivTFhNhtv3Pc7NlT2gEknW9rlOeoBGrVfHzuXiPhFG6MiUHYht7SCABNh93rRReO9hDtzd4R1H1z58HLB6LFvvTy_G1FLTymkYXbY?purpose=inline)
+
+13
+
+### The 12 major regions
+
+| ID      | Region                   | Danger | Environment                    | Main resources                    |
+| ------- | ------------------------ | ------ | ------------------------------ | --------------------------------- |
+| REG-001 | Ashfall City             | 5      | Urban ruins                    | Electronics, weapons, medicine    |
+| REG-002 | Green Valley             | 2      | Farmland                       | Food, seeds, water                |
+| REG-003 | Blackwood Forest         | 3      | Dense forest                   | Wood, wildlife, herbs             |
+| REG-004 | Rustbelt Industrial Zone | 5      | Factories                      | Metal, machinery, components      |
+| REG-005 | Deadwater District       | 4      | Flooded urban area             | Salvage, chemicals                |
+| REG-006 | Redstone Quarry          | 3      | Mining region                  | Stone, minerals, metal            |
+| REG-007 | Hollow Creek             | 2      | Rural settlement               | Food, livestock, supplies         |
+| REG-008 | The Outskirts            | 3      | Suburban ruins                 | Household supplies, vehicles      |
+| REG-009 | Iron Ridge               | 4      | Mountain terrain               | Minerals, military wreckage       |
+| REG-010 | The Containment Zone     | 6      | Quarantined research territory | Research, rare samples            |
+| REG-011 | Bonefield Wastes         | 6      | Mutated wasteland              | Rare biological materials         |
+| REG-012 | New Eden Basin           | 2      | Reclaimed fertile territory    | Agriculture, settlement expansion |
+
+These are original proposed locations. Their geography and contents should be fixed in the world database, while their population, ownership, resources, and conditions evolve during play.
+
+## 6.2 Regional data sheets
+
+Each region needs its own configuration.
+
+| Region                   | Climate    | Population | Faction presence         | Main threat        |
+| ------------------------ | ---------- | ---------- | ------------------------ | ------------------ |
+| Ashfall City             | Temperate  | 1,200      | Multiple                 | Urban hordes       |
+| Green Valley             | Temperate  | 280        | Agricultural communities | Raiders            |
+| Blackwood Forest         | Forest     | 80         | Independent survivors    | Predators          |
+| Rustbelt Industrial Zone | Industrial | 150        | Iron Dominion            | Armored infected   |
+| Deadwater District       | Wetland    | 60         | Smugglers                | Mutated wildlife   |
+| Redstone Quarry          | Dry        | 110        | Mining faction           | Brutes             |
+| Hollow Creek             | Temperate  | 220        | Human settlements        | Infected raids     |
+| The Outskirts            | Temperate  | 400        | Mixed                    | Runners            |
+| Iron Ridge               | Mountain   | 90         | Military remnants        | Hunters            |
+| The Containment Zone     | Variable   | 40         | Research remnants        | Apex mutations     |
+| Bonefield Wastes         | Extreme    | 20         | Undead factions          | Advanced mutations |
+| New Eden Basin           | Temperate  | 500        | Hybrid communities       | Political conflict |
+
+Population figures are illustrative starting world-state values. They should be adjustable and generated from the actual simulation.
+
+## 6.3 Region coordinate system
+
+Use a consistent coordinate system for the entire game.
+
+Recommended:
+
+- World coordinates: X, Y.
+- Region identifiers: REG-001 through REG-012.
+- Local coordinates: region-specific X and Y.
+- Elevation: Z.
+- Location identifier: unique POI ID.
+- Navigation connections: explicit exits and entrances.
+
+Example world map grid:
+
+## Illustrative world map
+
+Each tile represents a major region, not an exact geographic scale.
+
+REG-009
+
+Iron Ridge
+
+Mountain
+
+REG-003
+
+Blackwood
+
+Forest
+
+REG-010
+
+Containment
+
+Research
+
+REG-011
+
+Bonefield
+
+Wasteland
+
+REG-008
+
+Outskirts
+
+Suburban
+
+REG-001
+
+Ashfall City
+
+Urban
+
+REG-004
+
+Rustbelt
+
+Industrial
+
+REG-006
+
+Redstone
+
+Quarry
+
+REG-007
+
+Hollow Creek
+
+Rural
+
+REG-002
+
+Green Valley
+
+Farmland
+
+REG-005
+
+Deadwater
+
+Wetland
+
+REG-012
+
+New Eden
+
+Fertile
+
+Example coordinate assignments:
+
+| Region  | World X | World Y | Elevation |
+| ------- | ------- | ------- | --------- |
+| REG-001 | 1000    | 1000    | 120       |
+| REG-002 | 500     | 1500    | 90        |
+| REG-003 | 1000    | 500     | 180       |
+| REG-004 | 1500    | 1000    | 110       |
+| REG-005 | 1500    | 1500    | 40        |
+| REG-006 | 2000    | 1500    | 250       |
+| REG-007 | 500     | 2000    | 100       |
+| REG-008 | 500     | 1000    | 95        |
+| REG-009 | 2000    | 500     | 600       |
+| REG-010 | 2500    | 500     | 180       |
+| REG-011 | 2500    | 1500    | 300       |
+| REG-012 | 1000    | 2000    | 80        |
+
+These coordinates establish a fictional navigation grid. They are not real-world coordinates.
+
+## 6.4 Region connections
+
+The world should not be a collection of isolated maps.
+
+Each region needs connection records that define travel routes, requirements, dangers, and traversal methods.
+
+| Connection | From             | To               | Travel type     | Danger |
+| ---------- | ---------------- | ---------------- | --------------- | ------ |
+| CON-001    | Outskirts        | Ashfall City     | Road            | 4      |
+| CON-002    | Outskirts        | Blackwood Forest | Trail           | 2      |
+| CON-003    | Outskirts        | Hollow Creek     | Road            | 2      |
+| CON-004    | Ashfall City     | Rustbelt         | Highway         | 5      |
+| CON-005    | Ashfall City     | Deadwater        | Bridge          | 4      |
+| CON-006    | Blackwood Forest | Iron Ridge       | Mountain trail  | 3      |
+| CON-007    | Hollow Creek     | Green Valley     | Rural road      | 2      |
+| CON-008    | Green Valley     | New Eden         | Farm road       | 1      |
+| CON-009    | Rustbelt         | Redstone Quarry  | Industrial road | 4      |
+| CON-010    | Iron Ridge       | Containment Zone | Restricted road | 6      |
+| CON-011    | Redstone Quarry  | Bonefield Wastes | Wasteland route | 6      |
+| CON-012    | Deadwater        | Bonefield Wastes | Floodplain      | 6      |
+
+Connections should have:
+
+- Travel distance.
+- Estimated travel time.
+- Terrain.
+- Route condition.
+- Blockage status.
+- Enemy activity.
+- Vehicle accessibility.
+- Faction control.
+- Weather exposure.
+- Discovery status.
+- Alternate routes.
+
+Routes should change over time through bridge destruction, road clearing, faction checkpoints, flooding, repairs, and new construction.
+
+# 7. Points of Interest and Buildings
+
+Every region needs meaningful locations that support gameplay, exploration, and simulation.
+
+## 7.1 Points of interest catalog
+
+| ID      | Location                   | Region           | Purpose                | Primary contents    |
+| ------- | -------------------------- | ---------------- | ---------------------- | ------------------- |
+| POI-001 | Central Hospital           | Ashfall City     | Medical exploration    | Medicine, infected  |
+| POI-002 | Police Department          | Ashfall City     | Weapon discovery       | Weapons, ammunition |
+| POI-003 | City Hall                  | Ashfall City     | Political history      | Records, documents  |
+| POI-004 | Underground Station        | Ashfall City     | Travel and exploration | Tunnels, hordes     |
+| POI-005 | Survivor Market            | Ashfall City     | Commerce               | Vendors             |
+| POI-006 | Abandoned School           | Ashfall City     | Community exploration  | Supplies, survivors |
+| POI-007 | Green Valley Farm          | Green Valley     | Agriculture            | Crops, tools        |
+| POI-008 | Seed Research Center       | Green Valley     | Genetics               | Strain archive      |
+| POI-009 | Timber Camp                | Blackwood        | Resource production    | Wood, tools         |
+| POI-010 | Ranger Station             | Blackwood        | Wildlife research      | Animal records      |
+| POI-011 | Steelworks                 | Rustbelt         | Industrial crafting    | Machinery           |
+| POI-012 | Power Station              | Rustbelt         | Energy                 | Generators          |
+| POI-013 | Flooded Mall               | Deadwater        | Salvage                | Consumer goods      |
+| POI-014 | Water Treatment Plant      | Deadwater        | Water production       | Components          |
+| POI-015 | Quarry Operations Center   | Redstone         | Mining                 | Equipment           |
+| POI-016 | Military Bunker            | Iron Ridge       | Military exploration   | Advanced gear       |
+| POI-017 | Containment Laboratory     | Containment Zone | Story and research     | Biological research |
+| POI-018 | Underground Research Vault | Containment Zone | Endgame discovery      | Rare specimens      |
+| POI-019 | Bonefield Nest             | Bonefield Wastes | Boss encounter         | Apex materials      |
+| POI-020 | New Eden Settlement        | New Eden Basin   | Civilization hub       | Trade, governance   |
+
+Each POI needs a complete record with:
+
+- Unique ID.
+- Name.
+- Region ID.
+- Coordinates.
+- Building type.
+- Floor count.
+- Interior layout.
+- Entrance coordinates.
+- Exit coordinates.
+- Loot tables.
+- Enemy spawn tables.
+- Animal presence.
+- Environmental conditions.
+- Ownership.
+- Discovery status.
+- Quest links.
+- Persistent world-state changes.
+
+## 7.2 Building categories
+
+| Category       | Building types                                  |
+| -------------- | ----------------------------------------------- |
+| Residential    | Houses, apartments, shelters, cabins            |
+| Commercial     | Shops, markets, warehouses, restaurants         |
+| Medical        | Clinics, hospitals, pharmacies                  |
+| Industrial     | Factories, workshops, power stations            |
+| Agricultural   | Farms, greenhouses, barns, silos                |
+| Military       | Bunkers, bases, checkpoints                     |
+| Research       | Laboratories, containment facilities            |
+| Infrastructure | Water plants, substations, radio towers         |
+| Transportation | Garages, stations, tunnels, bridges             |
+| Government     | City halls, courthouses, administrative centers |
+| Recreational   | Parks, theaters, community centers              |
+| Underground    | Bunkers, vaults, sewer networks, laboratories   |
+
+## 7.3 Interior layouts
+
+Buildings need actual room-level data.
+
+A hospital, for example, could include:
+
+| Floor    | Room             | Contents                | Threat     |
+| -------- | ---------------- | ----------------------- | ---------- |
+| Ground   | Reception        | Documents, supplies     | Low        |
+| Ground   | Emergency room   | Medical loot            | High       |
+| Ground   | Pharmacy         | Medicine                | Medium     |
+| First    | Patient rooms    | Personal loot           | Medium     |
+| First    | Intensive care   | Medical equipment       | High       |
+| Second   | Research ward    | Records, samples        | Very high  |
+| Basement | Storage          | Components              | Medium     |
+| Basement | Containment room | Rare biological samples | Boss-level |
+
+The same concept applies to every major building. The game should support procedurally varied interiors while maintaining authored landmarks and recognizable layouts.
+
+## 7.4 Safehouses and settlements
+
+Safehouses should be persistent locations with:
+
+- Ownership.
+- Security.
+- Storage.
+- Sleeping facilities.
+- Medical facilities.
+- Power.
+- Water.
+- Food.
+- Defensive structures.
+- Population.
+- Visitor activity.
+- Threat level.
+- Maintenance requirements.
+
+Safehouses can be abandoned, discovered, attacked, captured, upgraded, or converted into settlement hubs.
+
+# 8. World Spawn, Loot, and Event Data
+
+The world must generate content based on location, time, population, danger, and simulation state.
+
+## 8.1 Spawn categories
+
+| Spawn category    | Examples                    | Conditions                      |
+| ----------------- | --------------------------- | ------------------------------- |
+| Ambient enemies   | Shamblers, crawlers         | Region danger                   |
+| Predators         | Wolves, bears               | Habitat and time                |
+| Infected wildlife | Infected dogs, mutated deer | Infection pressure              |
+| Survivors         | Scavengers, traders         | Population and faction activity |
+| Patrols           | Guards, raiders             | Territory control               |
+| Hordes            | Mixed infected              | Noise and migration             |
+| Boss encounters   | Alpha, apex                 | Story and world progression     |
+| Traveling groups  | Merchants, refugees         | Road safety and migration       |
+
+## 8.2 Loot placement rules
+
+Loot should be contextual.
+
+| Location         | Expected loot                     |
+| ---------------- | --------------------------------- |
+| Hospital         | Medicine, medical tools           |
+| Police station   | Weapons, ammunition               |
+| Grocery store    | Food, water                       |
+| Hardware store   | Tools, materials                  |
+| Factory          | Components, machinery             |
+| Farm             | Food, seeds, agricultural tools   |
+| Laboratory       | Research materials                |
+| Military bunker  | Advanced equipment                |
+| Residential home | Household goods                   |
+| Garage           | Vehicle components                |
+| Research vault   | Rare biological specimens         |
+| Animal den       | Organic materials, animal remains |
+
+Loot should have several persistence rules:
+
+- Items can be depleted.
+- Containers can be emptied by NPCs.
+- Settlements can collect resources.
+- Loot can respawn only where the world simulation permits it.
+- Valuable discoveries should remain permanently recorded.
+- Story-critical items should not disappear through ordinary loot refreshes.
+
+## 8.3 Dynamic world events
+
+| ID      | Event                     | Trigger                        | Consequence                 |
+| ------- | ------------------------- | ------------------------------ | --------------------------- |
+| EVT-001 | Horde migration           | Noise concentration            | Regional danger rises       |
+| EVT-002 | Settlement raid           | Hostile faction activity       | Infrastructure damage       |
+| EVT-003 | Supply convoy             | Trade agreement                | Resource movement           |
+| EVT-004 | Refugee movement          | Settlement collapse            | Population migration        |
+| EVT-005 | Disease outbreak          | Contamination                  | Population losses           |
+| EVT-006 | Power failure             | Infrastructure damage          | Production decreases        |
+| EVT-007 | Water shortage            | Low water reserves             | Unrest increases            |
+| EVT-008 | Harvest festival          | Successful agricultural season | Morale increases            |
+| EVT-009 | Faction uprising          | Low political stability        | Government changes          |
+| EVT-010 | Mutation outbreak         | Infection pressure             | New infected populations    |
+| EVT-011 | Research discovery        | Scientific progress            | Technology unlocked         |
+| EVT-012 | Territory takeover        | Faction conflict               | Ownership changes           |
+| EVT-013 | Wildlife migration        | Ecological pressure            | Animal distribution changes |
+| EVT-014 | Trade embargo             | Diplomatic conflict            | Market shortages            |
+| EVT-015 | New settlement founded    | Population expansion           | New civilization node       |
+| EVT-016 | Underground discovery     | Exploration event              | New route unlocked          |
+| EVT-017 | Environmental disaster    | Weather or infrastructure      | Regional damage             |
+| EVT-018 | Leadership succession     | Leader death or retirement     | Political transition        |
+| EVT-019 | Undead diplomatic contact | Faction relationship           | New political possibilities |
+| EVT-020 | Civilization breakthrough | Technology and social progress | Major historical event      |
+
+Each event needs a probability, prerequisites, duration, affected entities, consequences, resolution conditions, and history record.
+
+# 9. World Simulation and Population Systems
+
+[Endzone: A World Apart Review - It is Chaos Out There! - PC Reviews](https://images.openai.com/static-rsc-4/iEBl8nrWbBGL7Bpg1YyPbHlM3nzn0IrjEM4rHoOOMMOkOa5uyziu5Rtz_NStSDhygng-oARD37gE10VKcL_l0VGmZkI-D1r-j-pW3znOzwDiFjhmHTO5pdWYHijBnTugEF_hPETTgz_l3drwv4tKq9g90G12ZaIGgq9dTVtosUs?purpose=inline)
+
+[Endzone 2 : le jeu de gestion survie post-apocalyptique en early access](https://images.openai.com/static-rsc-4/4GTBOZt3cSDf9xrl6zMb6-Sfn15ooHd_f4ZRr2UNF7V4JcwfPWkTEqyVqRWoK0mmxXBALP3TrNTYr94nqWLQ4vmO1TIltEudVeguiJ2bb1XGJuU5mu_p1Zq2x-vDWbb4OZnoqbyfwjNojay074-2mX6hbTn41AViGQkdDRTxO6Q?purpose=inline)
+
+12
+
+This is where the game grows beyond an ordinary survival experience.
+
+The world must continue developing even when the player is somewhere else.
+
+A settlement should not freeze because the player left. A faction should not wait for the player to return before expanding. Animals should migrate, supply chains should change, and populations should grow or decline.
+
+## 9.1 Population classifications
+
+| Population group    | Description                               |
+| ------------------- | ----------------------------------------- |
+| Original survivors  | People who experienced the collapse       |
+| Rebuilders          | People restoring society                  |
+| Born After          | People born after the outbreak            |
+| Changed             | Infected or transformed individuals       |
+| Conscious undead    | Undead retaining independent intelligence |
+| Hybrid population   | Human-undead communities                  |
+| Refugees            | Displaced populations                     |
+| Nomads              | Mobile communities                        |
+| Raiders             | Hostile organized groups                  |
+| Independent traders | Commercial traveling population           |
+| Specialists         | Doctors, engineers, scientists, farmers   |
+| Wildlife            | Natural and mutated animal populations    |
+
+Each individual NPC should have:
+
+- Unique ID.
+- Name.
+- Age.
+- Species or biological state.
+- Skills.
+- Occupation.
+- Faction.
+- Settlement.
+- Relationships.
+- Health.
+- Infection.
+- Morale.
+- Loyalty.
+- Inventory.
+- Needs.
+- Current activity.
+- Historical events.
+
+Not every background NPC needs full simulation detail. Use aggregated population groups for distant regions and detailed individual simulation near the player.
+
+## 9.2 Population growth
+
+Population changes through:
+
+- Births.
+- Deaths.
+- Recruitment.
+- Immigration.
+- Emigration.
+- Infection.
+- Transformation.
+- Rescue.
+- Captivity.
+- Conflict.
+- Disease.
+- Resource availability.
+
+A simplified population equation:
+
+\\[ P\_{next}=P+B+I+R-D-E-M \\]
+
+Where:
+
+- \\(P\\) = current population.
+- \\(B\\) = births.
+- \\(I\\) = immigration.
+- \\(R\\) = recruitment or rescued arrivals.
+- \\(D\\) = deaths.
+- \\(E\\) = emigration.
+- \\(M\\) = people removed through other modeled population transitions.
+
+The simulation should record transitions between human, infected, hybrid, and undead populations separately, rather than treating every transformation as a death.
+
+## 9.3 Population needs
+
+Each settlement should track:
+
+| Need            | Importance | Failure consequence           |
+| --------------- | ---------- | ----------------------------- |
+| Food            | Critical   | Hunger and mortality          |
+| Water           | Critical   | Dehydration and mortality     |
+| Shelter         | High       | Exposure and illness          |
+| Medicine        | High       | Reduced health recovery       |
+| Security        | High       | Raids and unrest              |
+| Employment      | Medium     | Reduced morale                |
+| Social activity | Medium     | Lower cohesion                |
+| Education       | Medium     | Reduced skill development     |
+| Power           | Variable   | Infrastructure disruption     |
+| Culture         | Medium     | Identity and cohesion decline |
+
+## 9.4 Migration rules
+
+Migration should be driven by push and pull factors.
+
+Push factors:
+
+- Famine.
+- Water shortage.
+- Disease.
+- War.
+- Unemployment.
+- Political oppression.
+- Infected population pressure.
+- Infrastructure collapse.
+
+Pull factors:
+
+- Available food.
+- Clean water.
+- Security.
+- Employment.
+- Family connections.
+- Political freedom.
+- Medical facilities.
+- Trade opportunities.
+
+Example migration score:
+
+\\[ M = 0.25S + 0.20E + 0.20F + 0.15W + 0.10T + 0.10R \\]
+
+Where:
+
+- \\(S\\) = security attractiveness.
+- \\(E\\) = employment availability.
+- \\(F\\) = food security.
+- \\(W\\) = water security.
+- \\(T\\) = trade access.
+- \\(R\\) = relationship and family attraction.
+
+Migration should be calculated alongside the destination's capacity, route danger, and faction policies.
+
+## 9.5 Faction growth
+
+Factions need their own simulation statistics.
+
+| Statistic            | Range |
+| -------------------- | ----- |
+| Population           | 1+    |
+| Territory count      | 0+    |
+| Military strength    | 0–100 |
+| Economic strength    | 0–100 |
+| Political stability  | 0–100 |
+| Technology           | 0–100 |
+| Public support       | 0–100 |
+| Diplomatic influence | 0–100 |
+| Infrastructure       | 0–100 |
+| Cultural cohesion    | 0–100 |
+
+Faction growth should depend on:
+
+- Population growth.
+- Recruitment.
+- Economic production.
+- Territory resources.
+- Military strength.
+- Political stability.
+- Diplomatic alliances.
+- Technology.
+- Leadership quality.
+- Public support.
+
+## 9.6 Faction expansion and territory takeover
+
+Territory takeover should be a multi-stage process.
+
+1. Reconnaissance
+
+   Faction scouts identify weak territory, resources, population, and defenses.
+2. Influence
+
+   The faction establishes trade, political relationships, propaganda, or local alliances.
+3. Pressure
+
+   The faction applies economic, diplomatic, or military pressure.
+4. Conflict
+
+   Armed conflict, negotiations, internal uprising, or voluntary surrender may occur.
+5. Control transfer
+
+   Ownership changes when the takeover conditions are satisfied.
+6. Occupation and rebuilding
+
+   New laws, taxes, patrols, supply systems, and infrastructure policies take effect.
+7. Integration or resistance
+
+   The population accepts, resists, revolts, migrates, or forms an underground movement.
+
+### Territory control calculation
+
+A proposed control score:
+
+\\[ T = 0.25M + 0.20E + 0.15P + 0.15D + 0.15L + 0.10S \\]
+
+Where:
+
+- \\(M\\) = military power.
+- \\(E\\) = economic influence.
+- \\(P\\) = population support.
+- \\(D\\) = diplomatic influence.
+- \\(L\\) = local infrastructure.
+- \\(S\\) = strategic advantage.
+
+The control score should be compared with competing faction influence, not treated as an automatic conquest button.
+
+## 9.7 Civilization simulation ticks
+
+Use multiple simulation speeds.
+
+| Simulation layer     | Update frequency   | Detail                            |
+| -------------------- | ------------------ | --------------------------------- |
+| Active player area   | 10–60 times/sec    | Full gameplay                     |
+| Nearby regional area | Every 1–10 seconds | Detailed NPC and enemy activity   |
+| Regional world       | Every 1–5 minutes  | Settlements and factions          |
+| Distant world        | Every 1–6 hours    | Aggregated population and economy |
+| Historical world     | Event-driven       | Permanent records                 |
+
+The simulation must use elapsed world time and deterministic rules so that saving, loading, and offline progression do not produce inconsistent results.
+
+## 9.8 World history and persistent consequences
+
+The world should maintain a historical record of significant events.
+
+Example:
+
+## World history archive
+
+Illustrative simulation history
+
+1. Year 0: The Outbreak
+
+   The first infection wave devastates major population centers.
+2. Year 2: Fall of Ashfall
+
+   The city's surviving government loses control of its central district.
+3. Year 5: Green Valley Compact
+
+   Three agricultural settlements establish a trade agreement.
+4. Year 8: First Hybrid Settlement
+
+   Conscious undead and humans establish a shared community.
+5. Year 12: Iron Dominion Expansion
+
+   Industrial factions seize several surrounding territories.
+6. Year 16: The New Eden Accord
+
+   Several settlements establish a regional political federation.
+7. Year 20: Age of Evolution
+
+   The world enters a new era of human, undead, and hybrid civilization.
+
+These events should be possible outcomes, not mandatory scripted history. Player decisions and simulation conditions should create alternative histories.
+
+# 10. The underlying content database
+
+The content above should not be stored as unrelated hardcoded arrays across the game.
+
+It needs a consistent data architecture.
+
+## 10.1 Recommended database structure
+
+```
+game-data/
+│
+├── blood/
+│   ├── sources.json
+│   ├── samples.json
+│   ├── recipes.json
+│   ├── effects.json
+│   ├── risks.json
+│   └── mutation-links.json
+│
+├── cannabis/
+│   ├── strains.json
+│   ├── genetics.json
+│   ├── growth-stages.json
+│   ├── plant-conditions.json
+│   ├── processing.json
+│   └── products.json
+│
+├── crafting/
+│   ├── materials.json
+│   ├── components.json
+│   ├── weapons.json
+│   ├── clothing.json
+│   ├── tools.json
+│   ├── structures.json
+│   └── recipes.json
+│
+├── creatures/
+│   ├── enemies.json
+│   ├── enemy-behaviors.json
+│   ├── animations.json
+│   ├── loot-tables.json
+│   ├── spawn-tables.json
+│   └── bosses.json
+│
+├── wildlife/
+│   ├── species.json
+│   ├── habitats.json
+│   ├── taming.json
+│   ├── commands.json
+│   ├── loyalty.json
+│   └── breeding.json
+│
+├── world/
+│   ├── regions.json
+│   ├── coordinates.json
+│   ├── connections.json
+│   ├── poi.json
+│   ├── buildings.json
+│   ├── interiors.json
+│   ├── maps.json
+│   ├── loot-zones.json
+│   ├── spawn-zones.json
+│   └── world-events.json
+│
+└── civilization/
+    ├── populations.json
+    ├── settlements.json
+    ├── factions.json
+    ├── migration.json
+    ├── territory.json
+    ├── diplomacy.json
+    ├── economy.json
+    ├── production.json
+    └── history.json
+```
+
+## 10.2 Every content record needs a standard schema
+
+For example, every weapon should have:
+
+```
+{
+  "id": "WPN-001",
+  "name": "Improvised Club",
+  "category": "melee",
+  "rarity": "common",
+  "damage": 18,
+  "attackSpeed": 1.0,
+  "staminaCost": 8,
+  "range": 1.5,
+  "durability": 45,
+  "weight": 2.5,
+  "value": 8,
+  "armorPenetration": 0,
+  "criticalChanceBonus": 0,
+  "noise": 15,
+  "craftable": true,
+  "recipeId": "REC-WPN-001",
+  "unlockLevel": 1,
+  "tags": ["improvised", "melee"]
+}
+```
+
+The same principle should apply to blood samples, strains, recipes, enemies, animals, structures, locations, settlements, and factions.
+
+## 10.3 Data validation
+
+Every database should be checked for:
+
+- Duplicate IDs.
+- Missing references.
+- Invalid numerical ranges.
+- Missing required fields.
+- Invalid recipe inputs.
+- Missing item outputs.
+- Invalid region connections.
+- Unreachable points of interest.
+- Missing spawn definitions.
+- Missing loot tables.
+- Invalid animal species references.
+- Missing animation states.
+- Impossible population values.
+- Invalid faction ownership.
+- Circular or broken world connections.
+
+A content validator should run automatically during development and before every production build.
+
+# 11. What the finished game needs to contain
+
+Here is the content completion checklist.
+
+Content production tracker
+
+# 0/42
+
+0% of checklist items marked complete
+
+1\. Blood system
+
+15 blood sources
+
+15 blood recipes
+
+Blood effects and durations
+
+Contamination and rejection risks
+
+Bloodlust interactions
+
+Mutation compatibility and links
+
+2\. Cannabis system
+
+16 original strains
+
+Genetic trait records
+
+Growth stages and durations
+
+Environmental condition data
+
+Harvest quality calculation
+
+Processing outputs and products
+
+Breeding and strain archive
+
+3\. Crafting
+
+Materials database
+
+Components database
+
+Weapons and full stat sheets
+
+Clothing and armor
+
+Tools and equipment
+
+Structures and building recipes
+
+Crafting stations and unlock requirements
+
+4\. Enemies and wildlife
+
+Enemy stat sheets and behaviors
+
+Enemy animation definitions
+
+Enemy loot and spawn tables
+
+Animal species records
+
+Habitat and diet data
+
+Taming and loyalty rules
+
+Commands and breeding rules
+
+5\. World building
+
+12 regional definitions
+
+World map coordinates
+
+Region connections and travel routes
+
+Points of interest
+
+Building and interior layouts
+
+Safehouses and settlements
+
+Regional spawn and loot tables
+
+Environmental and world events
+
+6\. Civilization simulation
+
+Population categories and needs
+
+Growth, death and migration
+
+Settlement production and consumption
+
+Faction growth and diplomacy
+
+Territory control and takeover
+
+Historical event archive
+
+Persistent world state and save/load
+
+Reset checklist
+
+## 12. The final design objective
+
+The real ambition here is to make every content category feed another category.
+
+- Blood samples unlock biological research.
+- Biological research unlocks mutations.
+- Mutations change character capabilities and social identity.
+- Cannabis genetics create agricultural products and new commercial opportunities.
+- Crafting supports settlement development.
+- Animals provide companionship, resources, and ecological activity.
+- Enemies affect regional security and population movement.
+- Regions create resource dependencies.
+- Resource dependencies create trade relationships.
+- Trade relationships influence political alliances.
+- Factions compete for territory.
+- Territory ownership changes the world.
+- The world records its history and continues evolving.
+
+Phoenix Blaze should have two simultaneous games running inside it:
+
+1. The personal survival RPG, where the player fights, crafts, explores, transforms, builds relationships, and decides what kind of being to become.
+2. The civilization simulator, where thousands of lives, settlements, economies, factions, ecosystems, and political systems continue developing around that player.
+
+That is the difference between a zombie survival game with a big map and a persistent post-apocalyptic world with its own history, economy, ecology, and evolving civilizations.
+
+The ultimate question is no longer simply whether the player survives. It is what kind of world survives with them.

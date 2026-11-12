@@ -1,0 +1,2134 @@
+# HIGH & UNDEAD™: NATURAL SURVIVAL
+## COMPLETE MASTER GAME DEVELOPMENT PROMPT FOR AI
+
+**Tagline:** Become Human. Become the Apocalypse. Survive Between Both Worlds.
+
+**PROJECT TYPE:** 2D Top-Down Open-World Zombie Survival, Crafting, Stealth, Exploration, RPG and Sandbox  
+**ENGINE:** Ai  
+**PLATFORM:** HTML5 Browser Game  
+**GRAPHICS:** Detailed 2D Pixel Art  
+**CONTROLS:** Keyboard, mouse, touchscreen and mobile virtual joystick  
+**WORLD:** Open-world post-apocalyptic environment  
+**CAMERA:** Top-down camera that follows the player  
+**AUDIENCE:** Adults; mature themes, horror, gore, dark humor, cannabis-related fictional gameplay and consensual adult relationship storylines  
+**PRIMARY OBJECTIVE:** Build an actual playable game with functional mechanics, scenes, objects, events, variables, animations, progression, saving and loading. Do not create merely a concept, mockup, presentation or nonfunctional prototype.
+
+---
+
+# 1. YOUR ROLE AND DEVELOPMENT INSTRUCTIONS
+
+Act as the complete game development team responsible for HIGH & UNDEAD™: NATURAL SURVIVAL.
+
+You are responsible for:
+
+- Game design and systems architecture.
+- ALL scene creation.
+- Object creation and configuration.
+- Event-sheet development.
+- Player movement and animation.
+- Enemy and NPC artificial intelligence.
+- Survival mechanics.
+- Crafting and inventory.
+- Procedural world generation.
+- Character creation.
+- Narrative and quests.
+- Combat and stealth.
+- Animal companions.
+- Building and farming.
+- Weather and environmental simulation.
+- UI, menus and HUD.
+- Audio and visual effects.
+- Save/load functionality.
+- Performance optimization.
+- Testing and debugging.
+
+**CRITICAL DEVELOPMENT RULES**
+
+1. Build functional gameplay, not decorative interfaces.
+2. Create actual game objects, behaviors, variables and events.
+3. Use reusable external events and object groups.
+4. Avoid unnecessary duplicate systems.
+5. Never remove existing working functionality when adding new features.
+6. Preserve existing resource gathering and inventory systems.
+7. Connect every new feature to the appropriate gameplay systems.
+8. Use actual collision detection, enemy detection, combat calculations and resource consumption.
+9. Every button and menu must perform its intended action.
+10. Never represent an unfinished feature as completed.
+11. If a requested feature is too large, create a functional first implementation and expand it in later development phases.
+12. Save and test the project after every major milestone.
+13. Prioritize a playable game over an enormous collection of unfinished features.
+14. Do not require an external AI API for the core game to function.
+
+Build in phases while maintaining a single integrated game project.
+
+---
+
+# 2. GAME IDENTITY AND CENTRAL CONCEPT
+
+HIGH & UNDEAD™ is an open-world survival game in which the player does not fight zombies as a human.
+
+The player IS a zombie.
+
+The protagonist is a newly infected female zombie who unexpectedly regains fragments of her human consciousness.
+
+She remembers pieces of her former life but does not understand what happened, why she is different, or why she can think when other zombies cannot.
+
+She must survive among two hostile populations:
+
+- Humans who fear and hunt zombies.
+- Zombies who instinctively attack anything that does not smell, move or behave like them.
+
+The player must learn to blend into both populations.
+
+The central gameplay experience revolves around:
+
+**Survive. Gather. Craft. Hide. Adapt. Evolve. Remember.**
+
+The game combines primitive survival, open-world exploration, stealth, crafting, zombie evolution, cannabis cultivation, blood mixing, animal companions, faction relationships and branching storytelling.
+
+Create an original experience inspired by the broad gameplay concepts of survival sandbox games, zombie survival adventures and open-world crafting games. Do not copy copyrighted characters, assets, maps, music or storylines from existing games.
+
+---
+
+# 3. THE PROTAGONIST: PHOENIX BLAZE
+
+The default protagonist is Phoenix Blaze.
+
+Phoenix is a newly turned zombie who retains unusual human intelligence.
+
+She was previously a brilliant computer scientist associated with ChroniX and its experimental biotechnology division.
+
+Her consciousness gradually returns following the outbreak.
+
+Her transformation grants unusual abilities but creates serious survival problems.
+
+### Character characteristics
+
+- Intelligent.
+- Resourceful.
+- Curious.
+- Sarcastic.
+- Occasionally darkly humorous.
+- Capable of learning and adapting.
+- Struggling with human memories and zombie instincts.
+
+### Character creation
+
+Create a fully functional character creation scene.
+
+Allow players to customize:
+
+- Character name.
+- Face shape.
+- Skin tone.
+- Zombie skin coloration.
+- Hair color.
+- Hairstyle.
+- Eye color.
+- Eye condition.
+- Scars.
+- Tattoos.
+- Clothing.
+- Outfits.
+- Body proportions within stylized character-art limits.
+- Zombie decay appearance.
+- Personality.
+- Starting background.
+- Starting skills.
+- Starting location.
+
+Include mature visual themes without requiring explicit sexual anatomy or graphic sexual scenes.
+
+Allow players to select between different character appearance presets and unlock additional cosmetic options through gameplay.
+
+Save all character customization choices.
+
+---
+
+# 4. OPENING STORY: WAKING NIGHTMARE
+
+Create an opening cinematic and interactive tutorial called:
+
+**WAKING NIGHTMARE**
+
+The player begins in a bathroom inside the ChroniX headquarters.
+
+The building is damaged.
+
+Lights flicker.
+
+Alarms sound in the distance.
+
+There is blood on the floor.
+
+The protagonist wakes up confused and disoriented.
+
+A mirror reveals her zombified appearance.
+
+She cannot remember what happened.
+
+The player gradually learns the controls and survival systems.
+
+### Tutorial environment
+
+Create these connected areas:
+
+1. Bathroom.
+2. Adjacent offices.
+3. Corporate hallway.
+4. Storage area.
+5. Security room.
+6. Small courtyard.
+7. Locked exterior gate.
+8. Exit leading toward the city.
+
+### Tutorial progression
+
+**Stage 1: Wake Up**
+
+- Introduce movement.
+- Explain the basic controls.
+- Allow the player to inspect the mirror.
+- Introduce the character's internal thoughts.
+- Show the first survival indicators.
+
+**Stage 2: Explore the Offices**
+
+- Introduce walking and sneaking.
+- Introduce sound detection.
+- Introduce hiding behind objects.
+- Introduce the first wandering zombie.
+- Teach the player how to avoid unwanted attention.
+
+**Stage 3: First Combat Encounter**
+
+- Introduce melee combat.
+- Find a broken chair leg.
+- Teach attacking, timing and enemy health.
+- Introduce biting and scratching.
+
+**Stage 4: Primitive Crafting**
+
+- Discover a stick.
+- Discover a stone.
+- Discover loose materials.
+- Introduce inventory.
+- Introduce crafting.
+- Create the first primitive weapon or tool.
+
+**Stage 5: Courtyard**
+
+- Introduce harvesting.
+- Introduce bushes and plants.
+- Introduce dirt plots.
+- Introduce hiding locations.
+- Introduce the first cannabis seeds.
+
+**Stage 6: Escape**
+
+- Find the locked gate.
+- Discover a plank, nails and other scavenged materials.
+- Craft a makeshift prying tool.
+- Open the gate.
+- Exit into the recently devastated city.
+
+The tutorial must be replayable from the main menu.
+
+---
+
+# 5. THE CHRONIX STORY AND OUTBREAK
+
+ChroniX is a powerful biotechnology corporation founded by Dr. Elias Thorne.
+
+The corporation developed experimental biotechnology, pharmaceutical products and genetically modified cannabis strains.
+
+Its Green Initiative was designed to commercialize advanced cannabis research.
+
+The Euphoria Project was its most ambitious experiment.
+
+The Euphoria strain was genetically modified and contaminated with an experimental viral agent.
+
+During the annual ChroniX employee celebration, the contamination spread.
+
+Within hours, the corporation became the center of the outbreak.
+
+The player must gradually discover:
+
+- What happened at the ChroniX party.
+- Why the Euphoria strain was contaminated.
+- What Dr. Elias Thorne was attempting to accomplish.
+- Why some infected retain intelligence.
+- Why Phoenix is different.
+- What happened to Phoenix's coworkers.
+- What the ChroniX Inner Circle is hiding.
+- Whether a cure is possible.
+- Whether humanity deserves to be restored.
+
+Use environmental storytelling, notes, emails, computer terminals, photographs, recordings, flashbacks and NPC conversations.
+
+---
+
+# 6. THE FIVE MAJOR FACTIONS
+
+Create five independently functioning factions.
+
+## 6.1 ChroniX Inner Circle
+
+Led by Dr. Elias Thorne.
+
+Located in a fortified underground bunker beneath the ChroniX headquarters.
+
+Objectives:
+
+- Recover experimental research.
+- Control the outbreak.
+- Develop a cure or weapon.
+- Capture unusual infected individuals.
+- Protect corporate secrets.
+
+## 6.2 The Resistance
+
+Led by Dr. Anya Petrova.
+
+A survivor organization made up of former scientists, engineers, soldiers and civilians.
+
+Objectives:
+
+- Fight ChroniX.
+- Protect survivors.
+- Recover medical supplies.
+- Establish settlements.
+- Investigate the outbreak.
+
+## 6.3 The Scavengers
+
+A dangerous collection of survival gangs.
+
+Objectives:
+
+- Steal resources.
+- Control valuable locations.
+- Capture vulnerable survivors.
+- Trade weapons and supplies.
+- Expand their territory.
+
+## 6.4 The Cultists
+
+Led by a mysterious individual known as The Harbinger.
+
+They worship the infection and believe it represents evolution.
+
+Objectives:
+
+- Study zombie mutations.
+- Recruit infected individuals.
+- Perform fictional rituals.
+- Recover Euphoria research.
+- Discover new methods of zombie evolution.
+
+## 6.5 The Lone Wolves
+
+Independent survivors who refuse to join larger factions.
+
+They include hunters, trackers, mechanics, farmers and scavengers.
+
+Some can become allies, merchants, companions or enemies.
+
+### Faction functionality
+
+Implement:
+
+- Reputation.
+- Trust.
+- Hostility.
+- Territory ownership.
+- Faction relationships.
+- Trading.
+- Quests.
+- Raids.
+- Random encounters.
+- Patrols.
+- Settlements.
+- Recruitment.
+- Betrayals.
+- Dynamic faction events.
+
+Faction relationships must respond to player actions.
+
+---
+
+# 7. THE UNIQUE DUAL-DISGUISE SYSTEM
+
+This is the signature mechanic of HIGH & UNDEAD.
+
+The player must survive around humans AND zombies.
+
+Create a functioning disguise system with two opposing detection conditions.
+
+### Human detection
+
+Humans become suspicious when:
+
+- The player smells rotten.
+- The player is visibly decayed.
+- The player behaves unnaturally.
+- The player moves strangely.
+- The player approaches too aggressively.
+- The player is covered in blood.
+- The player makes suspicious sounds.
+- The player is seen attacking or feeding.
+
+Human disguise improves through:
+
+- Clean clothing.
+- Appropriate outfits.
+- Washing.
+- Hiding zombie features.
+- Maintaining human movement.
+- Avoiding suspicious behavior.
+- Using human settlements carefully.
+
+### Zombie detection
+
+Zombies become suspicious when:
+
+- The player smells human.
+- The player is too clean.
+- The player moves unnaturally.
+- The player makes unusual sounds.
+- The player lacks appropriate zombie camouflage.
+
+Zombie disguise improves through:
+
+- Applying rotten meat.
+- Applying zombie blood.
+- Applying fictional scent-masking materials.
+- Wearing damaged clothing.
+- Mimicking zombie movement.
+- Using zombie vocalizations.
+- Moving with zombie groups.
+
+### Detection variables
+
+Create:
+
+- HumanSuspicion.
+- ZombieSuspicion.
+- HumanDisguise.
+- ZombieDisguise.
+- SmellMask.
+- NoiseLevel.
+- Visibility.
+- SuspicionCooldown.
+
+Each NPC must independently evaluate the player.
+
+### Important gameplay rule
+
+Being accepted by humans must not automatically make the player acceptable to zombies.
+
+Being accepted by zombies must not automatically make the player acceptable to humans.
+
+Create a visual disguise interface showing the two separate conditions.
+
+---
+
+# 8. SPECIAL STEALTH MODE
+
+Create a special temporary stealth ability.
+
+When the player presses **E** near a dumpster or designated barricade:
+
+1. Check interaction distance.
+2. Check whether the player is near a valid hiding object.
+3. Trigger the hiding animation.
+4. Temporarily conceal the player.
+5. Make the player undetectable by human and zombie NPCs.
+6. Start a six-second timer.
+7. Prevent attacks and ordinary movement while concealed.
+8. After six seconds, restore visibility.
+9. Return the player to the appropriate position.
+10. Apply a dirty, rotten smell effect to the character.
+
+Create:
+
+- Hiding animation.
+- Hiding sound.
+- Six-second countdown.
+- Cooldown.
+- Interaction prompt.
+- Reappearance effect.
+
+This temporary ability is separate from ordinary disguise and must not permanently replace the dual-disguise system.
+
+---
+
+# 9. SURVIVAL SYSTEMS
+
+Create a complete survival simulation.
+
+### Required survival statistics
+
+- Health.
+- Bloodlust.
+- Decay.
+- Stamina.
+- Energy.
+- Hydration.
+- Body Temperature.
+- Consciousness.
+- Mental Stability.
+- Human Suspicion.
+- Zombie Suspicion.
+
+### Bloodlust
+
+Bloodlust constantly increases over time.
+
+It increases faster when:
+
+- Near humans.
+- Near wounded creatures.
+- During combat.
+- When the player is hungry.
+- During certain weather and nighttime conditions.
+
+High bloodlust causes:
+
+- Increased aggression.
+- Reduced control.
+- More difficulty maintaining disguise.
+- Unwanted feeding impulses.
+- Health damage at extreme levels.
+
+When Bloodlust reaches 90 or above, begin applying hunger damage.
+
+Feeding reduces Bloodlust.
+
+### Decay
+
+Decay gradually increases.
+
+High decay affects:
+
+- Appearance.
+- Human disguise.
+- Movement.
+- Health.
+- Social interactions.
+
+Certain fictional treatments and cannabis effects can temporarily slow decay.
+
+### Health and injuries
+
+Implement:
+
+- Bleeding.
+- Infection-related effects.
+- Broken limbs.
+- Movement impairment.
+- Damage over time.
+- Healing.
+- Recovery items.
+- Death and respawn.
+
+### Day and night
+
+Create a functional 24-hour cycle.
+
+Time affects:
+
+- Visibility.
+- Enemy aggression.
+- Human patrols.
+- Animal activity.
+- Resource availability.
+- Stealth.
+- Weather.
+- Settlement activity.
+
+---
+
+# 10. BLOOD MIXING AND ZOMBIE EVOLUTION
+
+Create a complete Blood Alchemy system.
+
+Blood is the protagonist's primary survival resource.
+
+Allow the player to collect fictional blood resources from:
+
+- Humans.
+- Zombies.
+- Dogs.
+- Cats.
+- Deer.
+- Wolves.
+- Rabbits.
+- Rats.
+- Other wildlife.
+
+### Blood inventory
+
+Create separate inventory items for each blood type.
+
+### Blood mixing
+
+Allow the player to combine compatible blood types at an appropriate crafting station.
+
+Examples:
+
+- Human + Human.
+- Human + Zombie.
+- Zombie + Zombie.
+- Dog + Cat.
+- Deer + Rabbit.
+- Wolf + Human.
+- Other discovered combinations.
+
+Each recipe must have its own effects, strengths, duration and possible drawbacks.
+
+### Blood effects
+
+Possible fictional benefits:
+
+- Increased strength.
+- Improved stamina.
+- Faster regeneration.
+- Increased perception.
+- Improved night vision.
+- Reduced decay.
+- Increased speed.
+- Improved combat abilities.
+- Mutation points.
+
+### Blood drawbacks
+
+- Temporary instability.
+- Increased bloodlust.
+- Mutation side effects.
+- Reduced disguise.
+- Temporary weakness.
+
+Create a discovery system that records successful blood combinations.
+
+### Zombie evolution
+
+Create skill branches:
+
+- Predator.
+- Stalker.
+- Survivor.
+- Regenerator.
+- Blood Alchemist.
+- Night Hunter.
+- Intelligent Undead.
+
+Allow players to unlock new abilities through progression.
+
+---
+
+# 11. CANNABIS SYSTEM: CORE GAMEPLAY FEATURE
+
+Cannabis must be integrated throughout the game rather than treated as an optional decorative object.
+
+Create a full fictional cannabis survival and cultivation system.
+
+### Cannabis gathering
+
+Allow players to find:
+
+- Seeds.
+- Wild plants.
+- Flowers.
+- Leaves.
+- Stems.
+- Hemp fiber.
+- Different fictional strains.
+
+### Cannabis cultivation
+
+Allow players to:
+
+1. Find seeds.
+2. Locate dirt.
+3. Prepare a planting plot.
+4. Plant seeds.
+5. Water plants.
+6. Maintain growing conditions.
+7. Wait for growth.
+8. Harvest flowers.
+9. Collect seeds.
+10. Process stems into hemp fiber.
+
+### Cannabis plant growth
+
+Create visible growth stages:
+
+- Seed.
+- Sprout.
+- Young plant.
+- Developing plant.
+- Mature plant.
+- Harvestable plant.
+
+The initial playable version should support a growth period of approximately 45 seconds.
+
+### Cannabis consumption
+
+The player can consume cannabis products through the inventory.
+
+Smoking cannabis:
+
+- Reduces Bloodlust by 30 points.
+- Stops Bloodlust from increasing for 25 seconds.
+- Temporarily improves selected survival effects.
+- Can improve certain consciousness or decay-related conditions.
+
+Use the exact gameplay effects as configurable variables.
+
+### Cannabis strains
+
+Create fictional strains with unique effects.
+
+Examples:
+
+- Euphoria.
+- Graveyard Kush.
+- Zombie Haze.
+- Green Reaper.
+- Rot Widow.
+- Brain Fog.
+- Necro Berry.
+- ChroniX OG.
+
+Different strains should affect bloodlust, stamina, consciousness, perception, decay and mutations differently.
+
+### Hemp crafting
+
+Allow hemp stems to be processed into:
+
+- Hemp fiber.
+- Rope.
+- Cordage.
+- Fabric.
+- Clothing.
+- Fishing line.
+- Nets.
+- Bags.
+- Shelter materials.
+- Building materials.
+
+Hemp should be an important renewable crafting resource.
+
+---
+
+# 12. THE HANDY-DANDY MULTI-STICK
+
+The Multi-Stick is the first major crafting achievement.
+
+It is a primitive multifunctional tool.
+
+Create a dedicated Multi-Stick progression system.
+
+### Basic Multi-Stick
+
+Craft using a suitable branch.
+
+Uses:
+
+- Walking support.
+- Hitting.
+- Whacking.
+- Reaching.
+- Prying.
+- Digging.
+- Pushing.
+- Lifting.
+- Fishing.
+- Hunting.
+- Basic defense.
+- Resource gathering.
+
+### Sharpened Multi-Stick
+
+Recipe:
+
+- 1 Branch.
+- 1 Stone.
+
+Allow the player to repeatedly interact with a stone to sharpen the stick.
+
+Use a visible crafting progress animation.
+
+Uses:
+
+- Melee attacks.
+- Cutting grass.
+- Chopping small plants.
+- Fishing.
+- Hunting.
+- Digging.
+- Defense.
+
+### Advanced Multi-Stick upgrades
+
+Create:
+
+- Fire-hardened stick.
+- Stone-tipped spear.
+- Fishing spear.
+- Hooked stick.
+- Reinforced staff.
+- Long spear.
+- Improved digging stick.
+
+Each upgrade should add specific capabilities and improved durability.
+
+---
+
+# 13. COMPLETE PRIMITIVE CRAFTING SYSTEM
+
+Create a resource-based crafting system.
+
+### Gathering resources
+
+- Branches.
+- Logs.
+- Wood.
+- Stone.
+- Flint.
+- Grass.
+- Hemp.
+- Berries.
+- Seeds.
+- Fiber.
+- Vines.
+- Mud.
+- Clay.
+- Bone.
+- Feathers.
+- Animal hides.
+- Scrap metal.
+- Nails.
+- Fabric.
+- Bottles.
+- Containers.
+- Rope.
+
+### Primitive crafting progression
+
+1. Multi-Stick.
+2. Sharpened Stick.
+3. Stone Knife.
+4. Stone Axe.
+5. Stone Hammer.
+6. Spear.
+7. Fishing Spear.
+8. Bow.
+9. Arrows.
+10. Rope.
+11. Fishing Line.
+12. Net.
+13. Campfire.
+14. Water Container.
+15. Water Filter.
+16. Lean-To.
+17. Storage Container.
+18. Workbench.
+
+### Crafting requirements
+
+Every recipe must have:
+
+- Required ingredients.
+- Crafting duration.
+- Crafting location when applicable.
+- Output quantity.
+- Durability.
+- Required skill level.
+- Recipe discovery state.
+
+Add a recipe discovery system.
+
+Do not allow crafting when ingredients are missing.
+
+Consume ingredients only after successful crafting.
+
+---
+
+# 14. DIGGING AND UNDERGROUND EXPLORATION
+
+Allow the player to dig in suitable terrain.
+
+The Multi-Stick must support basic digging.
+
+Create terrain-specific digging results.
+
+Possible discoveries:
+
+- Roots.
+- Stones.
+- Buried seeds.
+- Berries.
+- Bones.
+- Scrap.
+- Hidden containers.
+- Buried supplies.
+- Animal burrows.
+- Underground entrances.
+
+Create improved digging tools.
+
+Allow players to discover:
+
+- Caves.
+- Mines.
+- Underground shelters.
+- Tunnels.
+- Hidden bunkers.
+- Secret research facilities.
+
+Digging must use real interactions, progress timers and resource rewards.
+
+---
+
+# 15. SHELTER AND BASE BUILDING
+
+Create a functional building system.
+
+### Structures
+
+- Lean-tos.
+- Tents.
+- Treehouses.
+- Caves.
+- Underground shelters.
+- Wooden huts.
+- Fortified bases.
+- Rooftop shelters.
+- Fishing platforms.
+- Watchtowers.
+- Storage buildings.
+- Workshops.
+- Cannabis gardens.
+
+### Building mechanics
+
+Allow players to:
+
+- Gather materials.
+- Craft building components.
+- Place structures.
+- Rotate structures.
+- Upgrade structures.
+- Repair damage.
+- Dismantle structures.
+- Store resources.
+- Defend settlements.
+
+### Environmental protection
+
+Structures must provide different levels of:
+
+- Rain protection.
+- Wind protection.
+- Temperature protection.
+- Enemy protection.
+- Visibility reduction.
+- Rest quality.
+
+### Treehouses
+
+Allow players to construct elevated shelters.
+
+Require suitable trees and construction materials.
+
+### Caves
+
+Allow caves to serve as natural shelters.
+
+Include entrances, storage, lighting and possible enemy encounters.
+
+---
+
+# 16. RAFTS AND WATER SURVIVAL
+
+Create a water navigation and flotation system.
+
+### Primitive flotation
+
+Players can use:
+
+- Floating logs.
+- Bundled wood.
+- Improvised flotation devices.
+- Hemp rope.
+- Basic rafts.
+
+### Raft progression
+
+1. Floating log.
+2. Log bundle.
+3. Primitive raft.
+4. Reinforced raft.
+5. Improved raft.
+6. Storage raft.
+
+Allow players to:
+
+- Enter water.
+- Swim.
+- Float.
+- Paddle.
+- Navigate rivers.
+- Cross lakes.
+- Explore shorelines.
+- Transport materials.
+
+Water must have collision, movement and drowning or stamina rules.
+
+---
+
+# 17. ANIMAL COMPANIONS
+
+Create an animal discovery, taming, training and companion system.
+
+### Animal species
+
+- Dogs.
+- Cats.
+- Wolves.
+- Deer.
+- Rabbits.
+- Rats.
+- Birds.
+- Foxes.
+- Other wildlife.
+
+### Companion mechanics
+
+Allow players to:
+
+- Discover animals.
+- Approach carefully.
+- Feed animals.
+- Build trust.
+- Tame animals.
+- Name companions.
+- Train abilities.
+- Assign commands.
+- Provide shelter.
+- Manage hunger.
+- Manage health.
+- Manage loyalty.
+
+### Animal abilities
+
+Examples:
+
+Dogs:
+- Tracking.
+- Guarding.
+- Finding resources.
+
+Cats:
+- Detecting small creatures.
+- Exploring tight spaces.
+
+Wolves:
+- Hunting.
+- Defense.
+- Tracking.
+
+Birds:
+- Scouting.
+- Warning of danger.
+
+Deer:
+- Carrying lightweight resources where appropriate.
+
+Create companion AI with following, staying, exploring and returning commands.
+
+---
+
+# 18. COMBAT SYSTEM
+
+Create responsive top-down combat.
+
+### Player attacks
+
+- Bite.
+- Scratch.
+- Punch.
+- Kick.
+- Stick attack.
+- Sharpened stick attack.
+- Spear attack.
+- Bow attack.
+- Throwing objects.
+- Special zombie abilities.
+
+### Required combat mechanics
+
+- Attack cooldowns.
+- Damage calculations.
+- Hit detection.
+- Knockback.
+- Enemy health.
+- Player health.
+- Attack animations.
+- Sound effects.
+- Death animations.
+- Loot drops.
+- Weapon durability.
+
+### Biting
+
+Biting must:
+
+- Deal damage.
+- Increase Bloodlust.
+- Apply a gore/disguise penalty.
+- Allow feeding when a target is defeated.
+- Reduce Bloodlust after successful feeding.
+
+Use fictional, non-instructional blood resource mechanics.
+
+---
+
+# 19. HUMAN AND ZOMBIE AI
+
+Create independent AI systems.
+
+### Human NPC behavior
+
+Humans must be able to:
+
+- Wander.
+- Patrol.
+- Loot.
+- Scavenge.
+- Hunt.
+- Build.
+- Trade.
+- Talk.
+- Flee.
+- Fight.
+- Form groups.
+- Guard settlements.
+- Set traps.
+- React to sounds.
+- Investigate suspicious activity.
+
+### Zombie behavior
+
+Zombies must be able to:
+
+- Wander.
+- Roam in groups.
+- Follow scent.
+- Detect sounds.
+- Chase targets.
+- Attack.
+- Feed.
+- React to weather.
+- Become more aggressive at night.
+- Guard certain locations.
+- Follow zombie groups.
+
+### AI detection
+
+Implement:
+
+- Vision range.
+- Vision cones.
+- Sound radius.
+- Scent detection.
+- Suspicion timers.
+- Search behavior.
+- Chase behavior.
+- Lost-target behavior.
+- Return-to-patrol behavior.
+
+### Dynamic difficulty
+
+Adjust encounter difficulty using configurable rules based on player progression and recent performance.
+
+Avoid making enemies unfair or impossible.
+
+---
+
+# 20. STEALTH SYSTEM
+
+Create a comprehensive stealth system.
+
+### Stealth actions
+
+- Walking.
+- Sneaking.
+- Crouching.
+- Crawling.
+- Hiding.
+- Staying in shadows.
+- Breaking line of sight.
+- Moving through bushes.
+- Using cover.
+- Disguising scent.
+- Mimicking zombies.
+- Wearing human clothing.
+- Creating distractions.
+
+### Environmental detection
+
+Different surfaces must produce different noise levels.
+
+Examples:
+
+- Grass: quiet.
+- Dirt: quiet.
+- Carpet: quiet.
+- Concrete: moderate.
+- Gravel: loud.
+- Broken glass: very loud.
+- Metal: loud.
+
+### Weather effects
+
+Rain can reduce some movement sounds.
+
+Fog can reduce visual detection distance.
+
+Wind can alter sound propagation.
+
+Darkness can reduce visibility.
+
+### HUD
+
+Display:
+
+- Human suspicion.
+- Zombie suspicion.
+- Noise.
+- Visibility.
+- Scent camouflage.
+
+Use visual indicators and contextual tutorial hints.
+
+---
+
+# 21. WORLD DESIGN AND PROCEDURAL GENERATION
+
+Create a large open world that can expand over time.
+
+### Initial playable districts
+
+Begin with:
+
+1. ChroniX Headquarters.
+2. Rioting City Street.
+3. Residential Neighborhood.
+4. Abandoned Shopping District.
+5. Industrial District.
+6. City Outskirts.
+7. Forest Edge.
+8. Small Farm Area.
+9. Beach Access.
+
+### Expansion biomes
+
+- Dense forest.
+- Swamp.
+- River.
+- Lake.
+- Mountains.
+- Caves.
+- Farms.
+- Rural towns.
+- Coastal areas.
+- Mines.
+- Underground bunkers.
+- Abandoned military installations.
+- Research facilities.
+
+### Procedural generation
+
+Use deterministic procedural generation and configurable random selection to create:
+
+- Resource locations.
+- Loot.
+- Wildlife.
+- Zombie groups.
+- Human patrols.
+- Encounters.
+- Buildings.
+- Minor locations.
+- Environmental events.
+- Quests.
+
+Use a saved world seed so the same world can be reconstructed when appropriate.
+
+Generate the world in manageable chunks.
+
+Do not attempt to create an unlimited world in one scene.
+
+Use reusable environment objects and spawn systems.
+
+---
+
+# 22. DYNAMIC WEATHER AND SEASONS
+
+Create:
+
+- Sunny weather.
+- Cloudy weather.
+- Rain.
+- Heavy rain.
+- Thunderstorms.
+- Fog.
+- Wind.
+- Snow where appropriate.
+
+Weather must affect:
+
+- Visibility.
+- Sound.
+- Movement.
+- Temperature.
+- Animal behavior.
+- Plant growth.
+- Resource availability.
+- Stealth.
+
+Create seasonal changes:
+
+- Spring.
+- Summer.
+- Autumn.
+- Winter.
+
+Include environmental particle effects.
+
+---
+
+# 23. NPC RELATIONSHIPS AND INTERACTIONS
+
+Create a relationship system for adult NPCs.
+
+Include:
+
+- Friendship.
+- Trust.
+- Rivalry.
+- Romance.
+- Faction loyalty.
+- Betrayal.
+- Dialogue choices.
+- Companion relationships.
+- Character-specific quests.
+
+Allow mature themes and consensual adult relationship storylines while keeping explicit sexual content outside the generated game content.
+
+NPCs must have:
+
+- Names.
+- Personalities.
+- Backgrounds.
+- Faction affiliations.
+- Relationship values.
+- Daily routines.
+- Individual dialogue.
+- Quest connections.
+
+---
+
+# 24. MEMORY RECOVERY AND STORY PROGRESSION
+
+Create a memory recovery system.
+
+Phoenix slowly remembers her previous life.
+
+Memory triggers include:
+
+- Visiting ChroniX locations.
+- Finding photographs.
+- Reading old documents.
+- Hearing familiar voices.
+- Discovering research terminals.
+- Meeting former coworkers.
+- Discovering Euphoria research.
+
+Each recovered memory unlocks:
+
+- Story fragments.
+- Character dialogue.
+- Journal entries.
+- New quests.
+- New abilities.
+- Background information.
+
+### Story acts
+
+**ACT I: Waking Nightmare**
+
+The player wakes inside ChroniX.
+
+**ACT II: The City of the Dead**
+
+The player escapes and learns the dual-disguise system.
+
+**ACT III: Natural Survival**
+
+The player establishes shelter, gathers resources, grows cannabis and learns primitive crafting.
+
+**ACT IV: The Fractured World**
+
+The player encounters factions and begins making alliances.
+
+**ACT V: Blood and Memory**
+
+The player discovers Blood Alchemy and unlocks zombie evolution.
+
+**ACT VI: The Euphoria Conspiracy**
+
+The player investigates ChroniX and the source of the outbreak.
+
+**ACT VII: The Choice**
+
+The player decides the future of the infected and humanity.
+
+### Possible endings
+
+- Restore Humanity.
+- Embrace the Undead.
+- Control the Outbreak.
+- Destroy ChroniX.
+- Join the Cultists.
+- Become the New Alpha.
+- Create a Human-Zombie Alliance.
+- Independent Survival Ending.
+
+---
+
+# 25. SKILLS AND CHARACTER PROGRESSION
+
+Create skill trees for:
+
+- Crafting.
+- Foraging.
+- Gathering.
+- Digging.
+- Hunting.
+- Fishing.
+- Stealth.
+- Combat.
+- Blood Alchemy.
+- Cannabis Cultivation.
+- Navigation.
+- Building.
+- Animal Handling.
+- Survival.
+- Zombie Abilities.
+
+Skills improve through use.
+
+Allow players to unlock upgrades with experience points or progression milestones.
+
+Include visible skill progression and descriptions.
+
+---
+
+# 26. INVENTORY AND EQUIPMENT
+
+Create a functional inventory.
+
+### Inventory categories
+
+- Tools.
+- Weapons.
+- Materials.
+- Food.
+- Blood.
+- Cannabis.
+- Seeds.
+- Clothing.
+- Armor.
+- Medicine.
+- Containers.
+- Quest Items.
+- Animal Supplies.
+
+### Inventory features
+
+- Item stacking.
+- Item splitting.
+- Item dropping.
+- Item use.
+- Item transfer.
+- Equipment slots.
+- Durability.
+- Weight or capacity limits.
+- Item descriptions.
+- Search and sorting.
+
+Create a quick-access hotbar.
+
+Allow keyboard shortcuts and touch controls.
+
+---
+
+# 27. UI AND HUD
+
+Create polished, functional interfaces.
+
+### Main menu
+
+- New Game.
+- Continue.
+- Load Game.
+- Character Creation.
+- Settings.
+- Controls.
+- Credits.
+
+### Gameplay HUD
+
+Display:
+
+- Health.
+- Bloodlust.
+- Decay.
+- Stamina.
+- Hydration.
+- Temperature.
+- Human Disguise.
+- Zombie Disguise.
+- Current time.
+- Weather.
+- Seeds.
+- Buds.
+- Selected item.
+
+### Gameplay menus
+
+- Inventory.
+- Crafting.
+- Character.
+- Skills.
+- Blood Alchemy.
+- Cannabis Garden.
+- Building.
+- Animal Companions.
+- Factions.
+- Relationships.
+- Quests.
+- Map.
+- Journal.
+- Codex.
+
+### Interaction prompts
+
+Use contextual prompts.
+
+Examples:
+
+- Press E to Hide.
+- Press E to Gather.
+- Press E to Harvest.
+- Press E to Plant.
+- Press E to Interact.
+- Press E to Open.
+- Press E to Craft.
+
+Only show prompts when the player is close enough to interact.
+
+---
+
+# 28. AUDIO AND VISUAL DESIGN
+
+Use a gritty, atmospheric pixel-art visual style.
+
+### Graphics
+
+Create:
+
+- Animated player sprites.
+- Zombie sprites.
+- Human NPC sprites.
+- Animal sprites.
+- Environment tiles.
+- Buildings.
+- Trees.
+- Bushes.
+- Water.
+- Weather effects.
+- Particle effects.
+- Blood effects.
+- Cannabis plant growth stages.
+- Combat animations.
+- Hiding animations.
+- Crafting animations.
+
+### Lighting
+
+Implement:
+
+- Daylight.
+- Night darkness.
+- Flashlights.
+- Fires.
+- Interior lighting.
+- Shadows.
+- Weather lighting.
+
+### Sound
+
+Include:
+
+- Footsteps.
+- Grass movement.
+- Gravel movement.
+- Zombie groans.
+- Human voices.
+- Animal sounds.
+- Combat.
+- Crafting.
+- Digging.
+- Gathering.
+- Rain.
+- Wind.
+- Thunder.
+- Water.
+- Fire.
+- Ambient music.
+- Environmental ambience.
+
+Support volume settings.
+
+Use original, licensed or properly permitted assets.
+
+---
+
+# 29. TECHNICAL GDEVELOP ARCHITECTURE
+
+Build the game using native GDevelop systems wherever practical.
+
+### Scene organization
+
+Create the following scenes:
+
+- MainMenu.
+- AgeVerification.
+- CharacterCreation.
+- OpeningCinematic.
+- WakingNightmare.
+- ChroniXFacility.
+- CityOutbreak.
+- OpenWorld.
+- Inventory.
+- Crafting.
+- BloodAlchemy.
+- CannabisGarden.
+- CharacterStatus.
+- BuildingMode.
+- AnimalManagement.
+- FactionMenu.
+- RelationshipMenu.
+- QuestJournal.
+- WorldMap.
+- Codex.
+- Settings.
+- PauseMenu.
+- SaveLoad.
+- GameOver.
+- EndingScenes.
+
+Do not create empty scenes merely to make the project look complete.
+
+Each scene must have a clear purpose and working functionality.
+
+### Object organization
+
+Use reusable objects and object groups.
+
+Create groups for:
+
+- Player.
+- Humans.
+- Zombies.
+- Animals.
+- Resources.
+- CraftingStations.
+- Interactables.
+- Buildings.
+- Weapons.
+- Projectiles.
+- EnvironmentalObjects.
+- UIElements.
+
+### Variables
+
+Create appropriately scoped variables.
+
+Examples:
+
+**Global variables**
+
+- PlayerName.
+- PlayerAppearance.
+- PlayerLevel.
+- PlayerExperience.
+- CurrentWorldSeed.
+- CurrentQuest.
+- FactionReputation.
+- Inventory.
+- DiscoveredRecipes.
+- UnlockedSkills.
+- SaveSlot.
+
+**Player variables**
+
+- Health.
+- Bloodlust.
+- Decay.
+- Stamina.
+- Hydration.
+- Temperature.
+- Consciousness.
+- HumanDisguise.
+- ZombieDisguise.
+- NoiseLevel.
+- Visibility.
+- SmellMask.
+- CurrentWeapon.
+- IsHidden.
+- IsSneaking.
+
+**Scene variables**
+
+- DayTime.
+- WeatherType.
+- WorldChunk.
+- SpawnCount.
+- LocalResources.
+- EncounterState.
+
+### Event architecture
+
+Use external events for reusable systems:
+
+- PlayerMovementEvents.
+- PlayerSurvivalEvents.
+- InventoryEvents.
+- CraftingEvents.
+- StealthEvents.
+- CombatEvents.
+- HumanAIEvents.
+- ZombieAIEvents.
+- AnimalAIEvents.
+- WeatherEvents.
+- DayNightEvents.
+- CannabisEvents.
+- BloodAlchemyEvents.
+- BuildingEvents.
+- QuestEvents.
+- SaveLoadEvents.
+
+Avoid unnecessary JavaScript.
+
+Use JavaScript only when native GDevelop events cannot reasonably implement a necessary feature.
+
+---
+
+# 30. SAVE AND LOAD
+
+Create persistent save functionality.
+
+Save:
+
+- Character customization.
+- Player location.
+- Inventory.
+- Equipment.
+- Survival statistics.
+- Skills.
+- Quests.
+- Memories.
+- Faction reputation.
+- Relationships.
+- Animal companions.
+- Cannabis plants.
+- Buildings.
+- Discovered recipes.
+- World seed.
+- World progression.
+- Time and weather state.
+
+Create multiple save slots.
+
+Add save confirmation and error handling.
+
+Never silently overwrite an existing save.
+
+---
+
+# 31. HTML5 BROWSER AND MOBILE REQUIREMENTS
+
+The finished game must run in a browser.
+
+Optimize for:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile phone.
+
+### Desktop controls
+
+- WASD: Move.
+- Arrow Keys: Move.
+- E: Interact.
+- Shift: Sneak or run depending on configured control.
+- Z: Bite.
+- X: Scratch.
+- C: Consume cannabis.
+- I: Inventory.
+- Tab: Character menu.
+- M: Map.
+- J: Journal.
+- Escape: Pause.
+
+### Mobile controls
+
+Add:
+
+- Virtual movement joystick.
+- Attack button.
+- Interact button.
+- Sneak button.
+- Inventory button.
+- Quick-access item buttons.
+
+Allow customizable controls.
+
+Support responsive screen sizes.
+
+Optimize rendering and memory use.
+
+---
+
+# 32. AI-GENERATED AND PROCEDURAL CONTENT
+
+Use AI-assisted development and deterministic procedural systems wherever practical.
+
+The game should generate or select content dynamically, including:
+
+- World layouts.
+- Resource placement.
+- Loot.
+- NPC names.
+- NPC personalities.
+- Dialogue variations.
+- Quests.
+- Encounters.
+- Animal appearances.
+- Zombie groups.
+- Faction events.
+- Memory discoveries.
+
+The core game must function offline without a paid AI API.
+
+Use local rules, weighted random generation and reusable content templates.
+
+If an external AI service is added later, make it optional and protect API credentials through a secure backend rather than embedding secret keys in the HTML5 client.
+
+---
+
+# 33. MONETIZATION AND COMMERCIAL RELEASE
+
+Design the game so it can eventually be commercially released.
+
+Potential monetization:
+
+- Paid full game.
+- Optional cosmetic packs.
+- Character outfits.
+- Additional maps.
+- Expansion content.
+- Additional story chapters.
+- Optional supporter purchases.
+
+Do not implement pay-to-win mechanics.
+
+Do not require payment to access core survival systems.
+
+Include:
+
+- Credits.
+- Licensing information.
+- Privacy information.
+- Appropriate age verification.
+- Platform compliance.
+- Save compatibility.
+- Version information.
+
+Keep mature-content distribution settings configurable.
+
+Ensure the actual content and monetization comply with the selected hosting, advertising and payment providers' policies.
+
+---
+
+# 34. DEVELOPMENT PRIORITIES
+
+Build in the following order.
+
+## PHASE 1: PLAYABLE FOUNDATION
+
+Create:
+
+- Main menu.
+- Character creation.
+- Top-down player.
+- Player movement.
+- Camera following.
+- City street.
+- Human NPC.
+- Zombie NPC.
+- Health.
+- Bloodlust.
+- Disguise.
+- Stealth.
+- Hiding in dumpsters and barricades.
+- Bite attack.
+- Scratch attack.
+- Basic resource gathering.
+- Multi-Stick.
+- Sharpened Stick.
+- Basic inventory.
+- Basic crafting.
+- Cannabis seeds.
+- Cannabis planting.
+- Cannabis growth.
+- Cannabis harvesting.
+- Cannabis consumption.
+- Basic save/load.
+
+All systems must work together.
+
+## PHASE 2: NATURAL SURVIVAL
+
+Add:
+
+- Hunger and thirst.
+- Decay.
+- Stamina.
+- Temperature.
+- Day/night.
+- Weather.
+- Fire.
+- Water collection.
+- Water filtration.
+- Fishing.
+- Digging.
+- Rope.
+- Hemp fiber.
+- Lean-tos.
+- Primitive weapons.
+- Basic shelter construction.
+
+## PHASE 3: BLOOD AND EVOLUTION
+
+Add:
+
+- Animal blood collection.
+- Blood inventory.
+- Blood mixing.
+- Blood Alchemy.
+- Zombie mutations.
+- Skill trees.
+- Evolution abilities.
+
+## PHASE 4: OPEN WORLD EXPANSION
+
+Add:
+
+- Forest.
+- Farm.
+- Beach.
+- Swamp.
+- Rural areas.
+- Caves.
+- Mines.
+- Underground facilities.
+- Procedural world chunks.
+- Rafts.
+- Treehouses.
+- Larger settlements.
+
+## PHASE 5: ANIMALS AND FACTIONS
+
+Add:
+
+- Animal taming.
+- Companion commands.
+- Training.
+- Faction AI.
+- Faction settlements.
+- Trading.
+- NPC relationships.
+- Dynamic events.
+
+## PHASE 6: STORY AND POLISH
+
+Add:
+
+- Full ChroniX storyline.
+- Memory recovery.
+- Branching quests.
+- Multiple endings.
+- Advanced animations.
+- Advanced audio.
+- Improved lighting.
+- Performance optimization.
+- Browser compatibility testing.
+
+---
+
+# 35. REQUIRED FIRST PLAYABLE BUILD
+
+The first playable build must include the following complete gameplay loop:
+
+1. Start the game.
+2. Create a character.
+3. Wake up inside ChroniX.
+4. Learn movement.
+5. Explore the environment.
+6. Encounter zombies.
+7. Avoid human detection.
+8. Avoid zombie detection.
+9. Use a dumpster or barricade to hide for six seconds.
+10. Collect a branch.
+11. Collect a stone.
+12. Craft the Multi-Stick.
+13. Sharpen the Multi-Stick.
+14. Use it to attack.
+15. Use it to gather resources.
+16. Find cannabis seeds.
+17. Plant seeds in a dirt plot.
+18. Watch the plant grow.
+19. Harvest cannabis buds.
+20. Smoke cannabis.
+21. Reduce Bloodlust.
+22. Find and collect blood.
+23. Encounter a human survivor.
+24. Encounter a faction-related event.
+25. Exit the opening city district.
+26. Save the game.
+27. Reload the game and continue.
+
+Do not proceed to large-scale expansion until this loop works reliably.
+
+---
+
+# 36. QUALITY ASSURANCE AND TESTING
+
+Test every system.
+
+### Player tests
+
+- Movement.
+- Collision.
+- Animation.
+- Camera.
+- Attacks.
+- Damage.
+- Death.
+- Respawn.
+
+### Survival tests
+
+- Bloodlust increases.
+- Feeding reduces Bloodlust.
+- Cannabis reduces Bloodlust.
+- Decay changes.
+- Stamina works.
+- Health works.
+- Time advances.
+
+### Stealth tests
+
+- Humans detect suspicious behavior.
+- Zombies detect incorrect scent.
+- Human disguise works.
+- Zombie disguise works.
+- Dumpster hiding works.
+- Barricade hiding works.
+- Six-second timer works.
+- Player reappears correctly.
+
+### Crafting tests
+
+- Materials are collected.
+- Inventory updates.
+- Recipes validate ingredients.
+- Items are consumed correctly.
+- Crafted items work.
+
+### Cannabis tests
+
+- Seeds can be planted.
+- Plants visibly grow.
+- Plants can be harvested.
+- Buds enter inventory.
+- Consumption works.
+- Bloodlust decreases.
+- Effects expire correctly.
+
+### Browser tests
+
+- Game loads.
+- Menus function.
+- Controls work.
+- UI scales.
+- Save/load works.
+- No critical errors.
+- Performance remains stable.
+
+Fix bugs before declaring a phase complete.
+
+---
+
+# 37. FINAL EXECUTION INSTRUCTIONS
+
+Begin by inspecting the existing GDevelop project.
+
+If the project already contains scenes, objects, event sheets, variables or working mechanics, preserve them and extend them.
+
+If no project exists, create the project structure.
+
+Do not replace existing working systems without a compelling technical reason.
+
+Start with PHASE 1.
+
+Create the actual objects, scenes, behaviors, variables, event sheets, animations and gameplay logic.
+
+Build the first playable city street and the complete core gameplay loop.
+
+Make the human and zombie disguise systems genuinely functional.
+
+Make the six-second dumpster and barricade stealth ability genuinely functional.
+
+Make the Multi-Stick and primitive crafting genuinely functional.
+
+Make cannabis cultivation and Bloodlust management genuinely functional.
+
+Make all core mechanics interact with one another.
+
+Test the project.
+
+Save the project.
+
+Then continue through the development phases, expanding the same game rather than creating disconnected demonstrations.
+
+When a feature cannot be fully completed in one operation, implement its functional foundation, preserve the architecture for expansion and continue with the next highest-priority feature.
+
+**THE FINAL GOAL IS A COMPLETE, PLAYABLE, EXPANDABLE, COMMERCIAL-QUALITY HTML5 OPEN-WORLD ZOMBIE SURVIVAL GAME CALLED HIGH & UNDEAD™: NATURAL SURVIVAL.**

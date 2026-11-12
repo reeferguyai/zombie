@@ -1,0 +1,3866 @@
+# Phoenix Blaze: A Conscious Zombie Survival Game
+
+## Overview
+**Phoenix Blaze** is an innovative HTML5-based open-world sandbox survival game where you play as a newly-turned zombie who retains human consciousness. Manage your bloodlust with cannabis-based crafting, blend in with both humans and zombies, and navigate a post-apocalyptic world of survival, moral choices, and self-discovery.
+
+### Core Features
+- 🧟 **Play as a Conscious Zombie**: Retain fragments of humanity while battling zombie instincts
+- 🍃 **Cannabis Integration**: Craft marijuana-based items to suppress bloodlust and enhance abilities
+- 🎭 **Stealth & Disguise**: Blend in with humans or mimic zombie behavior
+- 🔨 **Deep Crafting System**: Create tools, weapons, shelters, and survival gear from gathered materials
+- 🌍 **Open-World Exploration**: Semi-open world with 6-8 diverse regions
+- 🤖 **AI-Driven NPCs**: Dynamic interactions with human survivors and other zombies
+- 🎮 **Moral Decision-Making**: Branching storylines based on player choices
+- 🔞 **Mature Content**: NSFW character customization and relationship mechanics
+
+## Project Structure
+```
+zombie/
+├── src/
+│   ├── game/
+│   │   ├── core/           # Core game engine
+│   │   ├── systems/        # Game systems (crafting, combat, AI)
+│   │   ├── entities/       # Player, enemies, NPCs
+│   │   └── ui/             # HUD, menus, inventory
+│   ├── assets/             # Sprites, audio, configs
+│   ├── utils/              # Helper functions
+│   └── index.html          # Main entry point
+├── docs/                   # Documentation
+├── tests/                  # Unit and integration tests
+├── config/                 # Configuration files
+├── package.json
+└── README.md
+```
+
+## Technology Stack
+- **Framework**: Phaser 3 (2D game engine for web)
+- **Language**: JavaScript (ES6+)
+- **Build Tool**: Webpack/Parcel
+- **Testing**: Jest
+- **Version Control**: Git
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14+)
+- npm or yarn
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/reeferguyai/zombie.git
+cd zombie
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Development Roadmap
+
+### Phase 1: Foundation (Weeks 1-4)
+- ✅ Project setup and architecture
+- [ ] Character creation system
+- [ ] Basic movement and controls
+- [ ] Simple crafting (multi-stick)
+- [ ] Inventory system
+
+### Phase 2: Core Mechanics (Weeks 5-8)
+- [ ] Combat system
+- [ ] Bloodlust meter
+- [ ] Cannabis mechanics
+- [ ] Basic AI (zombie behavior)
+- [ ] World generation
+
+### Phase 3: Content (Weeks 9-12)
+- [ ] Expanded crafting recipes
+- [ ] NPC interactions
+- [ ] Stealth/disguise mechanics
+- [ ] Story progression
+- [ ] Environment design
+
+### Phase 4: Polish (Weeks 13-16)
+- [ ] UI/UX refinement
+- [ ] Audio integration
+- [ ] Performance optimization
+- [ ] Testing and debugging
+- [ ] Beta release
+
+## Contributing
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
+
+## License
+Private - All rights reserved
+
+## Contact
+- **Developer**: @reeferguyai
+- **GitHub**: [reeferguyai/zombie](https://github.com/reeferguyai/zombie)
+
+
+This is a strong high-level game concept. The most distinctive part is not the zombie survival itself, but the identity conflict mechanic: a player who is technically undead yet still conscious and trying to preserve their humanity. That gives Phoenix Blaze a unique hook that separates it from most survival and zombie titles.
+
+What Already Works Well
+Unique Core Pillar
+
+The strongest design pillar is:
+
+"You are a zombie trying not to become a monster."
+
+Almost every major system supports that idea:
+
+Bloodlust management
+Human disguise
+Zombie camouflage
+Moral choices
+Cannabis-based suppression mechanics
+Relationship systems
+Branching story outcomes
+
+That creates a clear gameplay loop.
+
+Natural Gameplay Loop
+
+A possible core loop could be:
+
+Explore world
+Gather resources
+Avoid detection
+Craft suppression items
+Manage bloodlust
+Interact with humans/zombies
+Make moral decisions
+Unlock new regions
+Repeat with escalating stakes
+
+This is a solid survival-sandbox framework.
+
+Biggest Opportunities
+1. Bloodlust Should Be The Main Survival Mechanic
+
+Instead of hunger, thirst, and seventy different survival meters, make bloodlust the central mechanic.
+
+Example:
+
+State	EffectsControlled	Think clearly
+Irritated	Reduced social options
+Unstable	Increased aggression
+Frenzied	Temporary loss of control
+Feral	NPCs and player behavior altered
+
+This becomes the defining system of the game.
+
+2. Cannabis Should Have Tradeoffs
+
+Rather than simply reducing bloodlust:
+
+Strains
+
+Indica
+
+Reduces cravings
+Slower movement
+
+Sativa
+
+Faster movement
+Increased detection
+
+Hybrid
+
+Balanced effects
+
+Rare Mutant Strains
+
+Temporary zombie control
+Enhanced smell
+Night vision
+Human-passing effects
+
+This creates meaningful crafting choices instead of a simple consumable.
+
+3. Factions
+
+The world would feel more alive with competing groups.
+
+Survivors
+Hunters
+Settlers
+Traders
+Scientists
+Zombies
+
+Ferals
+
+Mindless
+
+Stalkers
+
+Ambush predators
+
+Conscious Zombies
+
+Rare individuals like the player
+
+Hive Cult
+
+Accepts the infection as evolution
+Regions
+
+A six-region structure works well:
+
+Safe Haven
+
+Tutorial area
+
+Suburban Ruins
+
+Beginner crafting
+
+Downtown Dead Zone
+
+Dense loot
+
+Industrial Sector
+
+Advanced materials
+
+Forest Wilderness
+
+Natural resources
+
+Military Quarantine Zone
+
+Late-game technology
+
+Research Complex
+
+Story revelations
+
+Underground Network
+
+Endgame faction hub
+
+Crafting Categories
+Weapons
+Spears
+Clubs
+Bows
+Firearms
+Improvised weapons
+Survival
+Water filtration
+Camp equipment
+Medical supplies
+Cannabis
+Strains
+Oils
+Edibles
+Extracts
+Suppressant compounds
+Zombie-Specific
+Scent masks
+Flesh preservation kits
+Identity suppressors
+Neural stabilizers
+Character Progression
+
+Rather than traditional RPG levels:
+
+Humanity
+
+How human you remain
+
+Instinct
+
+Your zombie adaptation
+
+Reputation
+
+How factions view you
+
+Knowledge
+
+Crafting and discovery unlocks
+
+This creates multiple playstyles.
+
+Potential Endings
+Cure Ending
+
+Recover humanity
+
+Acceptance Ending
+
+Become a conscious zombie leader
+
+Hybrid Ending
+
+Bridge humans and zombies
+
+Feral Ending
+
+Lose yourself completely
+
+Dominion Ending
+
+Help zombies inherit the world
+
+Development Recommendation
+
+If you're actually building this in Phaser 3, I would focus on the following MVP first:
+
+MVP Version 0.1
+Character creation
+Single playable map
+Movement
+Inventory
+Resource gathering
+Crafting system
+Bloodlust meter
+One cannabis strain
+3 zombie enemy types
+3 human NPC types
+Day/night cycle
+Save/load system
+
+advanced relationships, NSFW content, large story arcs, and huge worlds until the core bloodlust-survival loop is fun.
+
+ the "conscious zombie managing bloodlust while infiltrating both human and zombie societies" mechanic is unique enough to serve as the game's primary selling point.
+
+
+add that u can make bongs and bowls and other things to be able to smoke the cannabis with to help with bloodlust  and design and describe the full game architecture and then Design the bloodlust and all other systems and then Draft the core game loop
+
+Phoenix Blaze
+Complete Game Architecture, Bloodlust System, Supporting Systems & Core Gameplay Loop
+
+The heart of Phoenix Blaze is not survival.
+
+It is:
+
+A conscious zombie struggling to remain human in a world where neither humans nor zombies fully accept them.
+
+Everything in the game should reinforce this identity conflict.
+
+CORE GAME PILLARS
+Pillar 1: Humanity vs Bloodlust
+
+The player's constant internal battle.
+
+Pillar 2: Survival Through Adaptation
+
+Scavenge, craft, build, and evolve.
+
+Pillar 3: Social Camouflage
+
+Blend with humans. Blend with zombies. Trust nobody.
+
+Pillar 4: Freedom
+
+Play how you want:
+
+Survivor
+Villain
+Merchant
+Cultivator
+Inventor
+Hunter
+Diplomat
+Pillar 5: Choice
+
+Every decision affects the world.
+
+FULL GAME ARCHITECTURE
+Core Engine Layer
+World Engine
+
+Controls:
+
+Day/night cycle
+Weather
+Seasons
+Temperature
+Resource spawning
+NPC spawning
+World events
+Character Engine
+
+Tracks:
+
+Health
+Stamina
+Bloodlust
+Humanity
+Infection Progression
+Stress
+Morale
+Hunger
+Hydration
+Fatigue
+AI Engine
+
+Humans:
+
+Fear
+Trust
+Memory
+Relationships
+Trading
+Combat
+
+Zombies:
+
+Smell
+Sound Detection
+Pack Behavior
+Nesting
+Migration
+Faction Engine
+
+Tracks:
+
+Reputation
+Diplomacy
+Territory Ownership
+Wars
+Alliances
+Story Engine
+
+Controls:
+
+Main Quest
+Side Quests
+Dynamic Events
+Faction Outcomes
+Endings
+PLAYER PROGRESSION SYSTEM
+
+Instead of levels:
+
+Humanity
+
+Represents:
+
+Compassion
+Empathy
+Morality
+
+Unlocked by:
+
+Helping survivors
+Avoiding feeding
+Positive actions
+
+Rewards:
+
+Better dialogue
+Human relationships
+Hero endings
+Instinct
+
+Your zombie adaptation.
+
+Unlocked by:
+
+Feeding
+Hunting
+Feral behavior
+
+Rewards:
+
+Enhanced smell
+Night vision
+Regeneration
+Strength
+Knowledge
+
+Learned through:
+
+Reading
+Exploring
+Experimentation
+
+Unlocks:
+
+Recipes
+Technologies
+Blueprints
+Influence
+
+World reputation.
+
+Determines:
+
+Prices
+Alliances
+Recruitment
+Leadership
+THE BLOODLUST SYSTEM
+The Most Important System In The Game
+
+Bloodlust is constantly changing.
+
+Scale:
+
+0-100
+
+0-20 Stable
+
+Player looks mostly human.
+
+Benefits:
+
+Normal speech
+Better stealth
+Lower suspicion
+21-40 Irritated
+
+Zombie instincts begin.
+
+Effects:
+
+Minor aggression
+Strange thoughts
+Reduced patience
+41-60 Unstable
+
+Visible symptoms emerge.
+
+Effects:
+
+Tremors
+Eye discoloration
+Increased smell sensitivity
+
+Humans notice.
+
+61-80 Frenzied
+
+Dangerous state.
+
+Effects:
+
+Random blood cravings
+Hallucinations
+Reduced dialogue options
+
+Humans highly suspicious.
+
+81-100 Feral
+
+Loss of control.
+
+Effects:
+
+Partial player control loss
+Forced combat urges
+Visual distortion
+
+Can trigger:
+
+Feeding Events
+
+Player attacks nearby targets.
+
+BLOODLUST SUPPRESSION
+Cannabis System
+
+Cannabis becomes essential medicine.
+
+It slows neural degeneration and calms zombie instincts.
+
+SMOKING DEVICES
+
+Players can craft:
+
+Primitive Pipe
+
+Requirements:
+
+Metal tube
+Wood
+Cloth
+
+Benefits:
+
+Basic consumption
+Stone Pipe
+Durable
+Low cost
+Glass Spoon Pipe
+High efficiency
+Chillum
+Portable
+Quick use
+Wooden Pipe
+Early game
+Water Pipe
+
+Benefits:
+
+Strong suppression
+
+Requires:
+
+Water
+Glass
+Filter
+Bong
+
+Major bloodlust suppression.
+
+Effects:
+
+-30 Bloodlust
+Longer duration
+
+Tradeoff:
+
+Movement slowed
+Triple-Chamber Bong
+
+Late Game Item.
+
+Effects:
+
+Maximum suppression
+
+Tradeoff:
+
+Bulky
+Gravity Bong
+
+Emergency suppression.
+
+Huge effect.
+
+Consumes large quantities.
+
+Vaporizer
+
+Advanced technology.
+
+Benefits:
+
+Efficient usage
+Minimal smell
+
+Great for stealth.
+
+CANNABIS STRAINS
+Indica
+
+Benefits:
+
+Bloodlust reduction
+
+Penalties:
+
+Movement speed reduction
+Sativa
+
+Benefits:
+
+Speed
+Awareness
+
+Penalties:
+
+Short duration
+Hybrid
+
+Balanced.
+
+Medicinal Strains
+
+Purpose-built by player.
+
+Examples:
+
+Serenity Kush
+
+Maximum bloodlust suppression.
+
+Humanitas
+
+Slows loss of humanity.
+
+Ghost Walker
+
+Makes zombie scent weaker.
+
+Gray Veil
+
+Allows human infiltration.
+
+FEEDING SYSTEM
+
+The player may feed on:
+
+Wildlife
+
+Lowest guilt.
+
+Small relief.
+
+Zombies
+
+Rare.
+
+Moderate relief.
+
+Risky.
+
+Humans
+
+Massive relief.
+
+Huge humanity loss.
+
+Major reputation consequences.
+
+HUMANITY SYSTEM
+
+Tracks psychological state.
+
+Scale:
+
+0-100
+
+High Humanity
+
+Benefits:
+
+Romance
+Diplomacy
+Survivor trust
+
+Ending paths unlock.
+
+Mid Humanity
+
+Gray morality.
+
+Most balanced gameplay.
+
+Low Humanity
+
+Advantages:
+
+Greater power
+
+Disadvantages:
+
+Fewer social interactions
+CRAFTING SYSTEM
+Categories
+Survival
+Fires
+Water collection
+Shelter
+Weapons
+Spears
+Clubs
+Bats
+Axes
+Bows
+Medical
+Bandages
+Antibiotics
+Antiseptics
+Cannabis
+Grow Lights
+Drying Racks
+Cure Jars
+Presses
+Pipes
+Bongs
+Vaporizers
+Zombie Survival
+Scent Mask
+Decay Concealer
+Anti-Detection Cream
+Flesh Preservative
+GROWING SYSTEM
+
+Cannabis can be cultivated.
+
+Player manages:
+
+Soil
+Water
+Nutrients
+Lighting
+Temperature
+
+Results affect:
+
+THC
+CBD
+Potency
+Yield
+BASE BUILDING
+
+Players can create:
+
+Safehouses
+Farms
+Cannabis Facilities
+Workshops
+Watch Towers
+Underground Labs
+Survivor Communities
+SOCIAL STEALTH SYSTEM
+
+The player exists between species.
+
+Human Mode
+
+Requires:
+
+Clean clothes
+Controlled bloodlust
+Good appearance
+
+Benefits:
+
+Trading
+Dialogue
+Story progression
+Zombie Mode
+
+Requires:
+
+Embracing instincts
+
+Benefits:
+
+Safe zombie travel
+Pack manipulation
+ENDGAME EVOLUTION SYSTEM
+
+As the story progresses:
+
+Player chooses a path.
+
+The Cure
+
+Become human.
+
+The Monarch
+
+Lead conscious zombies.
+
+The Bridge
+
+Unite both species.
+
+The Beast
+
+Complete feral evolution.
+
+The Gardener
+
+Use cultivation science to create a sustainable future.
+
+CORE GAME LOOP
+Minute-to-Minute Loop
+
+Explore → Scavenge → Manage Bloodlust → Gather Materials → Avoid Threats → Craft Equipment → Interact With NPCs → Return To Safehouse → Upgrade → Venture Further
+
+Repeat
+
+Mid-Game Loop
+
+Explore New Region → Discover Resources → Unlock Recipes → Grow Cannabis → Suppress Bloodlust → Build Reputation → Expand Base → Complete Quests → Gain Influence
+
+Repeat
+
+Long-Term Loop
+
+Survive → Choose Moral Path → Evolve Character → Join/Create Faction → Shape World Politics → Unlock Endgame Technologies → Determine Fate Of Humanity
+
+Repeat Until Final Ending
+
+The Real Gameplay Fantasy
+
+Phoenix Blaze is ultimately:
+
+Part survival game, part crafting simulator, part morality simulator, part zombie RPG.
+
+The player is constantly asking:
+
+"How much of my humanity am I willing to sacrifice to survive one more day?"
+
+That question should drive every system in the game.
+
+
+Phoenix Blaze
+The Story of Ember Vale
+Before The Fall
+
+Long before she became known as Phoenix Blaze, she was simply Ember Vale.
+
+Twenty-six years old.
+
+A cannabis cultivator.
+
+A botanist.
+
+A dreamer.
+
+She lived on the outskirts of a small mountain city, operating a legal craft cannabis farm known as Phoenix Grove, a place dedicated to medicinal genetics and sustainable cultivation.
+
+Ember believed plants could heal almost anything.
+
+Anxiety.
+
+Trauma.
+
+Addiction.
+
+Pain.
+
+She spent years crossbreeding unique strains designed to help veterans, cancer patients, and people suffering from severe PTSD.
+
+Few people knew she had quietly become one of the top cannabis geneticists in the country.
+
+Her greatest project was known as:
+
+Project Phoenix
+
+A strain unlike any before it.
+
+Designed to increase neural repair.
+
+Reduce aggression.
+
+Promote emotional regulation.
+
+Potentially slow neurodegenerative diseases.
+
+Then the outbreak happened.
+
+The Outbreak
+
+Nobody knows where the infection started.
+
+Some believe it came from:
+
+A military lab
+A pharmaceutical experiment
+A fungal mutation
+A biological weapon
+
+Every region tells a different story.
+
+Within weeks:
+
+Governments collapsed
+Cities burned
+Communications failed
+Humanity fractured
+
+Most people infected lost everything.
+
+Their memories.
+
+Their identities.
+
+Their souls.
+
+But not Ember.
+
+Day Zero
+
+The attack happened while attempting to evacuate researchers from Phoenix Grove.
+
+While helping survivors onto transport helicopters, a newly infected victim bit Ember on the neck.
+
+The wound should have killed her.
+
+Everyone thought it had.
+
+For three days she drifted between life and death.
+
+Then she woke up.
+
+Hungry.
+
+Terrified.
+
+Changed.
+
+But conscious.
+
+Somehow Project Phoenix had altered her brain chemistry enough to preserve fragments of her humanity through the transformation.
+
+She became something impossible.
+
+A zombie who still remembered who she was.
+
+The Birth Of Phoenix Blaze
+
+The first weeks were horrific.
+
+Every second she fought urges:
+
+To hunt
+To kill
+To feed
+
+Whenever bloodlust took over she would suffer flashes of memories.
+
+Birthdays.
+
+Family.
+
+Laughter.
+
+The smell of plants growing in greenhouses.
+
+Each feeding stole another piece of herself.
+
+But then she discovered something extraordinary.
+
+Her own cannabis research slowed the urges.
+
+Not permanently.
+
+Not completely.
+
+But enough.
+
+Just enough.
+
+For her to think.
+
+To remember.
+
+To survive.
+
+The survivors who witnessed her refusing to attack gave her a nickname.
+
+Phoenix Blaze
+
+The woman who burned in death and rose again.
+
+Neither living nor dead.
+
+A bridge between worlds.
+
+Character Appearance
+General Look
+
+Phoenix Blaze is beautiful in a haunting, unnatural way.
+
+She looks human at first glance.
+
+Yet something always feels wrong.
+
+Like a dream that doesn't quite make sense.
+
+Height
+
+5'8"
+
+Athletic but lean.
+
+Built by years of outdoor cultivation and physical labor.
+
+Hair
+
+Long copper-red hair.
+
+Often tied into a rough survival braid.
+
+Sunlight catches fiery orange highlights.
+
+At night it appears almost black.
+
+Eyes
+
+The most unsettling feature.
+
+During stable states:
+
+Bright green
+Intelligent
+Human
+
+As bloodlust rises:
+
+Golden
+Amber
+Deep crimson
+
+Near feral states:
+
+Pupils disappear
+Eyes glow faintly red
+
+A clear warning to observant NPCs.
+
+Skin
+
+Very pale.
+
+Almost porcelain.
+
+Small traces of decay appear under stress.
+
+Veins darken during bloodlust episodes.
+
+As if something underneath is trying to crawl out.
+
+Clothing Style
+
+Practical survivor gear.
+
+Favorite equipment:
+
+Cultivator jacket
+Utility belt
+Arm guards
+Greenhouse gloves
+Combat boots
+
+Many pieces are remnants from Phoenix Grove.
+
+Personality
+
+Ember is not a superhero.
+
+She is exhausted.
+
+Scared.
+
+Often angry.
+
+Yet she keeps moving.
+
+Because every day she remains herself is a victory.
+
+She constantly asks:
+
+If I still care about people, am I truly a monster?
+
+That question becomes the emotional center of the game.
+
+The Land
+The Ashlands
+
+The world of Phoenix Blaze is called:
+
+The Ashlands
+
+A continent forever transformed by the Collapse.
+
+Nature and ruin have merged into something both beautiful and terrifying.
+
+Every region tells part of the apocalypse.
+
+Region 1
+Greenwood Basin
+
+Starting Region
+
+Once farmland.
+
+Now overgrown wilderness.
+
+Features:
+
+Abandoned farms
+Greenhouses
+Streams
+Wildlife
+Small survivor camps
+
+Relatively safe.
+
+A place where players learn survival.
+
+Region 2
+Hollow Pines
+
+Massive forests.
+
+Fog rarely lifts.
+
+Features:
+
+Hidden cabins
+Predator wildlife
+Zombie nests
+Natural resources
+
+At night strange sounds echo through the trees.
+
+Region 3
+Iron Reach
+
+An industrial wasteland.
+
+Collapsed factories.
+
+Rail systems.
+
+Refineries.
+
+Abandoned warehouses.
+
+Prime scavenging territory.
+
+Highly dangerous.
+
+Region 4
+Revenant City
+
+The largest city in the game.
+
+Millions died here.
+
+Skyscrapers pierce the skyline like tombstones.
+
+Roaming hordes fill streets below.
+
+Contains:
+
+Hospitals
+Office towers
+Underground transit
+Research facilities
+
+A treasure trove of technology.
+
+Region 5
+Crimson Wetlands
+
+Mutated swamp ecosystem.
+
+Cannabis strains grow wild here.
+
+Features:
+
+Rare medicinal plants
+Giant insects
+Toxic pools
+Strange fungal colonies
+
+Many players believe the outbreak originated here.
+
+Region 6
+Blackstone Mountains
+
+Cold late-game territory.
+
+Features:
+
+Mining operations
+Military bunkers
+Secret facilities
+
+Home to some of the strongest enemies in the world.
+
+Region 7
+Solar Scar
+
+A massive desert created when power stations exploded.
+
+Burned earth stretches for hundreds of miles.
+
+Scavengers fight over:
+
+Fuel
+Solar technology
+Water purification systems
+Region 8
+The Silent Coast
+
+End-game region.
+
+An enormous coastline where evacuation fleets once gathered.
+
+Thousands of abandoned ships remain offshore.
+
+Many secrets lie beneath the water.
+
+Including answers about the infection itself.
+
+The Feeling Of The World
+
+The Ashlands should feel neither hopeless nor hopeful.
+
+It should feel like a world trying to decide what it wants to become.
+
+Flowers grow through cracked highways.
+
+Cannabis fields thrive where cities once stood.
+
+Birds nest atop military checkpoints.
+
+Forests swallow abandoned suburbs.
+
+Humanity has fallen.
+
+Nature has adapted.
+
+And Phoenix Blaze exists between those two futures.
+
+Not fully alive.
+
+Not fully dead.
+
+Trying to discover whether she is the cure, the bridge, or the beginning of something entirely new.
+
+
+Companion Animal System
+
+One of the themes of Phoenix Blaze is that Ember is constantly trying to hold onto her humanity. Companion animals become one of the strongest emotional systems in the game because they can sense who she truly is beneath the infection.
+
+Some animals fear her.
+
+Some accept her.
+
+A rare few become loyal companions.
+
+Bond System
+
+Every companion has:
+
+Trust
+
+How comfortable they are around you.
+
+Loyalty
+
+Whether they stay when danger appears.
+
+Affection
+
+Personal relationship level.
+
+Training
+
+Skills learned.
+
+Fear
+
+Affected by bloodlust episodes.
+
+Companion Classes
+Dogs
+
+The most common companions.
+
+Roles:
+
+Tracking enemies
+Hunting
+Guarding safehouses
+Finding loot
+Alerting player to danger
+
+Traits:
+
+German Shepherd
+Husky
+Labrador
+Mutts
+Post-apocalyptic mixed breeds
+
+Special Effect:
+
+Dogs react to bloodlust before humans do.
+
+Cats
+
+Stealth companions.
+
+Abilities:
+
+Find small loot
+Catch pests
+Sense hidden areas
+Reduce stress
+
+Cats can curl up near Ember while she sleeps.
+
+One of the few creatures completely unbothered by her condition.
+
+Ravens
+
+Highly intelligent.
+
+Abilities:
+
+Scout locations
+Reveal enemies
+Deliver messages
+Find corpses
+
+Can ride on Ember's shoulder.
+
+Useful for recon.
+
+Horses
+
+Transportation companions.
+
+Abilities:
+
+Faster travel
+Carry supplies
+Pull carts
+
+Late-game mounted combat.
+
+Goats
+
+Base animals.
+
+Benefits:
+
+Milk production
+Farming support
+Rural companion
+
+Strangely resistant to zombie attacks.
+
+Exotic Companions
+
+Rare discoveries.
+
+Examples:
+
+Wolf
+
+Requires earning trust.
+
+Excellent protector.
+
+Fox
+
+Stealth specialist.
+
+Loot detection.
+
+Crow Swarm
+
+Can eventually gather multiple birds.
+
+Functions almost like a reconnaissance network.
+
+Zombie Animal Variants
+
+The infection affects animals differently.
+
+Examples:
+
+Zombie dogs
+Mutated wolves
+Infected deer
+Corrupted birds
+
+Some can be rehabilitated.
+
+Some become companions.
+
+Some become bosses.
+
+Character Creator
+Philosophy
+
+Phoenix Blaze should feature one of the deepest character creation systems in a survival RPG.
+
+The player may choose to play as:
+
+Ember Vale
+A custom character
+Future unlockable conscious zombies
+SFW Mode
+
+Default mode.
+
+Customization includes:
+
+Body Type
+Thin
+Athletic
+Muscular
+Heavy
+Custom sliders
+Face
+Hundreds of options
+Jawlines
+Cheeks
+Noses
+Eyes
+Brows
+Hair
+
+Large selection including:
+
+Long
+Short
+Curly
+Straight
+Braids
+Locs
+Mohawks
+Shaved styles
+Skin
+
+Human and infected appearances.
+
+Features:
+
+Freckles
+Tattoos
+Scars
+Birthmarks
+Body paint
+Eyes
+
+Human eyes.
+
+Zombie eyes.
+
+Hybrid variations.
+
+Glowing late-game options.
+
+Clothing
+
+Massive wardrobe.
+
+Including:
+
+Survivor gear
+Tactical gear
+Cultivator clothing
+Urban clothing
+Faction uniforms
+Mature Character Customization
+
+For adult players, a mature-content option could allow for additional body customization settings.
+
+This should remain focused on character realism, body diversity, immersion, and role-playing rather than explicit sexual content. Players can adjust physical features, scars, athletic builds, aging details, and other appearance traits to create unique survivor identities.
+
+Infection Appearance System
+
+Perhaps the most unique customization system.
+
+As infection evolves:
+
+Players choose how it manifests.
+
+Examples:
+
+Preserved
+
+Almost human.
+
+Requires constant maintenance.
+
+Hybrid
+
+Visible undead traits.
+
+Balanced path.
+
+Feral
+
+Monster-like evolution.
+
+Maximum zombie features.
+
+Mutated
+
+Rare evolutionary path.
+
+Unlocks unique abilities.
+
+Marijuana System
+
+The marijuana system is not merely recreational.
+
+For Phoenix Blaze it is essentially:
+
+Medicine
+Survival Tool
+Economy
+Crafting Profession
+Story Mechanic
+
+It becomes one of the defining features of the entire game.
+
+Cannabis Genetics System
+
+Every plant contains values for:
+
+THC
+
+Psychoactive potency.
+
+CBD
+
+Calming effects.
+
+CBG
+
+Neural stabilization.
+
+Terpenes
+
+Determine special bonuses.
+
+Yield
+
+Harvest quantity.
+
+Resistance
+
+Disease protection.
+
+Growing Pipeline
+
+Seed ↓ Clone ↓ Vegetative Growth ↓ Flowering ↓ Harvest ↓ Drying ↓ Curing ↓ Processing ↓ Consumption/Crafting/Selling
+
+Equipment Progression
+Primitive
+Homemade pots
+Outdoor plots
+Rain collection
+Intermediate
+Greenhouses
+Irrigation
+Nutrient systems
+Advanced
+Solar-powered facilities
+Climate control
+Research laboratories
+Endgame
+
+Phoenix Labs
+
+A massive cultivation operation capable of producing legendary strains.
+
+Consumption Methods
+
+Different methods affect bloodlust control differently.
+
+Joint
+
+Cheap.
+
+Quick.
+
+Short effect.
+
+Pipe
+
+Efficient.
+
+Portable.
+
+Moderate suppression.
+
+Bong
+
+Powerful relief.
+
+Large suppression effect.
+
+Uses more product.
+
+Water Pipe
+
+Cleaner delivery.
+
+Longer-lasting effects.
+
+Vaporizer
+
+Advanced technology.
+
+Minimal odor.
+
+Excellent stealth choice.
+
+Edibles
+
+Slow activation.
+
+Very long duration.
+
+Useful before dangerous missions.
+
+Tinctures
+
+Medical-grade extracts.
+
+Precise dosing.
+
+Excellent for controlled bloodlust management.
+
+Legendary Strains
+Phoenix Flame
+
+Ember's original genetics.
+
+The rarest strain in the game.
+
+Provides powerful bloodlust control while preserving humanity.
+
+Ghost Veil
+
+Masks zombie scent.
+
+Improves infiltration.
+
+Serenity Bloom
+
+Maximum mental stability.
+
+Gravewalker
+
+Allows easier interaction with zombie hordes.
+
+Eden's Breath
+
+Extremely difficult to cultivate.
+
+One of the key strains required for certain "cure" story paths.
+
+The Ultimate Marijuana Gameplay Loop
+
+Discover Genetics ↓ Gather Seeds ↓ Build Grow Space ↓ Cultivate Plants ↓ Create New Strains ↓ Process Harvest ↓ Craft Consumption Tools ↓ Manage Bloodlust ↓ Trade With Settlements ↓ Expand Operations ↓ Unlock New Genetics ↓ Repeat
+
+The result is a system where cultivation is much more than farming. It becomes a core part of survival, identity, economy, and the struggle to remain human in a world where every day the infection is trying to take control.
+
+Crafting System
+"If You Can Find It, Salvage It, Learn It, Or Imagine It... You Can Probably Build It."
+
+Crafting in Phoenix Blaze should feel closer to Project Zomboid + State of Decay + Fallout than a simple survival game's recipe menu.
+
+The player isn't just crafting items.
+
+They are rebuilding civilization while simultaneously holding their mind together.
+
+Crafting Progression
+Tier 1: Primitive Survival
+
+The first few days after transformation.
+
+Crafting consists of:
+
+Sticks
+Stones
+Scrap metal
+Rope
+Duct tape
+Cloth
+
+Items:
+
+Spears
+Clubs
+Stone knives
+Campfires
+Water collectors
+Basic shelters
+Primitive pipes
+
+Everything feels desperate.
+
+Tier 2: Improvised Technology
+
+Player starts restoring abandoned equipment.
+
+Can build:
+
+Workbenches
+Drying racks
+Rain collectors
+Greenhouses
+Solar chargers
+
+Items:
+
+Bows
+Crossbows
+Metal tools
+Grow systems
+Makeshift armor
+Tier 3: Professional Equipment
+
+Now rebuilding old-world technology.
+
+Items:
+
+Advanced bongs
+Vaporizers
+Medical equipment
+Power systems
+Automated irrigation
+
+Structures:
+
+Workshops
+Labs
+Cultivation facilities
+Tier 4: Phoenix Technology
+
+End-game technology.
+
+Player combines:
+
+Biology
+Zombie physiology
+Cannabis research
+Salvaged science
+
+Creates:
+
+Bloodlust suppressors
+Cognitive stabilizers
+Specialized strains
+Human-zombie hybrid technologies
+Blueprint Discovery
+
+Recipes aren't simply unlocked through levels.
+
+You learn by:
+
+Reading
+
+Books Magazines Scientific journals
+
+Observation
+
+See an item. Reverse engineer it.
+
+Experimentation
+
+Mix resources.
+
+Sometimes discover completely new recipes.
+
+Combat System
+Combat Feels Brutal, Desperate, And Personal
+
+Unlike superhero games.
+
+You are dangerous.
+
+But so is everything else.
+
+Three Combat Styles
+Human Style
+
+The remnants of your training and intelligence.
+
+Focus:
+
+Weapons
+Planning
+Defense
+
+Examples:
+
+Spears
+Pistols
+Rifles
+Bows
+Traps
+
+Very controlled.
+
+Survivor Style
+
+Improvised combat.
+
+Examples:
+
+Baseball bats
+Fire axes
+Pipes
+Machetes
+
+Scrappy and practical.
+
+Zombie Style
+
+Uses infection abilities.
+
+Examples:
+
+Claw attacks
+Pounces
+Bites
+Enhanced strength
+
+Extremely dangerous.
+
+Raises bloodlust.
+
+Combat Attributes
+Strength
+
+Melee damage.
+
+Agility
+
+Movement.
+
+Dodging.
+
+Climbing.
+
+Endurance
+
+Stamina.
+
+Awareness
+
+Detection.
+
+Critical hits.
+
+Composure
+
+Resistance to bloodlust spikes.
+
+Bloodlust Combat System
+
+The higher bloodlust becomes:
+
+The stronger the player grows.
+
+But the harder they are to control.
+
+Stable State
+
+100% player control.
+
+Normal combat.
+
+Elevated State
+
+Enhanced strength.
+
+Faster movement.
+
+Minor visual distortions.
+
+Frenzied State
+
+Much stronger.
+
+Blood vision appears.
+
+Target fixation occurs.
+
+Feral State
+
+Near-monster status.
+
+Massive power.
+
+Risk of temporary loss of player agency.
+
+Extremely dangerous.
+
+Stealth System
+The Most Unique System In The Entire Game
+
+Most survival games only ask:
+
+"Can the enemy see you?"
+
+Phoenix Blaze asks:
+
+"Who are you pretending to be?"
+Human Stealth
+
+The player attempts to appear human.
+
+Requirements:
+
+Controlled bloodlust
+Clean appearance
+Human clothing
+Concealed mutations
+
+If successful:
+
+Trade freely
+Access settlements
+Receive quests
+Zombie Stealth
+
+The player pretends to be another infected.
+
+Requires:
+
+Zombie scent
+Zombie posture
+Controlled movement
+
+If performed correctly:
+
+A zombie horde may completely ignore you.
+
+You can walk directly through dangerous areas.
+
+Scent System
+
+Every creature emits scent.
+
+Humans:
+
+Sweat
+Blood
+Food
+
+Zombies smell these scents.
+
+Player may craft:
+
+Scent Masks
+
+Hide human odors.
+
+Zombie Repellents
+
+Reduce encounters.
+
+Zombie Attractants
+
+Lure hordes elsewhere.
+
+Sound System
+
+Everything creates noise.
+
+Weapons.
+
+Doors.
+
+Glass.
+
+Animals.
+
+Running.
+
+Even breathing.
+
+Players can use:
+
+Sound traps
+Decoys
+Timed distractions
+
+To manipulate both humans and zombies.
+
+Light System
+
+Darkness matters.
+
+Night survival changes entirely.
+
+Players can:
+
+Extinguish lights
+Hide in shadows
+Create blackout zones
+
+Some zombies hunt almost entirely through hearing.
+
+Others use sight.
+
+Playing As A Conscious Zombie
+The Core Fantasy
+
+Most zombie games ask:
+
+"How do you survive zombies?"
+
+Phoenix Blaze asks:
+
+"How do you survive being one?"
+
+Living Between Two Worlds
+
+Humans fear you.
+
+Zombies don't understand you.
+
+Neither side fully accepts you.
+
+The player is constantly trapped in-between.
+
+Zombie Advantages
+
+Because of the infection:
+
+Enhanced Smell
+
+Can detect:
+
+Blood
+Food
+Survivors
+Animals
+
+Through walls.
+
+Regeneration
+
+Minor wounds recover quickly.
+
+Reduced Disease Risk
+
+Many illnesses no longer matter.
+
+Night Adaptation
+
+Superior night vision.
+
+Fear Resistance
+
+Less panic.
+
+More composure under pressure.
+
+Zombie Disadvantages
+
+Decay must be managed.
+
+Players need:
+
+Hygiene
+Medical supplies
+Preservation treatments
+
+To maintain a human appearance.
+
+Social Suspicion
+
+Humans observe:
+
+Speech patterns
+Eyes
+Body temperature
+Behavior
+
+One mistake may expose you.
+
+Hunger vs Bloodlust
+
+A normal survivor worries about starvation.
+
+Phoenix Blaze worries about becoming a monster.
+
+The player's greatest threat is not death.
+
+It is losing humanity.
+
+The Daily Life Of A Conscious Zombie
+
+A typical day might look like:
+
+Wake Up → Inspect Bloodlust → Consume Suppressant → Check Grow Operation → Craft Supplies → Travel To Settlement → Trade As Human → Gather Information → Leave Before Suspicion Rises → Cross Zombie Territory → Blend Into Horde → Reach Objective → Scavenge Resources → Fight Only If Necessary → Return To Base → Harvest Crops → Upgrade Equipment → Manage Humanity → Sleep
+
+And every day asks the same question:
+
+Can you remain human long enough to build a future, or will survival slowly turn you into the very thing everyone fears?
+
+That tension between human intelligence and zombie instinct is what makes Phoenix Blaze fundamentally different from a traditional survival game.
+
+
+NSFW / Mature Content System
+
+For Phoenix Blaze, a mature-content mode should focus on adult storytelling, relationships, emotional intimacy, body customization, and realistic survivor life, rather than explicit sexual gameplay.
+
+The apocalypse is lonely.
+
+People are scared.
+
+Human connection becomes valuable.
+
+When enabled, mature themes could include:
+
+Mature Themes
+Romantic relationships
+Emotional attachment
+Co-habitation
+Jealousy
+Trust
+Betrayal
+Family building
+Survivor relationship drama
+Relationship Depth
+
+Every important NPC has:
+
+Trust
+
+Do they trust you?
+
+Attraction
+
+Are they interested in you?
+
+Fear
+
+Are they suspicious of your condition?
+
+Loyalty
+
+Will they stand by you?
+
+Discovery
+
+How much do they know about what you are?
+
+The Invisible Tension
+
+For Ember especially:
+
+Many companions may slowly fall in love with her.
+
+The problem is:
+
+She's hiding a terrifying secret.
+
+Every relationship becomes a balancing act between:
+
+Honesty
+Safety
+Secrecy
+Survival
+
+The moment someone discovers she's infected can completely alter the relationship.
+
+Shelter System
+"Home Is The One Place Where You Can Stop Pretending"
+
+Shelters are the backbone of the game.
+
+Unlike many survival games, the shelter is not simply storage.
+
+It becomes:
+
+Home
+Headquarters
+Farm
+Laboratory
+Community
+Shelter Tiers
+Tier 1
+Temporary Camps
+
+Examples:
+
+Tents
+Cabins
+Abandoned houses
+RVs
+
+Features:
+
+Basic storage
+Sleeping
+Small crafting
+Tier 2
+Safehouses
+
+Restored structures.
+
+Examples:
+
+Gas stations
+Farms
+Warehouses
+Ranger stations
+
+Features:
+
+Multiple rooms
+Power generation
+Water collection
+Workbenches
+Tier 3
+Settlements
+
+Player begins creating a community.
+
+Features:
+
+NPC residents
+Farming
+Defenses
+Trading
+
+The world begins changing around the player.
+
+Tier 4
+Fortress Communities
+
+Large late-game installations.
+
+Examples:
+
+Repurposed military bases
+Industrial compounds
+Research centers
+
+Can house dozens of NPCs.
+
+Shelter Rooms
+
+Players can build:
+
+Bedroom
+
+Improves recovery.
+
+Workshop
+
+Crafting hub.
+
+Greenhouse
+
+Grow cannabis and food.
+
+Medical Bay
+
+Treat injuries.
+
+Laboratory
+
+Research infection.
+
+Companion Kennel
+
+Animal housing.
+
+Armory
+
+Store weapons and armor.
+
+Watch Tower
+
+Early threat detection.
+
+Preservation Room
+
+A unique zombie feature.
+
+Allows:
+
+Decay management
+Appearance maintenance
+Infection research
+The World Structure
+
+The Ashlands feel massive.
+
+Think:
+
+The Last of Us + State of Decay + Project Zomboid + Red Dead Redemption's world design
+
+Region: Greenwood Basin
+
+Beginning zone.
+
+Rolling hills.
+
+Old farms.
+
+Abandoned greenhouses.
+
+Fewer zombies.
+
+Teaches survival.
+
+Region: Hollow Pines
+
+Dense forests.
+
+Fog-covered trails.
+
+Old ranger stations.
+
+Wolves.
+
+Hidden communities.
+
+The region feels mysterious and isolated.
+
+Region: Iron Reach
+
+Industrial corridor.
+
+Factories.
+
+Railyards.
+
+Refineries.
+
+Power plants.
+
+One of the best places to obtain building materials.
+
+Region: Revenant City
+
+The largest city in the game.
+
+Towering skyscrapers.
+
+Dark subway tunnels.
+
+Massive hordes.
+
+Danger around every corner.
+
+Thousands of hidden stories.
+
+Region: Crimson Wetlands
+
+Swamps.
+
+Mutated ecosystems.
+
+Strange cannabis phenotypes growing wild.
+
+Mysterious biological phenomena.
+
+Many rumors surround this region.
+
+Region: Blackstone Mountains
+
+Military installations.
+
+Research bunkers.
+
+Snow-covered peaks.
+
+High-level enemies.
+
+Many secrets about the outbreak.
+
+Region: Solar Scar
+
+A desert formed after catastrophic industrial disasters.
+
+Dust storms.
+
+Burned landscapes.
+
+Fierce scavenger wars.
+
+Valuable technology.
+
+Region: The Silent Coast
+
+The endgame region.
+
+Huge abandoned ports.
+
+Ship graveyards.
+
+Offshore mysteries.
+
+Potential answers about the origin of the infection.
+
+Quest System
+
+The game contains three major quest types.
+
+Main Story Quests
+
+Focused on:
+
+Project Phoenix
+Ember's past
+The infection
+Humanity's future
+
+Questions include:
+
+Why did Ember survive mentally?
+Can the infection be cured?
+Are conscious zombies evolving?
+Faction Quests
+
+Every faction has goals.
+
+Examples:
+
+The Rangers
+
+Protect settlements.
+
+The Iron Syndicate
+
+Industrial scavengers.
+
+The Cult of Ascension
+
+Believe zombies are humanity's next evolution.
+
+Phoenix Collective
+
+Scientists seeking coexistence.
+
+Dynamic Quests
+
+Generated naturally.
+
+Examples:
+
+Missing survivor
+Supply run
+Escort mission
+Animal rescue
+Zombie nest removal
+Settlement defense
+
+No two playthroughs feel exactly the same.
+
+NPC System
+One Of The Most Complex Systems In The Game
+
+NPCs should feel alive.
+
+Each has:
+
+Personality
+Schedule
+Occupation
+Fears
+Goals
+Memories
+Relationships
+Survivor NPC Types
+Farmers
+
+Produce food.
+
+Operate greenhouses.
+
+Engineers
+
+Repair technology.
+
+Construct facilities.
+
+Medics
+
+Treat injuries.
+
+Research infection.
+
+Traders
+
+Run supply routes.
+
+Create economic networks.
+
+Hunters
+
+Track wildlife.
+
+Protect settlements.
+
+Scientists
+
+Study the outbreak.
+
+Can unlock late-game technologies.
+
+Conscious Zombie NPCs
+
+Extremely rare.
+
+Each has:
+
+Unique appearance
+Distinct personality
+Different coping strategies
+
+Examples:
+
+The Monk
+
+Uses meditation to suppress bloodlust.
+
+The Butcher
+
+Feeds regularly but follows strict rules.
+
+The Botanist
+
+Uses plant science like Ember.
+
+The Watcher
+
+Lives among zombie hordes for years.
+
+Knows secrets few people understand.
+
+Major Story NPC Example
+Dr. Elara Kane
+
+Former Phoenix Grove researcher.
+
+Believes Ember is the key to saving civilization.
+
+Wants to find a cure.
+
+Mason Voss
+
+Mercenary leader.
+
+Believes infected should be exterminated.
+
+Would kill Ember if he discovered the truth.
+
+Rhea Thorn
+
+Leader of the Cult of Ascension.
+
+Believes Ember is the first step of a superior species.
+
+Wants her to embrace the infection fully.
+
+What Makes Phoenix Blaze Different
+
+Most zombie games are about:
+
+"Survive the zombies."
+
+Phoenix Blaze is about:
+
+"Build a life while secretly being one."
+
+You are not merely building shelters.
+
+You are building a home.
+
+You are not simply completing quests.
+
+You are determining the future relationship between humans and the infected.
+
+And every NPC, every settlement, every relationship, and every choice asks the same question:
+
+If the world discovers what you truly are, will it see a monster... or a miracle?
+
+The Fall of Civilization
+What Created the Chaos?
+
+The world did not end overnight.
+
+It ended in stages.
+
+That's what made it so terrifying.
+
+At first, it wasn't called an outbreak.
+
+It was called:
+
+A Neurological Syndrome
+
+People reported symptoms including:
+
+Aggression
+Emotional instability
+Insomnia
+Violent impulses
+Memory problems
+
+Governments treated it like a new disease.
+
+Hospitals became overwhelmed.
+
+Researchers raced for answers.
+
+Project Lazarus
+
+Years before the outbreak, a coalition of governments, pharmaceutical corporations, and military research divisions secretly funded an initiative known as:
+
+Project Lazarus
+
+The goal was noble.
+
+They wanted to repair damaged brains.
+
+Potential applications:
+
+Alzheimer's
+PTSD
+Parkinson's
+Brain injuries
+
+Scientists engineered a microscopic neural-repair organism capable of rebuilding damaged neural pathways.
+
+The problem?
+
+It worked too well.
+
+Instead of merely repairing the brain, it began rewriting it.
+
+The Mutation
+
+Eventually the organism mutated.
+
+The infected stopped valuing human needs.
+
+Their brains prioritized:
+
+Feeding
+Instinct
+Survival
+Aggression
+
+Higher functions disappeared.
+
+Empathy collapsed.
+
+Most victims became what survivors simply called:
+
+Zombies
+
+Not undead.
+
+Not magical.
+
+They were biologically alive.
+
+But mentally altered beyond recognition.
+
+The Collapse
+
+Within weeks:
+
+Power grids failed.
+
+Supply chains collapsed.
+
+Cities burned.
+
+Governments retreated.
+
+Military forces fragmented.
+
+Communications disappeared.
+
+Small survivor communities formed.
+
+The modern world died.
+
+The Great Lie
+
+Years later, nobody knows the full truth.
+
+Every faction tells a different story.
+
+Some believe:
+
+It was a bioweapon.
+It was corporate negligence.
+It was natural mutation.
+It was government experimentation.
+
+The truth remains buried beneath ruined laboratories and military bunkers throughout the Ashlands.
+
+Discovering that truth becomes one of the central mysteries of the game.
+
+Why Ember Is Different
+
+The thing that makes Ember extraordinary is that she should not exist.
+
+Every other infected person experienced:
+
+Neural Overwrite
+
+The parasite consumed higher reasoning.
+
+Their humanity vanished.
+
+Their memories fragmented.
+
+Their conscience disappeared.
+
+Ember's brain reacted differently.
+
+Years before the outbreak she had been exposed to experimental compounds and custom cannabinoid genetics she developed through Project Phoenix.
+
+When she was infected:
+
+Something unexpected happened.
+
+The infection rebuilt her body.
+
+But it only partially rewrote her mind.
+
+Instead of becoming:
+
+Human
+
+or
+
+Zombie
+
+She became:
+
+Both
+
+A biological impossibility.
+
+What She Actually Is
+
+Ember isn't a human infected with zombie symptoms.
+
+And she isn't a traditional zombie.
+
+She is:
+
+A Human-Zombie Hybrid
+
+Part human.
+
+Part infected.
+
+Part something entirely new.
+
+The Human Half
+
+The human side still possesses:
+
+Empathy
+
+She feels guilt.
+
+Love
+
+She forms attachments.
+
+Morality
+
+She understands right and wrong.
+
+Memory
+
+She remembers her childhood.
+
+Friends.
+
+Her farm.
+
+Her life.
+
+Self Awareness
+
+She knows what she has become.
+
+And she fears it.
+
+The Zombie Half
+
+The infection grants powerful adaptations.
+
+Enhanced Strength
+
+Far stronger than normal humans.
+
+Regeneration
+
+Minor wounds heal rapidly.
+
+Heightened Smell
+
+Can detect:
+
+Blood
+Fear
+Rot
+Animals
+Survivors
+
+At extraordinary ranges.
+
+Night Vision
+
+Can navigate darkness more effectively.
+
+Reduced Pain
+
+Can keep fighting after injuries that would stop most humans.
+
+The Internal War
+
+The true battle is not against external enemies.
+
+It happens inside her head.
+
+Every day.
+
+Every hour.
+
+Every minute.
+
+Two personalities constantly pull against one another.
+
+Ember
+
+The woman she used to be.
+
+Compassionate.
+
+Curious.
+
+Hopeful.
+
+Protective.
+
+The Hunger
+
+A separate presence created by infection.
+
+Not a voice.
+
+Not hallucinations.
+
+More like a primal instinct.
+
+An urge.
+
+A pressure.
+
+A need.
+
+Constantly whispering:
+
+Feed.
+
+Hunt.
+
+Consume.
+
+The Bloodlust Mechanic
+
+Bloodlust represents how much influence the infection currently has over Ember.
+
+At low levels:
+
+Ember dominates.
+
+At high levels:
+
+The infection dominates.
+
+When bloodlust rises:
+
+Colors become richer.
+
+Heartbeats become louder.
+
+The smell of living creatures becomes intoxicating.
+
+Blood becomes impossible to ignore.
+
+The player begins seeing the world through infected senses.
+
+Living Between Species
+
+One of the most interesting aspects of Phoenix Blaze is that Ember belongs nowhere.
+
+Humans see a monster.
+
+Zombies sense something strange.
+
+Both sides are uncomfortable around her.
+
+To humans:
+
+She is infected.
+
+Dangerous.
+
+Unnatural.
+
+To zombies:
+
+She smells wrong.
+
+Acts strangely.
+
+Thinks too much.
+
+As a result:
+
+She spends the entire game existing between both worlds.
+
+Never fully accepted by either.
+
+Why This Is The Core Fantasy
+
+Most zombie games ask:
+
+"Can you survive the apocalypse?"
+
+Phoenix Blaze asks:
+
+"Can you survive becoming the thing everyone fears?"
+
+The player isn't fighting to stay alive.
+
+The player is fighting to stay themselves.
+
+Every cannabis strain grown, every shelter built, every survivor helped, every bloodlust episode resisted, and every hard moral choice ultimately serves one question:
+
+If your body has become a monster, what truly determines whether you are still human?
+
+That question is the philosophical heart of Phoenix Blaze and the thread that ties every major system in the game together.
+
+
+
+
+
+Movement System
+"Move Like A Human. Hunt Like A Zombie."
+
+Movement in Phoenix Blaze is one of the most important gameplay systems because movement itself affects:
+
+Bloodlust
+Suspicion
+Stealth
+Stamina
+Combat
+Survival
+
+How you move tells the world who you are.
+
+Human Movement
+
+When Ember is controlling her human side, movement feels deliberate and athletic.
+
+Walking
+
+Default movement.
+
+Benefits:
+
+Low stamina use
+Lower suspicion
+Better awareness
+
+Useful for entering settlements.
+
+Jogging
+
+Balanced travel speed.
+
+Good for exploration.
+
+Sprinting
+
+Fast travel.
+
+Costs:
+
+Stamina
+Noise generation
+
+Humans notice.
+
+Zombies hear.
+
+Crouching
+
+Reduces:
+
+Visibility
+Noise
+
+Useful for infiltration.
+
+Crawling
+
+Slow but nearly silent.
+
+Useful through:
+
+Tall grass
+Ruins
+Ventilation systems
+Tight spaces
+Zombie Movement
+
+As bloodlust rises, movement begins changing.
+
+The player gains access to new behaviors.
+
+Predator Walk
+
+A controlled zombie gait.
+
+Benefits:
+
+Better zombie camouflage
+Lower detection by infected
+Lunge
+
+Short burst attack.
+
+Quickly closes distance.
+
+Pounce
+
+Leap onto enemies.
+
+Excellent ambush ability.
+
+Wall Scramble
+
+Advanced infection ability.
+
+Allows climbing certain structures faster than humans.
+
+Rooftop Traversal
+
+Late-game zombies become surprisingly mobile.
+
+Can move:
+
+Across rooftops
+Through broken buildings
+Along collapsed highways
+
+Creating alternative navigation paths.
+
+Parkour System
+
+Ember was athletic before infection.
+
+Movement gradually evolves into a light parkour system.
+
+Actions include:
+
+Vaulting
+
+Jump over:
+
+Fences
+Barricades
+Cars
+Climbing
+
+Scale:
+
+Fire escapes
+Walls
+Towers
+Sliding
+
+Move under obstacles.
+
+Hanging
+
+Traverse ledges.
+
+Traversal Progression
+
+At the start of the game:
+
+Movement is grounded.
+
+Survival-oriented.
+
+Later:
+
+The infection unlocks enhanced mobility.
+
+Players may have access to:
+
+Higher jumps
+Better climbing
+Longer sprints
+Increased endurance
+
+The world gradually opens up.
+
+Vehicle System
+
+The world is huge.
+
+Vehicles become important.
+
+Bicycles
+
+Early game.
+
+Quiet.
+
+Efficient.
+
+Motorcycles
+
+Fast.
+
+Loud.
+
+Fuel efficient.
+
+Cars
+
+Balanced transportation.
+
+Trucks
+
+Heavy hauling.
+
+Mobile storage.
+
+Armored Vehicles
+
+Rare late-game vehicles.
+
+Used during major combat operations.
+
+Survival Systems
+Everything Working Together
+
+Most systems interact with one another.
+
+No mechanic exists in isolation.
+
+Hunger System
+
+Even though infected, Ember still requires nutrition.
+
+Poor nutrition affects:
+
+Stamina
+Healing
+Morale
+Hydration System
+
+Water affects:
+
+Endurance
+Recovery
+Heat resistance
+Sleep System
+
+Sleep remains critical.
+
+Lack of sleep increases:
+
+Hallucinations
+Bloodlust spikes
+Stress
+Weather System
+
+Dynamic weather creates new challenges.
+
+Rain
+
+Benefits:
+
+Masks sound
+Waters crops
+
+Problems:
+
+Reduced visibility
+Mud
+Thunderstorms
+
+Can:
+
+Frighten animals
+Disrupt electronics
+Conceal movement
+Snow
+
+Slows travel.
+
+Creates tracks.
+
+Heat Waves
+
+Stress crops.
+
+Dehydrate characters.
+
+Reputation System
+
+Every settlement remembers you.
+
+Actions matter.
+
+People remember:
+
+Help received
+Crimes committed
+Promises broken
+Lives saved
+Economy System
+
+Civilization may be broken.
+
+Trade survives.
+
+Currency becomes:
+
+Food
+Medicine
+Seeds
+Ammunition
+Rare materials
+
+Cannabis quickly becomes one of the most valuable trade resources.
+
+Research System
+
+Knowledge is progression.
+
+Players discover:
+
+New strains
+Weapon blueprints
+Infection science
+Advanced technologies
+
+Learning comes from:
+
+Books
+Computers
+Research facilities
+NPC mentors
+Settlement Management
+
+Player communities require leadership.
+
+Needs include:
+
+Food
+
+Keep settlers fed.
+
+Water
+
+Maintain supplies.
+
+Housing
+
+Improve morale.
+
+Security
+
+Prevent attacks.
+
+Medicine
+
+Treat injuries.
+
+Trade
+
+Generate wealth.
+
+Zombie Evolution System
+
+The infection itself evolves.
+
+Multiple pathways emerge.
+
+Preserver Path
+
+Remain as human as possible.
+
+Focuses on:
+
+Diplomacy
+Relationships
+Community
+Predator Path
+
+Embrace infection powers.
+
+Focuses on:
+
+Combat
+Hunting
+Mutation
+Hybrid Path
+
+Balance both worlds.
+
+Most flexible route.
+
+Sage Path
+
+Research-focused.
+
+Uses science and cultivation to master the infection.
+
+Dynamic World Events
+
+The world never stands still.
+
+Examples:
+
+Migrating Hordes
+
+Entire zombie populations relocate.
+
+Changing regional danger levels.
+
+Settlement Attacks
+
+Communities request assistance.
+
+Crop Blights
+
+Threaten food production.
+
+Military Convoys
+
+Rare opportunities for loot.
+
+Radio Signals
+
+Lead to discoveries.
+
+Survivor Refugees
+
+Create unexpected stories.
+
+Endgame Systems
+
+By the late game the player influences entire regions.
+
+Can establish:
+
+Trade routes
+Settlements
+Research networks
+Faction alliances
+
+May ultimately:
+
+Discover a cure
+Create peaceful coexistence
+Establish conscious-zombie societies
+Reshape the future of the Ashlands
+Everything Not Yet Covered
+
+To truly complete Phoenix Blaze, these major systems would also exist:
+
+Character Creator
+Skills & Traits
+Bloodlust
+Humanity
+Cannabis Cultivation
+Companion Animals
+Base Building
+Shelter Customization
+Relationship System
+Faction System
+Dynamic NPC Simulation
+Zombie Ecosystem
+Wildlife Ecosystem
+Crafting Tree
+Vehicle System
+World Events
+Reputation
+Research
+Economy
+Trading
+Exploration
+Main Story
+Side Quests
+Legendary Gear
+Mutation Progression
+Settlement Management
+Endings
+New Game+
+Mod Support
+Difficulty Modes
+Accessibility Features
+Save System
+Multiplayer/Co-op (optional future expansion)
+
+Subsystems
+Walking
+Sprinting
+Climbing
+Crawling
+Vaulting
+Swimming
+Parkour
+Rope ascension
+Vehicle traversal
+Horse riding
+Zombie traversal abilities
+Rooftop navigation
+Stealth System
+
+This could be one of the game's defining pillars.
+
+Components
+Visual detection
+Sound detection
+Smell detection
+Heat detection (certain enemies)
+Human disguise
+Zombie disguise
+Shadow system
+Camouflage
+Decoys
+False trails
+Combat System
+
+Combat is large enough to stand on its own.
+
+Components
+Human combat
+Zombie combat
+Melee combat
+Firearms
+Bows
+Traps
+Defensive combat
+Companion combat
+Mounted combat
+Horde combat
+Survival Needs System
+
+Separate from Bloodlust.
+
+Tracks
+Hunger
+Hydration
+Sleep
+Fatigue
+Stress
+Body temperature
+Illness
+Injury
+Radiation/toxins
+Infection maintenance
+Health & Medical System
+
+Potentially one of the deepest mechanics.
+
+Conditions
+Bleeding
+Broken bones
+Infections
+Poisoning
+Burns
+Frostbite
+Concussions
+Sprains
+Treatments
+First aid
+Surgery
+Medicine
+Herbal remedies
+Experimental treatments
+Weather & Climate System
+
+Weather should influence everything.
+
+Includes
+Rain
+Thunderstorms
+Snow
+Fog
+Heat waves
+Wind storms
+Droughts
+Effects
+Visibility
+Tracking
+Crop growth
+Travel speed
+Wildlife activity
+Zombie activity
+Season System
+
+A full seasonal cycle dramatically changes gameplay.
+
+Spring
+
+Growth season.
+
+Summer
+
+Highest yields.
+
+Autumn
+
+Harvest season.
+
+Winter
+
+Resource scarcity.
+
+Cold becomes a major threat.
+
+Territory Control System
+
+Factions and settlements compete for land.
+
+Tracks
+Ownership
+Defenses
+Resource value
+Population
+Influence
+
+The player can:
+
+Claim territory
+Defend territory
+Expand territory
+Leadership & Governance System
+
+Once settlements become large enough:
+
+The player becomes a leader.
+
+Responsibilities
+Laws
+Resource allocation
+Security priorities
+Research priorities
+Diplomacy
+Diplomacy System
+
+Separate from factions.
+
+Actions
+Trade agreements
+Alliances
+Non-aggression pacts
+Research sharing
+Territorial disputes
+Morality System
+
+Different from Humanity.
+
+Humanity tracks emotional/ethical state.
+
+Morality tracks philosophy.
+
+Paths
+Protector
+Survivor
+Pragmatist
+Revolutionary
+Ascensionist
+Discovery & Journal System
+
+Tracks everything.
+
+Categories
+Characters
+Places
+Animals
+Zombies
+Cannabis strains
+Recipes
+Equipment
+Lore
+
+Functions as an in-game encyclopedia.
+
+Knowledge Archive System
+
+Inspired by:
+
+Skyrim journals
+Mass Effect codex
+Fallout terminals
+
+Collect:
+
+Letters
+Audio logs
+Research files
+Survivor journals
+
+Used to reconstruct the fall of civilization.
+
+Communication System
+
+Late-game infrastructure.
+
+Includes
+Radios
+Repeaters
+Broadcasting stations
+Settlement networks
+
+Can affect:
+
+Trade
+Quests
+Reputation
+World events
+Horde Management System
+
+A huge feature.
+
+Not simply zombie encounters.
+
+Tracks
+Horde population
+Migration
+Feeding areas
+Territory
+Leadership
+
+Players can:
+
+Redirect hordes
+Lure hordes
+Weaponize hordes
+Companion Relationship System
+
+Separate from companion animals.
+
+Tracks
+Trust
+Loyalty
+Bonding
+Personality
+Training specialties
+Farming System
+
+Broader than cannabis.
+
+Crops
+Vegetables
+Fruits
+Herbs
+Medicinals
+Industrial hemp
+
+Supports settlement growth.
+
+Power & Utility System
+
+As settlements grow.
+
+Infrastructure
+Solar panels
+Wind turbines
+Generators
+Batteries
+Water pumps
+
+Creates a light city-builder element.
+
+Construction Physics System
+
+Advanced building mechanics.
+
+Includes
+Structural integrity
+Collapse risks
+Reinforcement
+Repairs
+Transportation Network System
+
+Late-game strategic layer.
+
+Build
+Roads
+Bridges
+Trade routes
+Rail restoration
+
+Connect settlements together.
+
+Bloodline / Legacy System
+
+Perfect for New Game+.
+
+Tracks
+Past choices
+World changes
+Previous endings
+
+Makes each future run feel connected.
+
+Living World Simulation
+
+Potentially the game's ultimate system.
+
+This sits above every other system.
+
+It governs:
+
+Weather
+Factions
+Economy
+Wildlife
+Hordes
+Settlements
+NPCs
+Trade
+Story events
+
+The world keeps moving whether the player acts or not.
+
+Hidden Endgame Systems
+
+For a truly massive version of Phoenix Blaze, you could also add:
+
+Conscious Zombie Society System
+Cure Research System
+Genetic Engineering System
+Evolution System
+Artifact Collection System
+Museum / Archive System
+Settlement Culture System
+Religion & Belief System
+Political System
+Regional Influence System
+World Recovery System
+Legacy Civilization System
+
+If I were creating the full design bible for Phoenix Blaze, I'd ultimately organize the game into 12 master pillars:
+
+Character & Identity
+Bloodlust & Humanity
+Survival
+Combat
+Stealth
+Crafting & Cultivation
+Exploration
+Relationships
+Settlements
+Factions & Politics
+Evolution & Research
+Dynamic World Simulation
+
+Everything else becomes a subsystem underneath those pillars. That structure would give you a complete AAA-scale game design architecture.
+
+
+
+
+When all of these systems are combined, Phoenix Blaze becomes much more than a zombie survival game. It becomes a life-simulation RPG about existing between two species, building communities, managing a dangerous inner hunger, and deciding what humanity means when your body is no longer fully human.

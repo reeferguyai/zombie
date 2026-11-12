@@ -1,0 +1,1172 @@
+How the backstory and outbreak are revealed: Uncover it gradually through exploration rather than one long explanation. ChroniX locations, photographs, emails, research terminals, recordings, familiar voices, and former coworkers trigger memory fragments. Each clue adds context about the Euphoria project, the outbreak, and why Phoenix retained her consciousness.
+
+The protagonist’s emotional journey: Phoenix moves from shock and basic survival, to investigating what happened and learning to use her zombie abilities, then toward deciding what her changed identity means. Her arc should leave room for cure-seeking, accepting her undead nature, or becoming a bridge between humans and zombies.
+
+How the human–zombie conflict drives decisions: Make the conflict playable, not just something Phoenix talks about. Bloodlust can threaten her control and relationships; feeding, suppressing the urge, and choosing blood mixtures shape her abilities and identity. The notes also propose competing inner voices—the Scientist, Survivor, Hungry One, and Witness—to express how her instincts and memories pull her in different directions.
+
+How side characters affect the main narrative: Give key characters different, personal stakes in Phoenix’s choices. Marcus, a former EMT, tests whether she can earn human trust; Dr. Lena Voss connects her to the research and the possibility of a cure; Riven, a conscious undead, challenges her to embrace zombie identity. Their quests, trust, and loyalties can reveal different parts of the story and affect who supports Phoenix later.
+
+The central antagonist’s goal: The notes identify Dr. Elias Thorne and the ChroniX Inner Circle as the main opposing force. Their stated aims include recovering research, controlling the outbreak, developing a cure or weapon, and capturing unusual infected people. That directly conflicts with Phoenix’s need to understand what happened and choose her own future. Thorne’s personal motive isn’t fully settled in the notes, so it should be revealed as a mystery rather than treated as established canon.
+
+How flashbacks and story events unfold: Trigger memories when Phoenix encounters meaningful places, objects, research, voices, or former coworkers. Let each recovered memory add something useful in the present—new dialogue, a quest, journal entry, ability, or clue—so flashbacks move both the character and the investigation forward.
+
+Moral consequences of major decisions: Choices should affect more than a good-or-bad score. Sparing or feeding on survivors can change trust and alliances; losing control can endanger companions; blood choices and mutations can grant power while changing how Phoenix looks and how others respond. The consequences should follow the player into future relationships, faction reactions, and the ending.
+
+How factions offer distinct perspectives: The ChroniX Inner Circle seeks control of the research and outbreak; the Resistance prioritizes protecting survivors and rebuilding; the Scavengers focus on controlling resources and territory; the Cultists see infection as evolution; and the Lone Wolves value independence. Their competing beliefs let players see different ideas of what survival—and a future after the outbreak—could mean.
+
+How choices lead to different outcomes: Track decisions across the story: how Phoenix manages bloodlust, which factions and characters she trusts, what she does with ChroniX research, and whether she pursues a cure or embraces her new nature. Possible outcomes in the notes include restoring humanity, embracing the undead, forming a human–zombie alliance, controlling the outbreak, destroying ChroniX, or surviving independently.
+
+Balancing action and narrative: Let survival play create the tension—stealth, scavenging, and combat—then give players quieter stretches for shelter-building, conversations, and memory discoveries. Place major story revelations at meaningful progression points, but let optional exploration and side-character stories fill in the world at the player’s pace.
+
+and flag where the notes leave exact recipes or rules open.
+
+Balancing action and strategy: Combat should be dangerous and relatively brief; the strategy comes from deciding whether to fight, hide, disguise yourself, or use tools and the environment to get through. Between encounters, players plan around crafting, shelter, supplies, and maintaining bloodlust and disguise.
+
+Fresh combat mechanics: Combat should feel specific to playing a zombie. Phoenix can claw, bite, shove, throw, and use improvised weapons; her Calm, Hungry, and Uncontrolled states change her control and behavior. Blood mixtures and mutations can alter combat abilities, while the versatile Multi-Stick offers a useful alternative to fighting with bare hands.
+
+Interacting with the world: Players scavenge and gather by hand or with tools, then craft equipment and develop shelters. Resource quality can vary by biome, weather, time, and tools; crafting can support experimentation and discovered recipes. The Multi-Stick is an early example: it can be upgraded and reused for defense, fishing, digging, and gathering.
+
+Humanity-versus-zombie morality: The notes don’t specify a single morality meter. A stronger fit is to let actions carry consequences: feeding, losing control, or choosing to protect people can change relationships, faction trust, Phoenix’s identity, and available story outcomes. Blood mixtures and permanent mutations can offer power while changing how Phoenix and others are perceived.
+
+Stealth: Stealth is a core way to navigate, not just a combat bonus. Humans and zombies evaluate Phoenix differently through sight, sound, and scent, so a disguise that fools one group may raise suspicion with the other. Players can sneak, hide, use cover, mask scent, mimic zombie behavior, or create distractions.
+
+Time pressure: Bloodlust rises over time and can increase faster around humans, wounded creatures, combat, or certain nighttime and weather conditions. As it grows, Phoenix becomes more aggressive, loses control, and has more difficulty maintaining disguise; hunger can eventually cause damage. Limited carrying capacity and resource freshness add another planning pressure, so players must choose what to carry and when to take risks.
+
+Leveling and ability progression: Build progression around skill branches such as Stealth, Combat, Herbalism, Blood Alchemy, Animal Handling, Crafting, and Social, alongside a limited number of permanent mutation choices. Exploration, crafting, and quests can unlock skills, recipes, and abilities, giving players several ways to grow rather than relying only on combat experience.
+
+Weapon crafting: Start with scavenged natural materials—branches, stone, flint, wood, fiber, and rope—and gradually add materials such as bone, hides, scrap metal, and nails for more advanced gear. The notes specify one exact early recipe: a sharpened Multi-Stick uses one branch and one stone. Other proposed crafts include a stone knife, axe, hammer, spear, bow, and arrows, but their exact ingredient counts still need to be defined. Recipes should account for crafting time, durability, skill requirements, and whether a workbench is needed.
+
+Random encounters: Use randomized encounters to keep travel and scavenging from becoming predictable: zombie groups, human patrols, wildlife, rival scavengers, and environmental events can create changing risks and opportunities. The encounter system should reflect the region and player progression, while remaining fair and readable.
+
+Dynamic quests and exploration incentives: Give players reasons to explore through faction and survivor quests, memory triggers, safehouses, hidden resources, and recipe discoveries. A visit to a location might reveal Phoenix’s past, provide a new crafting option, or change a faction relationship—so exploration rewards both practical preparation and story progress.
+
+Seamless world connections: Connect districts through walkable streets, trails, waterways, and interiors, streaming nearby world chunks as the player moves. The notes call for interconnected regions generated in manageable chunks; seamless loading is a design target, not a confirmed technical implementation. Major story gates can control access without making ordinary travel feel interrupted.
+
+Environmental storytelling: Make locations tell stories before anyone explains them. An abandoned vehicle, barricaded shop, damaged lab, or personal item can show how people reacted to the outbreak; notes, logs, and belongings can reveal Phoenix’s past and what happened at ChroniX.
+
+Visible impact of the apocalypse: Contrast recently devastated city districts—looted shops, damaged streets, and abandoned vehicles—with quieter places where vegetation and wildlife are returning. Over time, changing crops, animal populations, and local faction pressure can show that the world is still shifting after the initial collapse.
+
+Player impact on the environment: The notes call for persistent world simulation and for player actions to affect local ecosystems and faction behavior. A useful rule would be that clearing a zombie group makes an area temporarily safer, while taking supplies leaves that location picked over for a while; faction patrols or new threats can later change the balance. Exact resource respawn and clearing rules still need to be set.
+
+Distinct biomes: Give each region its own risks and reasons to visit. Urban ruins offer dense scavenging and patrol threats; forests provide plants, wildlife, and routes for concealment; swamps and high-risk sites can offer rare resources at greater danger; farms and cannabis gardens support cultivation but depend on weather and protection. The proposed regions include city, forest, industrial, coastal, swamp, farm, mountain, and lab areas.
+
+Dynamic events: Use both systemic and authored events: zombie groups migrating through a route, survivor patrols or camps appearing, faction raids, scavenger encounters, and weather changes that reshape a trip. Procedural generation is proposed for encounters, patrols, wildlife, environmental events, and quests; authored events can give major story moments more weight.
+
+Weather and visibility: Weather should change tactics, not just scenery. Rain can wash away blood or meat disguise while making scent harder to track and sound easier to hear; fog reduces visual detection; storms hinder movement and can make zombies more aggressive. Weather can vary by region and affect plant growth, resources, stealth, and NPC behavior.
+
+Exploration rewards: Reward curiosity with supplies and tools, but also with new information and options: hidden safehouses, unusual resources, lore, research, and crafting recipes. Dangerous locations should offer better potential finds, while abandoned buildings can have varied interiors to make repeat visits less predictable.
+
+A world that feels alive: Let humans patrol, loot, trade, build, flee, and investigate sounds; let zombies roam in groups, follow scent, react to sound, and become more active at night. Factions should hold territory and change their behavior based on reputation and player actions, while weather and scarcity alter when and where encounters happen.
+
+Adapting to player decisions: Track faction reputation, territory, and local world state. If the player weakens or removes a major faction, its patrols and control should decline, creating an opening for another group—or for threats to move in. If the player leaves an area alone, its existing faction presence, dangers, and resource conditions remain. The notes support reactive faction behavior and territory ownership; the specific power-vacuum rules are a recommended extension.
+
+Close and ranged combat: Make melee the signature because Phoenix is a zombie: claws, bites, shoves, and improvised weapons are always available but put her close to danger. Bows and thrown objects offer quieter, limited ranged options to soften or distract enemies. Guns and crossbows aren’t defined in the current notes; if added, they should be scarce and loud enough to create a trade-off rather than replace stealth and melee.
+
+Difficulty tuning: Scale encounters using player progression and recent performance, as the notes propose. Favor changing enemy types, positions, and group behavior over simply adding more enemies; give attacks readable tells and enough escape options to keep fights challenging but fair.
+
+Zombie abilities: Build encounters around distinct enemy roles: Runners pressure the player’s space, Brutes force dodges or repositioning, and Spitters make standing at range unsafe. Lab Mutants can add less predictable special attacks. The notes name these enemy types but don’t define their attack kits; acid spit could be one option, while explosive blood would be a new mechanic and should have a clear warning before it triggers.
+
+Environmental hazards: Use tight rooms, broken-glass or noisy surfaces, traps set by humans, and objects that can help or hinder movement to make positioning matter. Let players use the environment to break line of sight, create distractions, or escape a crowd. Explosives aren’t a defined combat system yet, so treat them as a later addition rather than a core assumption.
+
+Cannabis in combat: Treat cannabis as a preparation and control tool, not a direct attack. Its documented effects include reducing bloodlust and pausing its increase temporarily; different fictional strains can also affect stamina, perception, decay, or mutations. Use it to help Phoenix stay controlled before or after a fight, with any direct strength or healing boost clearly tied to a specific strain or upgrade.
+
+Weapon crafting and upgrades: Start with the Multi-Stick and sharpened stick, then expand to spears, bows, and other improvised tools as players discover recipes and gather materials. Weapon durability and upgrades should change how players approach encounters; for example, a stronger weapon may hit harder, while a lighter or quieter setup may better suit stealth.
+
+Stealth combat: Let players sneak past enemies or isolate a target using cover, distraction, and disguise. Quiet takedowns would fit the system, but they aren’t fully specified in the notes; if added, they should still carry risk—biting and feeding can increase bloodlust and leave a disguise penalty, potentially drawing attention afterward.
+
+Combat rewards: Enemies can drop useful supplies and materials, while combat milestones can contribute to experience, skills, and mutation progression. Keep rewards varied: fighting may provide resources, but exploration, quests, and crafting should also advance the character so combat isn’t the only profitable playstyle.
+
+Enemy tactics: Zombies should detect and pursue using sound, sight, and scent, with group behavior and greater aggression at night. Human factions can patrol, investigate suspicious activity, set traps, flee, or coordinate in groups. That makes the same fight play differently depending on who notices Phoenix and how.
+
+Combat rhythm: Alternate quick, intense encounters with opportunities to pause, scout, craft, and choose an approach. Phoenix’s Calm, Hungry, and Uncontrolled states provide a natural shift in tempo: hunger can increase aggression and strength, but losing control risks attacking allies and undermining stealth.
+
+Intuitive crafting: Show known recipes in a clear menu that marks available ingredients, missing items, crafting time, skill requirements, and whether a station is needed. Let players make simple known items from their inventory; reserve workbenches or other stations for advanced gear. A quick-access hotbar can keep frequently used tools and supplies within reach.
+
+Key resources: Early recipes use branches, wood, stone, flint, grass, hemp, fiber, vines, and rope. As players progress, they can use bone, feathers, hides, scrap metal, nails, fabric, bottles, and containers. Seeds and cannabis materials support cultivation and specialized recipes.
+
+Upgrading crafted items: Improve equipment through recipe variants and quality tiers, with trade-offs in damage, durability, weight, or stealth. The Multi-Stick can progress from a basic branch to sharpened, fire-hardened, stone-tipped, or reinforced forms; workbench upgrades and skill investment can improve other gear.
+
+Crafting for survival: Make the essentials matter: a campfire, water container and filter, lean-to, storage, tools, weapons, traps, and protective clothing help players survive hostile areas. Workbenches and shelter upgrades support more advanced crafting and recovery, while crafted cannabis products can help manage bloodlust or decay.
+
+Cannabis recipes and balance: Build recipes around fictional strains and forms—smoked products, edibles, extracts, and hemp materials—with different effects on bloodlust, stamina, perception, consciousness, decay, or mutations. For example, a calming product could reduce bloodlust temporarily, while a different strain offers a short-lived survival benefit. The notes specify some effects but not a full ingredient list or recipe quantities, so exact formulas still need to be decided; balance each benefit with limited supplies, duration, and possible trade-offs.
+
+Crafting as an exploration incentive: Put different materials, recipes, workstations, and knowledge in different regions. Exploring a lab, farm, forest, or abandoned building can reveal new ingredients or recipes; NPCs and recovered memories can also teach crafting. Resource quality can vary by location, weather, time, and tools.
+
+Crafting progression: Start with simple multi-use tools, then unlock better weapons, shelter, water systems, and workbenches. Recipes can be learned through discovery, experimentation, flashbacks, and NPCs; advanced items can require a station, a skill level, or a specific region’s materials.
+
+Inventory and crafting: Use a weight limit and soft capacity limit so players have to choose what to bring. Overloading can reduce stamina and movement, while backpacks, storage, animal haulers, and certain upgrades increase carrying capacity. A quick-drop and “move to storage” option can keep inventory management from becoming tedious.
+
+Repair and maintenance: Give tools and weapons durability that decreases with use, misuse, and harsh weather. Field repairs can be quick but partial; workbench repairs can restore more durability and require appropriate materials and skills. Higher-tier items can require better stations or specialist NPCs to fully repair.
+
+Crafting and the economy: Use barter and reputation rather than a universal currency. Human markets can value clean water, medicine, ammunition, tools, and useful information; the conscious-undead network can trade in blood types, extracts, mutation knowledge, and rare recipes. Reputation affects prices, stock, and access, making resources valuable for both crafting and relationships.
+
+Connect gathering to the story: Make some finds carry narrative meaning as well as practical value. ChroniX facilities can contain research and rare samples tied to the Euphoria outbreak; old homes and camps can hold personal belongings, notes, and clues about Phoenix’s past. Rare discoveries can unlock quests, recipes, or story revelations.
+
+Tools and abilities: Let players start with hand-gathering, then use tools to improve access and yield. The Multi-Stick supports basic digging; its sharpened form can cut plants and help with fishing or hunting. Axes, knives, and improved digging tools can open up more efficient harvesting. Exact tool requirements for each resource—such as mining stone—still need to be assigned.
+
+Gathering limits: Use a low starting carry capacity so players must choose between, for example, cannabis materials, medical supplies, and crafting components. Overloading should reduce stamina and movement, making an overfull pack a real danger. Backpacks, storage, and animal haulers offer ways to expand capacity later.
+
+Randomized resources: Use a saved world seed and procedural placement to vary resource locations, loot, wildlife, and encounters between generated worlds. Keep story-critical items and clues authored or guaranteed, so randomness changes how players find them without blocking the narrative.
+
+Gathering in dangerous zones: Make risk proportional to potential reward. A quarantined hospital, lab vault, or military outpost can contain rare materials or research but also stronger enemies and more chances to be detected. Noise from gathering and the time spent exposed should make players decide whether to keep searching or leave.
+
+Weather and time of day: Weather can affect resource quality and plant growth; time of day can change which threats are active and how safe gathering feels. The notes specify that zombies may become more aggressive at night and survivors may be more active during the day. They don’t define resources that are available only at night, so that could be added selectively for wildlife, encounters, or rare finds.
+
+Resource scarcity: Scarcity should make players prioritize, reuse, cultivate, and trade—not turn every outing into a grind. Renewable resources such as seeds and hemp can support long-term crafting, while scarce items like medicine, tools, and rare research samples create meaningful choices. The design also proposes barter and reputation-based trading rather than a universal currency.
+
+Player actions and resource availability: Let clearing a horde, securing a safehouse, or helping a faction change what’s safe to gather in an area. The notes support persistent local ecosystems and faction reactions; a useful extension is to make looted stashes stay empty for a while and let cleared zones gradually repopulate or attract other groups.
+
+Gathering-tool upgrades: Upgrade tools for better yield, durability, and access to new resource types. The Multi-Stick can progress from a basic branch to sharpened, fire-hardened, stone-tipped, or improved digging variants. Tool quality and crafting skill can further improve efficiency; exact yield bonuses can be tuned during gameplay testing.
+
+Exploration and discovery: Reward exploration with distinct regional resources, hidden containers, buried supplies, and access to caves, mines, tunnels, bunkers, or research facilities. Safehouses, randomized building interiors, and high-risk points of interest give players reasons to search beyond the main route.
+
+How zombies evolve: Zombies should become more challenging through behavior and encounter composition, not just bigger health bars. They can follow scent, investigate sounds, roam in groups, and grow more aggressive at night; the notes don’t yet specify a system where individual zombies permanently learn from past encounters.
+
+NPC reactions to choices: Track trust, rivalry, loyalty, and relationship history. NPCs can remember whether Phoenix kept promises, endangered others, fed in front of them, or helped their group; those reactions can change dialogue, quests, and whether they become allies or betray her.
+
+Factions’ AI: Let factions patrol, trade, recruit, defend settlements, raid, and contest territory. Their activity can open or close routes and quests, so supporting one group changes the situation for the others—not just the player’s reputation score.
+
+Quests, dialogue, and guidance: Give NPCs distinct backgrounds, routines, and personal quests. Their trust in Phoenix can unlock new dialogue, information, or guidance, while discoveries from memories and locations can introduce follow-up objectives.
+
+Challenging zombie AI: Build encounters from different detection and response behaviors: zombies can see, hear, or smell Phoenix, investigate, search, chase, lose track, and return to patrol. Groups and night activity create pressure while leaving room for the player to hide or escape.
+
+AI companions: Companions can follow, stay, explore, or return, with roles such as Guard, Scout, Hauler, or Companion. Outside combat they can help find resources or scout; in combat they can defend or warn Phoenix, while their health, hunger, and loyalty give players reasons to care for them.
+
+Random NPC encounters: Use procedural encounters—patrols, lone survivors, wildlife, scavengers, and zombie groups—to make travel less predictable. Keep important character introductions and story beats authored so random generation doesn’t disrupt the main narrative.
+
+NPCs adapting to player tactics: Add modest, readable adaptation: repeated noisy attacks may make enemies investigate sounds sooner, while overused routes may attract patrols. Signal the change and give the player counterplay; the current notes support configurable difficulty based on player progression and recent performance, but not detailed opponent learning.
+
+Reactions to moral decisions: Avoid a simple “good/evil” meter. Let feeding, helping survivors, losing control, or siding with a faction affect separate reputations and relationships; that can change access to camps, dialogue, trading, and story resolutions.
+
+AI-driven story events: Use horde attacks, faction raids, ambushes, and settlement events to change the player’s immediate priorities and reflect the changing world. Tie major events to story and faction conditions, with random events filling in the spaces between them. The design calls for local rules and weighted generation, so the core game needn’t rely on an external AI service.
+
+9. Monetization & Replayability
+Primary monetization: I recommend a paid base game, with optional cosmetic packs and substantial story or map expansions later. The notes list these as possible models and explicitly rule out pay-to-win and charging for core survival systems.
+
+Progression and replayability: Different skill builds, blood mixtures, mutations, and character choices let players try different approaches on a new run. New Game+ can carry over selected discoveries or mutations while resetting story progress and world state.
+
+Expansions or DLC: Additional regions, story chapters, characters, or quests fit the design, but no specific DLC roadmap is established yet. Prioritize a complete base-game arc before committing to expansions.
+
+Choices and replayability: Branching relationships, faction loyalties, research decisions, and identity choices can lead to different endings. New Game+ can add dialogue that acknowledges previous major choices and endings.
+
+Difficulty and challenge runs: Offer selectable modifiers such as No Cannabis, No Blood Mixing, Pacifist, Iron Phoenix/permadeath, and Flesh Only/no tools. Let players combine modifiers and earn titles or visual rewards for completing them.
+
+Time-limited events: These aren’t specified in the notes. For a primarily single-player game, use optional seasonal scenarios or rotating challenges that can be replayed later, rather than time-limited rewards that punish players for missing a window.
+
+Leaderboards and challenges: Challenge runs and achievements are already a better fit than competitive zombie-kill rankings. If leaderboards are added, make them opt-in and focus on speedruns, survival time, or challenge completion so they don’t reward disruptive play against story NPCs.
+
+Cosmetic purchases: Keep paid items visual only—outfits, scars, tattoos, or alternate mutation appearances. Character looks and expression options can also be earned through story and challenges; don’t sell combat strength, resources, or survival advantages.
+
+Mod support: The notes propose an exposed modding surface. Support community-made cosmetics, recipes, challenge modifiers, and—if technically practical—regions or quests, while keeping saves and core story content stable.
+
+Randomized elements: Use a saved world seed to vary resource placements, wildlife, patrols, encounters, and minor locations between playthroughs. Keep story-critical locations and reveals consistent, so a new layout creates variety without making the narrative unreliable.
+
+Soundtrack: Use sparse ambient music for exploration, with a dark, haunting palette that can turn tense or frightening. Lo-fi or cannabis-inspired textures could appear during specific moments or altered perceptions, but shouldn’t make the whole apocalypse feel lighthearted.
+
+Atmosphere: Layer Phoenix’s movement with wind, weather, distant activity, and nonverbal zombie sounds. Use distance and environmental obstruction so a nearby moan feels different from one echoing across a street; spatially placed audio logs can also reward careful listening.
+
+Dynamic music: Cross-fade between four states: calm exploration, tension, combat or chase, and uncontrolled horror. Increase percussion, drones, or melodic intensity as more enemies detect Phoenix or her bloodlust rises.
+
+Voice acting: Phoenix’s voice can shift with her condition—more human when calm, rougher as bloodlust rises, and less verbal when uncontrolled. The notes also propose distinct voices for her inner perspectives and recognizable vocal signatures for conscious-undead characters. GanjaGuru isn’t identified in the current character notes; if that character is part of the cast, define their role and voice before choosing a performance style.
+
+Ambient sounds: Make quiet moments informative: faint footsteps, rustling, distant voices, or zombie calls can suggest nearby danger. Weather and distance can obscure environmental sounds, encouraging players to pause, listen, and decide whether to move on.
+
+Combat cues: Give attacks distinct, readable sounds—wind-up, impact, hit or miss, and enemy reaction—so players can respond even when the screen is crowded. Zombie sounds should convey detection, pursuit, or loss of target, complementing visual cues rather than replacing them.
+
+Important music moments: Use short identity motifs for major mutations and story revelations, as proposed in the notes. Give major threats or boss-like encounters their own musical variation, but reserve those cues for genuinely significant moments so they stay memorable.
+
+Cannabis audio feedback: Make consumption and strain effects audible as well as visible. The notes suggest that some strains or blood mixtures can temporarily alter Phoenix’s perception—for example, emphasizing nearby heartbeats or muting zombie sounds—while state changes should always receive clear feedback.
+
+Stealth audio: Use footsteps, surface noise, and nearby enemy reactions to help players judge how exposed they are. A quiet floor, broken glass, and rain should sound and behave differently; suspicion cues should indicate when an enemy has heard something, without revealing its exact position automatically.
+
+Overall soundscape: Let the contrast carry the tone: ruined-world ambience, body-horror vocal changes, moments of melancholy, and brief dry humor. Cannabis-related audio can express Phoenix’s perception and coping strategies without turning the soundtrack into a constant novelty cue.
+
+
+1. **Connect gathering to the story:** Make some finds carry narrative meaning as well as practical value. ChroniX facilities can contain research and rare samples tied to the Euphoria outbreak; old homes and camps can hold personal belongings, notes, and clues about Phoenix’s past. Rare discoveries can unlock quests, recipes, or story revelations. 
+
+2. **Tools and abilities:** Let players start with hand-gathering, then use tools to improve access and yield. The Multi-Stick supports basic digging; its sharpened form can cut plants and help with fishing or hunting. Axes, knives, and improved digging tools can open up more efficient harvesting. Exact tool requirements for each resource—such as mining stone—still need to be assigned. 
+
+3. **Gathering limits:** Use a low starting carry capacity so players must choose between, for example, cannabis materials, medical supplies, and crafting components. Overloading should reduce stamina and movement, making an overfull pack a real danger. Backpacks, storage, and animal haulers offer ways to expand capacity later. 
+
+4. **Randomized resources:** Use a saved world seed and procedural placement to vary resource locations, loot, wildlife, and encounters between generated worlds. Keep story-critical items and clues authored or guaranteed, so randomness changes how players find them without blocking the narrative. 
+
+5. **Gathering in dangerous zones:** Make risk proportional to potential reward. A quarantined hospital, lab vault, or military outpost can contain rare materials or research but also stronger enemies and more chances to be detected. Noise from gathering and the time spent exposed should make players decide whether to keep searching or leave. 
+
+6. **Weather and time of day:** Weather can affect resource quality and plant growth; time of day can change which threats are active and how safe gathering feels. The notes specify that zombies may become more aggressive at night and survivors may be more active during the day. They don’t define resources that are available only at night, so that could be added selectively for wildlife, encounters, or rare finds. 
+
+7. **Resource scarcity:** Scarcity should make players prioritize, reuse, cultivate, and trade—not turn every outing into a grind. Renewable resources such as seeds and hemp can support long-term crafting, while scarce items like medicine, tools, and rare research samples create meaningful choices. The design also proposes barter and reputation-based trading rather than a universal currency. 
+
+8. **Player actions and resource availability:** Let clearing a horde, securing a safehouse, or helping a faction change what’s safe to gather in an area. The notes support persistent local ecosystems and faction reactions; a useful extension is to make looted stashes stay empty for a while and let cleared zones gradually repopulate or attract other groups. 
+
+9. **Gathering-tool upgrades:** Upgrade tools for better yield, durability, and access to new resource types. The Multi-Stick can progress from a basic branch to sharpened, fire-hardened, stone-tipped, or improved digging variants. Tool quality and crafting skill can further improve efficiency; exact yield bonuses can be tuned during gameplay testing. 
+
+10. **Exploration and discovery:** Reward exploration with distinct regional resources, hidden containers, buried supplies, and access to caves, mines, tunnels, bunkers, or research facilities. Safehouses, randomized building interiors, and high-risk points of interest give players reasons to search beyond the main route. 
+
+### **11. Character Creation & Identity**
+
+1.Starting appearance: Players can customize Phoenix’s name, face shape, skin tone and zombie coloration, hair, eyes and eye condition, scars, tattoos, clothing, outfits, body proportions within the art style, and her initial decay appearance. Mature visual themes are mentioned, but the design doesn’t require explicit anatomy.
+
+Backstory: The strongest direction is to keep Phoenix’s core history—her connection to ChroniX and the outbreak—fixed, while letting players customize parts of her past through background choices and memory fragments. That preserves the main story while giving players ownership over who she was before it.
+
+Effects of starting background: Background choices can determine starting skills, location, early dialogue, and which memories or quest leads appear first. The notes list starting backgrounds, skills, and locations as customizable, but the exact effects still need to be defined.
+
+Appearance changes over time: Decay should visibly affect Phoenix as it progresses, while permanent mutations can change her appearance and how NPCs react to her. Players can also choose an initial decay look; it should remain distinct from the actual decay meter, so appearance customization doesn’t secretly change difficulty.
+
+Personality: Players can shape Phoenix’s personality through dialogue and actions. Those choices can influence her internal monologue and early conversations, while the story continues to respond to how she manages her human memories and zombie instincts.
+
+Name, voice, and pronouns: A customizable character name is explicitly listed. Phoenix’s voice is designed to change with bloodlust, decay, and mutations, but player-selectable voice options and pronouns aren’t specified yet; they could be added as creator options if they fit the production scope.
+
+Cosmetic versus gameplay choices: Keep face, hair, tattoos, and purely visual presets cosmetic. Starting skills, background, and location should affect gameplay. Clothing should be clearly identified as functional when it changes disguise or stealth, so players can tell when an outfit is more than appearance.
+
+Unlockable appearance options: Players can unlock additional presets, outfits, clothing variants, scars, tattoos, and alternate visual styles for mutations through gameplay, story milestones, or challenges. The design calls for saving customization choices and unlocking additional cosmetic options as players progress.
+
+### **12. Survival, Health & Failure**
+
+Survival meters: The proposed meters are Health, Bloodlust, Decay, Stamina, Energy, Hydration, Body Temperature, Consciousness, Mental Stability, Human Suspicion, and Zombie Suspicion. They represent Phoenix’s physical condition, control, mental state, and risk of being detected; the design still needs to clarify how Energy, Consciousness, and Mental Stability differ mechanically.
+
+Decay: As decay rises, it changes Phoenix’s appearance and can impair her movement and health, weaken her human disguise, and affect social interactions. Fictional treatments or cannabis effects can temporarily slow it.
+
+Other survival needs: Yes. The design includes hydration, body temperature, and energy, plus a separate Fatigue meter. Fatigue rises with time awake, exertion, bloodlust, or injury; high fatigue reduces stamina and reaction speed, while weather affects temperature and movement.
+
+Injuries and treatment: Phoenix can suffer bleeding, infection-related effects, broken limbs, movement impairment, and damage over time. Healing and recovery items are planned, but the specific treatments and recipes still need to be defined.
+
+Dangerously high bloodlust: High bloodlust increases aggression, reduces control, makes disguises harder to maintain, and can trigger unwanted feeding. At 90 or above, it begins causing hunger damage; losing control in front of important NPCs can also seriously damage relationships or attract faction hostility.
+
+Defeat and death: In standard mode, reaching zero health leads to a defeat screen where the player can load the last save or the last safehouse rest. The notes don’t impose extra progress loss beyond the player’s save timing. Optional Iron Phoenix permadeath mode makes death final for that save.
+
+Safehouses: Safehouses can be secured and used to save, craft, and recover. A claimed safehouse supports a proper long rest; its security and comfort can improve rest, Sanity recovery, and bloodlust suppression. Some short rests are possible in hidden spots but provide fewer benefits and a greater chance of nightmares.
+
+Difficulty and comfort settings: The proposed presets are Story, Normal, Hard, and Nightmare. Players can also adjust individual assists such as bloodlust and decay rates, resource yields, enemy detection, combat timing, aiming assistance, crafting hints, and quick-save limits. Endings are not locked behind difficulty or assists.
+
+
+### **13. Blood Alchemy & Mutations**
+
+1.Blood types and sources: Phoenix can collect human, zombie, and animal blood, including samples from dogs, cats, deer, wolves, rabbits, and rats. The notes also include rare Lab-Grade samples. Exact spawn locations aren’t mapped yet; a sensible placement is human blood around survivor areas, animal blood by species and biome, and Lab-Grade samples in ChroniX facilities.
+
+Freshness and quality: Fresh samples produce stronger effects but spoil more quickly; stale blood is weaker. The design should make players weigh potency against the risk of carrying a sample until it degrades.
+
+Discovering recipes: Players can learn mixes through experimentation, flashbacks, and NPCs. The proposed system lets players record successful combinations, mix up to three blood types at a workbench, or quick-mix two in the field.
+
+Benefits and drawbacks: Mixtures can improve strength, stamina, regeneration, perception, night vision, speed, combat abilities, or decay resistance. Possible costs include instability, increased bloodlust, mutation side effects, weaker disguises, or temporary weakness.
+
+Temporary and permanent effects: Most mixtures provide temporary effect packages; the design proposes a baseline duration of about 8–25 minutes. Repeated use can build “resonance” toward a permanent mutation, which changes Phoenix’s abilities and identity rather than simply expiring.
+
+Mutation slots and changing choices: The design starts Phoenix with one permanent mutation slot and allows progression to expand the limit, up to four in one section. Mutations are intended to be lasting choices, not freely swappable; the notes don’t define a removal or respec system yet. One perk list also proposes an extra slot at high Blood Alchemy skill, so the final slot cap should be reconciled.
+
+Effects on Phoenix: Mutations can change Phoenix’s appearance, combat options, dialogue, and disguise baseline. Human blood may make her appear and smell more human while increasing internal conflict; zombie or predator blood can make her stronger but more visibly undead.
+
+NPC reactions: Humans can become more suspicious of visible mutations, while conscious undead may recognize and comment on recent mixtures. These reactions can affect dialogue, trust, disguise, and faction relationships, making a powerful build carry social consequences too.
+
+
+### **14. Cannabis Cultivation & Processing**
+
+Where to find seeds and strains: The design calls for seeds, wild plants, flowers, leaves, stems, hemp fiber, and distinct strains, but it doesn’t assign them to exact locations yet. A strong placement plan would put common seeds and plants in overgrown gardens, farms, and forest edges; rare or modified strains in greenhouses, faction caches, or ChroniX research sites.
+
+Growth stages: Plants progress through six visible stages: seed, sprout, young plant, developing plant, mature plant, and harvestable plant.
+
+Plant care: Players find or prepare dirt, plant seeds, water them, maintain growing conditions, then harvest and collect seeds. Exact light and soil-quality rules aren’t specified; sunlight outdoors and grow equipment indoors would give players useful choices.
+
+Weather and seasons: Weather should affect growth and crop risk. The notes propose rain boosting growth but increasing mold risk, storms damaging exposed plants, heat increasing water needs, and cold slowing or stopping growth. Protected grow rooms and drying shelters can reduce those risks.
+
+Products and uses: The proposed system includes smoking, edibles, and resin or extracts, as well as processing stems into hemp fiber. The specific recipe list isn’t finalized, so each product can be given a distinct use, duration, and resource cost.
+
+Strain effects: Strains can differ in their effects on bloodlust, stamina, consciousness, perception, decay, and mutations. Make the effects readable in the Cannabis Journal, while keeping exact strain stats and recipe combinations to be balanced during testing.
+
+Repeated use: The design mentions a “soft dependency,” but doesn’t define exact tolerance rules. A reasonable system would let repeated use of the same strain gradually reduce its benefit, while avoiding severe penalties that make the core survival loop feel punitive.
+
+Hemp byproducts: Process stems into fiber, then use it for rope, cordage, fabric, clothing, fishing line, nets, bags, and shelter or building materials. That makes growing hemp useful even when Phoenix doesn’t need a bloodlust-management product
+
+### **15. Building, Territory & Transportation**
+Building progression: Start with a simple lean-to, then progress to sturdier huts, sheds, tents, or treehouses, and eventually convert caves or underground areas into shelters. The notes establish the range of shelter types but leave the exact progression and unlock requirements to be designed.
+
+Placement: Players should build on valid terrain and be able to convert suitable caves or existing locations into shelters. The placement rules—such as terrain requirements, build radius, and restrictions near roads or story locations—aren’t specified yet.
+
+Base stations: Proposed facilities include storage, workbenches, grow beds, drying racks, animal pens, and a bicycle workshop. These give a base practical roles in crafting, farming, animal care, and transportation.
+
+Safehouse security: Players can secure locations by barricading doors, setting traps, and upgrading security. The design proposes that a fully claimed safehouse reaching Security Level 2 becomes permanent, though the exact defenses and upgrade costs still need definition.
+
+Faction territory: Faction territory and pressure are intended to affect behavior, and the game includes faction raids and dynamic events. Whether factions can directly claim, attack, or take over a player’s base isn’t fully specified; a good approach is to make the risk depend on local faction relations and the base’s security.
+
+Base functions: Grow beds let players plant and tend crops; drying racks process harvests; storage holds resources; workbenches enable more complex crafting; and animal pens provide shelter for companions. Comfort and security can also improve resting and recovery at a claimed safehouse.
+
+Transportation: The concept includes bicycles, motorized bicycles, scooters, carts and trailers, as well as water travel from floating logs to crafted rafts. The exact parts and recipes for each vehicle still need to be set.
+
+Effect on exploration and hauling: Land vehicles can help Phoenix travel between areas and carry supplies; carts and trailers make resource trips more efficient. Rafts let her cross rivers and lakes, explore shorelines, and transport materials across water, opening routes that aren’t accessible on foot.
+
+### **16. Animal Companions & Relationships**
+
+Animals: The proposed companions include rats, rabbits, dogs, cats, wolves, deer, birds, and other wildlife. Some, such as horses, cattle, or sheep, are also mentioned as possible tameable animals, but the final roster still needs to be chosen.
+
+Earning trust: Players approach carefully, offer food, and build trust over repeated interactions. Phoenix’s bloodlust and disguise can affect how an animal reacts, so calming down or masking her scent may be important before approaching.
+
+Companion roles: Assign animals roles such as Guard, Scout, Hauler, Companion, or Mount. For example, dogs can track and find resources, birds can scout or warn of danger, and haulers can increase carrying capacity.
+
+Bloodlust, combat, and disguise: Companions should respond to Phoenix’s state and the danger around them. The notes propose animal temperaments and memory, and skills that can reduce animal fear of bloodlust; the exact combat and disguise rules still need to be set.
+
+Companion needs: Animals have health, hunger, shelter, and loyalty needs. Players can provide care, train them, assign commands, and build animal pens to support them at a base.
+
+Injury or loss: Companions can face danger, and their death or betrayal is intended to carry lasting consequences. The notes don’t define whether an animal can be recovered, replaced, or permanently lost, so that rule still needs to be decided.
+
+Human and conscious-undead relationships: Develop relationships through trust, affinity, dialogue, shared events, and character-specific quests. NPCs have backgrounds, routines, and memories, so how Phoenix behaves can influence whether they become allies, rivals, or companions.
+
+Support without romance: Yes. Romance is optional; friendship and trust can still provide meaningful support through quests, information, trading, faction access, or companionship
+
+### **17. Quests, Progression & Narrative Delivery**
+
+1Quest types: Main quests advance Phoenix’s core story and reveal the outbreak; side quests develop characters and factions; spontaneous events—such as raids, patrol encounters, or horde movements—create immediate situations in the world.
+
+Quest sources: Survivors, faction members, companions, and conscious undead can offer quests. Players can also discover objectives through locations, research terminals, audio logs, and recovered memories.
+
+Consequences: Record significant decisions as story flags. Helping or harming a character, earning a faction’s trust, or choosing what to do with ChroniX research can change later dialogue, mission options, and relationships.
+
+Quest failure or expiry: The notes don’t set expiration rules. A fair approach is to keep main quests available, while allowing some optional quests to change or disappear when the world changes—clearly signaling when a decision will close off an opportunity.
+
+Tracking objectives: Use a quest journal for current goals and discovered clues, a map for known points of interest, and dialogue reminders from relevant NPCs. Memory discoveries can add journal entries or unlock new quests.
+
+Investigation and puzzles: Make investigation a recurring part of the story: connect evidence from locations, documents, recordings, and NPC conversations. Keep puzzles grounded in the environment and survival systems, with optional hints so a difficult puzzle doesn’t block the whole game.
+
+Story versus exploration: Use main-quest milestones to guide progression and unlock regions, while leaving side quests, resources, and discoveries open to the player’s pace. The notes describe a semi-open world with optional survivor quests, safehouses, and high-risk locations.
+
+Ending conditions: Base endings on the player’s accumulated choices: how Phoenix handles her identity and bloodlust, which factions and characters she supports, and what she does with the outbreak research. Possible outcome directions include restoration, embracing the undead, human–zombie coexistence, control of the outbreak, or isolation; the final ending list should be consolidated from the design notes.
+
+### **18. Player Experience, Accessibility & Production**
+
+HUD: Keep Bloodlust, Decay, disguise strength, and quick-use slots visible. Show stamina during exertion or combat, sanity when it becomes relevant, and noise or enemy-detection indicators during stealth. This keeps the screen uncluttered when Phoenix is safe, but informative when she’s threatened.
+
+Quick access: Use a hotbar for commonly used items and a radial wheel for cannabis, blood, and medical items. Let players favorite items for the wheel; inventory, crafting, and character screens can hold the deeper management options.
+
+Tutorial: Teach mechanics through the opening sequence, one at a time: movement and interaction, sneaking and sound, avoiding detection, first combat, gathering and crafting, then planting and using cannabis. Give players a chance to practice each action before adding another threat.
+
+Accessibility: Planned options include remappable controls, text scaling, colorblind modes, screen-reader support, and combat assists. Add adjustable audio levels and captions for important sounds so stealth and story cues aren’t audio-only; those specific audio options aren’t detailed in the notes yet.
+
+Saves: The design proposes multiple manual slots, autosave, quicksave, and a versioned save system. Saves should preserve the player’s inventory, skills, quests, relationships, claimed safehouses, crops, and world state; exact autosave timing and rollback rules still need to be set.
+
+Platforms and controls: The notes list desktop, laptop, tablet, and mobile, with keyboard controls and a virtual joystick/touch buttons. They also mention PC, browser, and Android as possible targets, but the first launch platform hasn’t been settled—and the drafts differ on engine and target—so choose one platform to prioritize before promising all of them.
+
+First playable prototype: The proposed vertical slice includes one region; movement and climbing; Bloodlust, Decay, and Stamina; basic cannabis use; a few blood mixtures; the Multi-Stick; basic disguise; two or three enemy types; crafting, shelter, inventory, saving, the opening sequence, and a day/night cycle.
+
+Playtesting: The notes call for alpha testing and iteration but don’t define measures. For this prototype, check whether new players can understand the objective and key meters, complete the gather–craft–survive loop without outside help, recognize when they’ve been detected, and describe whether the tension feels engaging rather than confusing or unfair. Track where they get stuck and ask which moments they found memorable or frustrating.
+
+### **19. Optional Multiplayer & Co-op**
+
+Single-player or co-op: Make the main game single-player first. Treat co-op as optional future development so Phoenix’s story and survival loop work on their own.
+Playable characters: Keep Phoenix as the protagonist; if co-op is added, let a second player create a separate conscious undead character rather than duplicate Phoenix.
+Co-op activities: Support shared exploration, combat, gathering, crafting, and base-building.
+Bloodlust and disguise: Track each player’s bloodlust and disguise separately. If one player is detected, nearby enemies can notice the group, so teammates have a reason to coordinate.
+Relationship consequences: Make each player’s actions affect their own relationships and reputation. Shared faction consequences should apply only when the group is involved or witnessed.
+Shared story choices: Use shared quest progress and a party decision for major story choices, with a clear confirmation before irreversible outcomes.
+Joining and leaving: Allow drop-in/drop-out during exploration. Pause joining during major story scenes; if someone leaves, their character can wait safely or be controlled by the game.
+Solo play: Keep the entire story playable alone. Co-op should add company, not become necessary to finish the game.
+28. Health, Injuries & Recovery
+Damage and injuries: Phoenix can suffer bleeding, infection-related effects, broken limbs, movement impairment, and damage over time.
+Effects on play: Injuries should affect movement or other actions—for example, a broken leg could limit sprinting or climbing. The exact penalties still need to be defined.
+Recovery: Use recovery items and healing, with claimed safehouses as places for proper rest. The notes establish recovery systems but don’t specify every treatment or recipe.
+At zero health: Standard mode offers loading the last save or last safehouse rest. Optional Iron Phoenix mode makes death final for that save.
+29. Survival Needs
+Needs beyond health and bloodlust: The planned meters include Decay, Stamina, Energy, Hydration, Body Temperature, Consciousness, and Mental Stability. Human and Zombie Suspicion are also tracked, though they represent detection risk rather than a physical need.
+How quickly they change: Bloodlust rises over time and Decay increases gradually; Fatigue builds with time awake, exertion, high bloodlust, or injury. Exact rates for the other meters aren’t specified and should be tuned with difficulty settings.
+Critical-level penalties: High Decay affects appearance, disguise, movement, health, and social interactions. High Fatigue reduces stamina and reaction speed. Specific critical penalties for Hydration, Temperature, and Energy still need to be designed.
+Recovery: Use rest and recovery items, with water and temperature-protective clothing or shelter addressing hydration and cold. Safehouse long rests can restore meters and support recovery; exact items and rates remain to be set.
+30. Bloodlust & Control
+What raises or lowers it: Bloodlust rises over time and faster near humans or wounded creatures, during combat, when hungry, and in some weather or nighttime conditions. Feeding, cannabis, and calming activities can reduce or suppress it.
+State changes: Calm keeps Phoenix lucid and stealthy; Hungry makes her more aggressive and physically stronger; Uncontrolled lets zombie instincts take over, potentially making her attack friend and foe alike.
+Regaining control: Use cannabis-based items, feed, or take calming actions. Bloodlust-control skills can extend suppression or help Phoenix regain control during chaotic situations.
+Lasting consequences: Losing control can harm or destroy relationships with key characters; witnesses may spread word and raise hostility with factions. At very high bloodlust, hunger damage also begins.
+
+### **31. Decay & Mental State**
+
+1. **What worsens Phoenix’s condition:** Decay rises gradually. Fatigue increases with time awake, exertion, high bloodlust, and injury; mental stability can also be affected by high bloodlust, decay, nightmares, and feeding choices. 
+2. **Effects on perception and abilities:** High decay affects appearance, movement, health, human disguise, and social interactions. Low mental stability can make internal monologue and sensory information less reliable, with possible audio or visual distortions. 
+3. **Slowing or recovering:** Fictional treatments and cannabis effects can temporarily slow decay. A secure safehouse rest can restore meters and support recovery; sleep may trigger restorative dreams or nightmares depending on Phoenix’s state and recent choices. 
+4. **Communicating the condition:** Show visible changes in Phoenix’s decay and use voice processing that shifts with bloodlust, decay, and mutations. Audio and visual feedback should signal important state changes so the player can tell when her condition has changed. 
+
+### **32. Stealth & Disguise**
+
+1. **Detection factors:** Humans and zombies evaluate Phoenix through sight, sound, and scent. Separate human and zombie suspicion and disguise values so fooling one group doesn’t automatically fool the other. 
+2. **Different disguise layers:** Clothing and human-like movement can help with humans; rotten meat, zombie blood, damaged clothing, and mimicked movement can help with zombies. Noise and scent masking affect separate parts of detection.
+3. **What exposes her:** Suspicious movement, sound, visible decay, blood, feeding, and attacking can raise human suspicion. Being too clean, smelling human, or moving unnaturally can raise zombie suspicion. Rain can also wash away an applied disguise. 
+4. **Warnings and consequences:** Use suspicion indicators, noise and visibility cues, and NPC behavior—such as turning to investigate—to warn the player. If suspicion escalates, enemies can search, chase, or attack; a broken disguise should have both visual and audio confirmation. 
+
+### **33. Combat**
+
+1. **Starting and unlocked attacks:** Start with biting, scratching, and brute strength. Progress to punches, kicks, improvised weapons, spears, bows, thrown objects, and special zombie abilities. 
+2. **How combat systems interact:** Attacks use cooldowns and stamina; weapons have durability. Bloodlust states alter Phoenix’s aggression and control, while biting can increase bloodlust and leave a disguise penalty—even if feeding later reduces bloodlust. 
+3. **Non-combat options:** Players can sneak, hide, break line of sight, create distractions, use environmental cover, or escape with mobility abilities. Companions and tools can also give players alternatives to fighting head-on.
+4. **Combat feedback:** Use clear attack animations, hit detection, knockback, enemy reactions, sounds, and visible health or damage states. Telegraph dangerous attacks so players can react rather than guess. 
+
+### **34. Enemy AI & Encounters**
+
+1. **Different enemy behaviors:** The proposed types include Walkers, Runners, Brutes, Spitters, and Lab Mutants, alongside human patrols, scavengers, and wildlife. Give each type a distinct threat and response pattern. 
+2. **Detection and pursuit:** Enemies use vision range and cones, sound radius, scent detection, suspicion timers, searching, chasing, lost-target behavior, and returning to patrol. 
+3. **Group behavior:** Zombies can roam in groups, follow scent, and follow zombie groups; humans can form groups, guard settlements, investigate suspicious activity, flee, or fight. 
+4. **Adapting to the player:** The design calls for encounter difficulty to respond to player progression and recent performance. More specific learning—such as enemies reacting to repeatedly used tactics—isn’t defined yet and should remain readable and fair if added. 
+
+### **35. Gathering**
+
+1. **Resources and tools:** Players can gather branches, wood, stone, flint, grass, hemp, seeds, fiber, vines, clay, bones, hides, scrap metal, fabric, and more. Some resources can be collected by hand; tools improve access or efficiency. 
+2. **Quality and yield:** Gathering quality can vary by biome, weather, time of day, and tools. This gives players a reason to seek the right region or conditions for a resource. 
+3. **Replenishment:** Crops and wildlife are part of a persistent world simulation, but the exact respawn or depletion rules for resource nodes aren’t settled. Define which resources renew naturally, which must be cultivated, and which are finite.
+4. **Gathering risks:** Scavenging can expose players to zombie ambushes, traps, rival survivors, and noise that attracts threats. Riskier locations can offer rarer materials or loot. 
+
+### **36. Inventory & Equipment**
+
+1. **Organization:** Use categories for tools, weapons, materials, food, blood, cannabis, seeds, clothing, medicine, and quest items. Support stacking, splitting, equipment slots, sorting, and a quick-access hotbar. 
+2. **Capacity:** Use both weight and soft slot limits. Backpacks, certain mutations, hauler companions, and temporary blood mixtures can increase carrying capacity. 
+3. **Overloading:** At over 70% capacity, stamina penalties begin; above 100%, movement slows and sprinting or climbing is disabled; above 130%, movement becomes very slow and Phoenix may be forced to drop items. 
+4. **Showing item condition and use:** Display durability and visual wear for tools and clothing, alongside item descriptions and crafting relevance. Warn players when an item is close to breaking or when they’re nearing an encumbrance threshold. 
+
+### **37. Crafting & Repair**
+
+1. **Where crafting happens:** Simple recipes can be made in the field; more complex crafting uses workbenches or other stations. The design calls for stations in safe zones and safehouses. 
+2. **Recipe rules:** Each recipe should show ingredients, crafting time, location requirements, output quantity, durability, skill level, and discovery status. Ingredients are consumed only after a successful craft. 
+3. **Quality and upgrades:** Items can progress through Crude, Standard, Refined, Masterwork, and Legendary quality; higher quality improves durability and performance. Crafting skills can unlock advanced variants or secondary properties. 
+4. **Repair:** Field repairs are quick and partial, using basic materials and slightly reducing maximum durability. Workbench repairs can fully restore items; top-tier gear may require a high-tier station or specialist NPC. 
+
+### **38. Cannabis Cultivation & Use**
+
+1. **Finding and growing plants:** Players find seeds or wild plants, prepare dirt, plant, water, maintain conditions, and harvest. Plants move through visible stages from seed to harvestable growth. 
+2. **Growth conditions:** Weather affects growth and crop risk: rain can help growth but increase mold risk, storms can damage exposed plants, heat increases water needs, and cold can slow or stop growth. Protected grow rooms and drying shelters can reduce those risks. 
+3. **Strain effects:** Strains can vary in their effects on bloodlust, stamina, consciousness, perception, decay, and mutations. Products can include smoked forms, edibles, and extracts, with hemp stems processed into fiber. 
+4. **Tolerance and repeated use:** The notes mention a “soft dependency,” but don’t specify exact tolerance rules. Those rules still need balancing; one defined example is smoking reducing bloodlust by 30 points and stopping its rise for 25 seconds in the initial playable version. 
+
+### **39. Blood Alchemy & Mutations**
+
+1. **Collecting and storing blood:** Blood can come from humans, zombies, and wildlife such as dogs, cats, deer, wolves, rabbits, and rats. Store types separately; freshness matters because fresh samples have stronger effects but spoil faster. 
+2. **Creating recipes:** Players can mix up to three blood types at a workbench, or two in a quick field mix. A discovery system records successful combinations; a stabilizer can extend or change effects. 
+3. **Effects and risks:** Mixtures can change strength, stamina, regeneration, perception, night vision, speed, decay, or combat ability. Risks include instability, increased bloodlust, mutation side effects, reduced disguise, or temporary weakness; the proposed baseline effect duration is about 8–25 minutes. 
+4. **Permanent mutations:** Phoenix starts with one permanent mutation slot, expandable through progression; one design section sets a maximum of four. Mutations are intended to be lasting choices, but the exact respec or removal rules—and the slot bonus in the Master Blood Alchemy perk—need reconciliation. 
+
+### **40. Building & Safehouses**
+
+1. **Structures and stations:** Players can build shelters ranging from lean-tos and huts to treehouses or converted caves, plus storage, workbenches, grow beds, drying racks, animal pens, and workshops. 
+2. **Materials and placement:** Construction uses gathered resources such as wood, stone, fiber, rope, and other materials. Structures can be placed on suitable terrain or in usable existing locations; exact placement limits and recipes still need to be specified. 
+3. **Security and maintenance:** Players can barricade doors, set traps, and upgrade security. Safehouses support saving, crafting, and recovery; comfort and security can improve rest and recovery. 
+4. **Persistence and vulnerability:** A fully claimed safehouse at Security Level 2 becomes permanent; player-built structures aren’t removed unless dismantled or targeted by a major story event. The exact ways factions or world events can threaten a base still need defining. 
+
+I’ll read the new attachment and answer the question sets it contains, continuing the same format.
+
+I read the attachment. Here are answers for sections **41–48**. Where the notes don’t define a rule, I’ve marked a recommended direction.
+
+### **41. Animal Companions**
+
+1. **Finding and taming:** Players discover animals in the world, approach carefully, offer food, and build trust through repeated interactions. Taming skills can help animals calm faster or make higher-tier species approachable. 
+2. **Roles and commands:** Companions can be assigned roles such as Guard, Scout, Hauler, Companion, or Mount, with commands to follow, stay, explore, and return. 
+3. **Needs and danger:** Companions have health, hunger, and loyalty needs. Their temperament and memory affect how they react to Phoenix and danger, so players need to care for and shelter them. 
+4. **Loss or injury:** Companion death or betrayal is intended to have lasting consequences. Exact recovery, replacement, and permanent-loss rules still need to be decided. 
+
+### **42. NPC Relationships & Factions**
+
+1. **Values tracked:** Track individual friendship, trust, rivalry, affinity, faction loyalty, and relationship history where relevant. Keep NPC reputation distinct from broader faction reputation. 
+2. **What changes relationships:** Dialogue, quest outcomes, keeping promises, feeding, protecting people, or losing control can build trust or cause lasting conflict. NPCs are meant to remember significant events. 
+3. **Faction effects:** Factions can respond by changing patrols, territory, quests, trade, raids, and hostility based on reputation and player actions. 
+4. **Persistent hostility:** Severe negative reputation can block access to camps or services and provoke hostile reactions. Some relationship damage from losing control in front of key NPCs can be permanent. 
+
+### **43. Quests & Story Flags**
+
+1. **Quest flow:** Players discover quests through NPCs, factions, locations, and memory clues; track them in a journal; then complete or fail them based on objectives and choices. The exact failure rules still need definition. 
+2. **Lasting flags:** Record major decisions such as whom Phoenix helps or harms, faction loyalties, key relationship changes, and what she does with ChroniX research. These flags can alter later missions and dialogue. 
+3. **Missable quests or endings:** Optional quests can become unavailable as the world changes, but the notes don’t establish whether major endings can be missed. I recommend keeping every major ending reachable through a clear chain of choices rather than a single easy-to-miss side quest.
+4. **Rewards:** Quests can award resources, recipes, skills, allies, reputation, information, and new story routes—so players can choose rewards that suit their playstyle. 
+
+### **44. Skills & Progression**
+
+1. **Earning progression:** Players earn skill points through use, quests, and story milestones; the notes propose three tiers—Novice, Adept, and Master—for seven skill categories. 
+2. **Improving skills:** Some skills improve through repeated use, while major perks require spending earned points. The design includes skills such as Stealth, Combat, Herbalism, Blood Alchemy, Animal Handling, Crafting, and Social. 
+3. **Unlocking approaches:** Skills can open new abilities, dialogue, recipes, taming options, or stealth and combat tactics, supporting different character builds. 
+4. **Respec:** The notes don’t define skill respecs. A reasonable approach is to allow limited respec at a safehouse or specialist, while keeping permanent mutations as more consequential choices.
+
+### **45. World Simulation, Weather & Events**
+
+1. **Changes over time:** Crops, animals, and regional pressure are intended to persist and respond to player actions. How much the game simulates while an area is off-screen still needs specification. 
+2. **Weather and time:** Weather can affect visibility, sound, movement, plant growth, resource availability, stealth, and animal behavior. Time of day changes enemy aggression, patrols, wildlife, and settlement activity. 
+3. **Scripted and generated events:** Use authored events for key story moments and procedurally selected encounters, patrols, resource locations, and faction events for variety. 
+4. **Player impact:** Actions can shift local ecosystems and faction behavior. Clearing areas, building a base, or supporting a faction should change local pressure; the exact pace of population recovery and resource replenishment remains to be set. 
+
+### **46. Economy & Trading**
+
+1. **Faction preferences:** Human markets value clean water, medicine, ammunition, tools, information, and high-quality cannabis; the conscious-undead network values blood, extracts, mutation knowledge, and rare recipes. 
+2. **Reputation and appearance:** Human traders may distrust visible mutations or evidence of feeding, while conscious undead are more accepting. Reputation affects prices, available stock, dialogue, and access to trading locations. 
+3. **Scarcity:** Make common resources renewable or recoverable, while rare materials and research remain valuable. The exact supply and restock rates for important goods still need balancing.
+4. **What can be traded:** The proposed economy uses barter and reputation instead of universal currency. Players can trade resources, crafted goods, rare samples, and information. 
+
+### **47. UI, Saves & Accessibility**
+
+1. **HUD versus menus:** Keep Bloodlust, Decay, disguise strength, and quick-use slots visible; show stamina, sanity, noise, and detection cues contextually. Put deeper systems—blood mixing, cannabis strains, identity, relationships—in dedicated screens. 
+2. **Tutorials and feedback:** Teach systems through the opening sequence, then use contextual prompts and clear audio/visual signals for state changes, discoveries, and danger. 
+3. **Save data:** The design proposes multiple manual slots, autosave, quicksave, and versioned saves. Save inventory, skills, quests, relationships, world seed, buildings, crops, and other persistent world state; exact save timing still needs a decision. 
+4. **Options:** Planned accessibility includes remappable controls, text scaling, colorblind modes, screen-reader support, and combat assists. Difficulty can also be adjusted through granular options for bloodlust, decay, resources, detection, and combat timing. 
+
+### **48. Optional Multiplayer & Co-op**
+
+1. **Single-player or multiplayer:** Keep the core game single-player; co-op is not defined in the current design and should be treated as optional future scope.
+2. **What is shared:** If co-op is added, share exploration, base-building, and main quest progress, while keeping each player’s inventory, skills, and character condition separate.
+3. **Group consequences:** Track bloodlust and disguise per player, but let one player’s detection put nearby teammates at risk. Apply faction consequences individually unless the whole group is seen taking an action.
+4. **Solo completion:** Keep the full story playable alone, with co-op adding company rather than required abilities or story access.
+
+I’ll read the attached Crafting System questions and answer the full set, using the existing recipe, station, quality, and repair notes.
+
+The attachment contains five sets of questions. Here are answers for all of them; where the design notes don’t specify an exact rule, I’ve marked it as a decision to finalize.
+
+### **Crafting System**
+
+1. **Opening recipes:** Start with a basic Multi-Stick and a sharpened stick, then let players craft simple tools, weapons, and survival items. The sharpened stick’s listed recipe is one branch and one stone. 
+2. **Field vs. station crafting:** Simple recipes can be made in the field; complex recipes require a workbench or another suitable station, often in a secured area.
+3. **Recipe discovery:** Players find recipes through exploration and experimentation, flashbacks, and NPCs. Successful recipes are recorded for later use. 
+4. **Recipe requirements:** Each recipe should specify ingredients, time, output, durability, skill requirement, and whether a station is needed. Exact ingredient quantities and crafting times still need to be set recipe by recipe.
+5. **Quality and skill:** Crafting skills can improve speed, reduce material waste, unlock quality tiers, and allow secondary item properties. Higher-quality items should generally perform better and last longer. 
+6. **Upgrades:** Upgrade tools and weapons through improved materials and recipe variants—for example, sharpening or reinforcing a Multi-Stick. Clothing and shelter can also gain better protection or function as part of a disguise.
+7. **Repair and salvage:** Field repairs are quick but partial; workbench repairs can fully restore equipment. Some broken items can be salvaged, while the Multi-Stick can be reshaped into a basic stick. 
+8. **Regional progression:** New regions introduce materials, recipes, stations, and knowledge that support more advanced crafting. Rare areas such as labs can supply specialized research or components.
+9. **What crafting supports:** Recipes should serve survival, combat, stealth, farming, building, and travel—such as water filters, weapons, disguises, grow equipment, and transport components.
+10. **Crafting interface:** Show ingredients, missing items, time, skill and station requirements, output, and durability before crafting. For mixtures, include a preview of effects and risks.
+
+### **Gathering System**
+
+1. **Resources and locations:** Gather wood, stone, flint, plants, seeds, hemp, fiber, bones, hides, scrap metal, fabric, and containers. Their locations should reflect the biome: plants and seeds in overgrown areas, scrap in ruins, and wildlife resources where those species live. 
+2. **Tool requirements:** Some materials can be collected by hand; tools improve access or efficiency. The Multi-Stick supports digging, fishing, hunting, and plant-cutting, while improved tools should unlock or speed up more demanding gathering.
+3. **Biome and conditions:** Resource quality and yield can vary by biome, weather, time, and tools. Seasonal and weather-specific yield rules still need tuning. 
+4. **Time and danger:** Gathering takes time and can expose Phoenix or create noise that attracts threats. Risk should increase in high-threat areas and when she gathers carelessly.
+5. **Replenishment:** Crops and wildlife are part of the persistent world simulation, but exact resource-node respawn rules aren’t defined. Decide which resources regrow, which must be cultivated, and which are finite.
+6. **Story-linked finds:** Put rare resources, seeds, research, or samples in places tied to ChroniX, the outbreak, and Phoenix’s memories. High-risk sites can reward players with valuable materials or clues.
+7. **Capacity:** Use a hybrid weight-and-slot inventory. Low initial capacity forces players to choose what to take; backpacks, mutations, and hauler companions can expand it. 
+8. **Risk and reward:** Dangerous zones—such as a quarantined hospital, collapsed metro, or lab vault—can contain rare loot but also stronger enemies and greater exposure risk. 
+9. **Gathering upgrades:** Herbalism and tool skills can improve harvest speed, quality identification, and access to rare plants; upgraded tools can improve efficiency or durability.
+10. **Signaling resources:** Use distinctive silhouettes, environmental clues, map discoveries, and optional sensory abilities to help players notice resources without making every useful item glow.
+
+### **Combat System**
+
+1. **Starting attacks:** Phoenix begins with bites, scratches, and brute force; she can later unlock punches, kicks, improvised weapons, spears, bows, thrown objects, and special zombie abilities. 
+2. **Melee and ranged:** Melee is the core because Phoenix is a zombie, while bows and thrown objects give her limited ranged options. They let her damage or distract enemies before closing in; firearms aren’t fully specified in the current design.
+3. **Bloodlust and stamina:** Combat and nearby wounded creatures can raise bloodlust, while attacks consume stamina. Hungry Phoenix becomes more aggressive and powerful, but Uncontrolled Phoenix risks attacking friend and foe alike. 
+4. **Enemy tactics:** Runners pressure the player’s space, Brutes demand repositioning, and Spitters threaten from range; human patrols and scavengers use different tactics from zombies. Exact attack kits for these types still need definition.
+5. **Using the environment:** Players can use cover, hiding places, distractions, traps, and escape routes. Human NPCs can set traps, creating hazards that may also be used to redirect enemies. 
+6. **Noise and disguise:** Attacking, biting, and feeding can draw attention; biting also creates a gore/disguise penalty. A noisy fight may attract other threats. 
+7. **Disengaging:** Players can sneak away, hide, break line of sight, climb, dash, or use distractions rather than fight every enemy.
+8. **Rewards:** Combat can provide loot and resources, while experience, quests, and progression milestones can unlock skills or abilities. Rewards should not make combat the only viable way to progress.
+9. **Difficulty:** Adjust encounters based on player progression and recent performance, changing enemy mix and pressure without making encounters unfair. 
+10. **Encounter flow:** Build each encounter around warning, decision, action, and aftermath: hear or spot a threat, choose stealth or combat, resolve the danger, then manage injuries, noise, loot, and bloodlust.
+
+### **Story System**
+
+1. **Main phases:** Organize the story into three broad acts: Phoenix awakens and survives; investigates ChroniX and grows into her abilities; then chooses the future she wants. The notes also describe more detailed milestones within those acts. 
+2. **Plot-driving events:** Key events include escaping ChroniX, discovering the outbreak’s cause, meeting other conscious undead and former colleagues, and deciding what to do with the research.
+3. **Main, side, and optional content:** Main quests advance the outbreak mystery; side quests develop survivors and factions; optional discoveries add resources, memories, and lore.
+4. **Choices:** Decisions about feeding, helping or harming survivors, faction support, and the ChroniX research can change relationships, quests, and endings. 
+5. **Failing or abandoning quests:** The notes don’t define quest-failure rules. A fair default is to keep core story quests available while allowing some side quests to change when the player’s actions alter the world.
+6. **Factions and companions:** Factions create competing goals and quest paths; companions and key NPCs can provide information, support, and relationship-specific story moments.
+7. **Interactive versus cinematic scenes:** Use cinematics for key transitions, but keep discoveries, conversations, and memory sequences interactive when player choices or exploration matter.
+8. **Tracking clues and memories:** Record discoveries in a journal and mark known locations on the map. Recovered memories can unlock journal entries, dialogue, quests, or abilities. 
+9. **Ending conditions:** Base endings on accumulated choices: Phoenix’s approach to her identity and bloodlust, alliances and relationships, and the fate of the ChroniX research. The final list of endings should be consolidated from the design notes.
+10. **Pacing:** Alternate survival and exploration with character scenes and major revelations. Let optional quests and discoveries fill out the world without making them mandatory for understanding the main plot.
+
+### **Backstory System**
+
+1. **Phoenix before the outbreak:** Phoenix was a scientist or engineer connected to ChroniX’s experimental biotechnology division, with access to its research and cannabis program. 
+2. **Her role at ChroniX:** She was involved with the resurrection experiment and the Euphoria project. The exact job title and level of responsibility should be finalized.
+3. **Cause of the outbreak:** The notes describe the Euphoria strain as contaminated with an experimental viral agent, which spread during a ChroniX event. Who knew the risk and when remains part of the mystery. 
+4. **Why Phoenix is conscious:** The resurrection experiment returned her with continuity of consciousness, but why she retained it while most infected did not is a central mystery for players to uncover.
+5. **People from her past:** Dr. Lena Voss is a former researcher, Marcus is a former EMT who becomes an important survivor, and Riven is another conscious undead character. Their exact histories and roles should be kept consistent across the final GDD. 
+6. **Guilt and unfinished goals:** Phoenix’s connection to the research gives her personal stakes in learning what happened. The notes don’t settle exactly what she knew or did before the outbreak; that can shape her guilt, responsibility, or sense of complicity.
+7. **Fixed versus customizable past:** Keep the ChroniX and outbreak connection as the story’s fixed backbone. Let players customize selected memories, personality leanings, and starting background to vary dialogue and early options. 
+8. **Memory triggers:** Memories can surface at ChroniX locations, through photographs and documents, familiar voices, research terminals, former coworkers, and Euphoria discoveries. 
+9. **Open mysteries:** Preserve questions about what happened at the ChroniX event, Dr. Thorne’s aims, why Phoenix is different, what happened to her coworkers, and whether a cure is possible. 
+10. **How the truth changes her:** Learning the truth should shift Phoenix’s goals from immediate survival toward a chosen future: pursuing restoration, embracing her undead identity, or seeking coexistence with humans. 
+
+I’ll read the attached mature-content questions and answer them in the same format, keeping the system optional and player-controlled.
+
+The attachment contains six sections. Here are answers to all of them; where the notes don’t settle a rule, I’ve identified a recommended direction.
+
+### **NSFW & Mature-Content System**
+
+1. **Themes and boundaries:** Keep the game’s mature focus on horror, gore, dark humor, cannabis, and optional adult relationships. All romance should involve consenting adults; define any content limits before writing scenes. 
+2. **Disabling content:** Yes. Let players disable romance and mature material in settings, ideally before starting.
+3. **Global and per-scene settings:** Offer a global Off / Suggestive / Explicit setting, with a skip option for individual scenes. 
+4. **Consent and boundaries:** Make consent and character boundaries clear in dialogue; violating a boundary should have a meaningful relationship consequence, not unlock intimacy.
+5. **Completing the story without intimacy:** Yes. Romance and intimate content should never be required for main quests or endings. 
+6. **Relationship consequences:** Relationship choices can affect trust, affinity, dialogue, and epilogues without requiring sexual content. Friendship and loyalty should also provide meaningful story support.
+7. **What is shown:** Let the player choose whether scenes are explicit, suggestive, or off; use fade-to-black where appropriate.
+8. **Settings’ effects:** The toggle should adjust dialogue, visuals, and animation consistently, without breaking quest progression or character relationships.
+9. **Ratings and platforms:** Target an adult rating, provide clear content warnings and age gating, and check each storefront’s current rules before selecting platforms. The notes call out platform compliance as a requirement. 
+10. **Coherence with content disabled:** Keep all essential information, character development, rewards, and endings available in the non-explicit version.
+
+### **Stealth System**
+
+1. **Detection:** Use three detection channels—sight, sound, and scent—with separate human and zombie suspicion values. 
+2. **Two disguises:** Human disguise depends on looking, smelling, and behaving plausibly human; zombie disguise depends on masking human scent, wearing damaged clothing, and mimicking zombie behavior.
+3. **Improving disguise:** Use clean clothing and careful behavior around humans; use zombie blood or scent-masking materials and zombie-like movement around undead. Disguise is temporary and must be maintained.
+4. **Raising suspicion:** Unnatural movement, noise, visible decay, blood, feeding, or attacking can expose Phoenix to humans. Being too clean, smelling human, or acting unusually can attract zombies. 
+5. **Cover and hiding:** Use shadows, bushes, hiding places, obstacles, and broken line of sight to avoid detection; distractions can redirect enemies.
+6. **Weather and surfaces:** Rain can wash away an external disguise; fog reduces visual detection; surfaces such as gravel, glass, and metal make more noise than grass or dirt. 
+7. **Suspicion stages:** Give enemies readable stages: unaware, suspicious, investigating, searching, and chasing. Use visual and audio cues to show escalation.
+8. **Stealth failure:** If detected, enemies investigate or pursue; the player can fight, hide, flee, or break line of sight. Being caught should raise local danger and potentially affect faction relations.
+9. **Silent takedowns:** Make stealth and avoidance the core. If quiet takedowns are added, keep them situational; feeding or leaving evidence should still risk discovery.
+10. **Stealth skills:** Skills can reduce footstep noise and scent, speed up disguise application, extend disguise duration, and eventually allow brief periods of near-silent movement. 
+
+### **Inventory System**
+
+1. **Capacity:** Use both item slots and weight, so players face meaningful choices about what to carry. 
+2. **Stacking:** Allow common materials and consumables to stack; set stack limits by item type and weight. Exact stack sizes still need balancing.
+3. **Organization:** Separate tools, weapons, materials, food, blood, cannabis, seeds, clothing, medicine, quest items, and animal supplies into clear categories. 
+4. **Quick access:** Provide four to six quick-use slots and a radial wheel for frequently used items; allow players to favorite items for the wheel. 
+5. **Overload:** Apply increasing penalties as weight exceeds capacity: reduced stamina first, then slower movement and loss of sprinting or climbing, followed by forced item drops at extreme overload. 
+6. **Spoilage and condition:** Track weapon and tool durability; blood freshness declines over time, while weather can affect disguise materials and crops. Define spoilage rules for other items separately.
+7. **Storage and companions:** Let players transfer items to safehouse storage and suitable animal haulers. Show the destination and capacity before confirming a transfer.
+8. **After defeat:** Standard mode returns the player to a save or safehouse rest; the notes don’t specify dropped-inventory loss. I recommend not adding a dropped-bag penalty unless it’s clearly communicated as a difficulty option. 
+9. **Sorting and comparison:** Include search, sorting, item splitting, favorites, and side-by-side equipment comparisons. 
+10. **Item information:** Show an item’s function, weight, condition, stack size, crafting uses, and any relevant effects or risks.
+
+### **Building & Styling System**
+
+1. **Shelters:** Let players start with a lean-to and progress to huts, tents, treehouses, or converted caves and underground shelters. 
+2. **Placement:** Allow construction on suitable terrain and at appropriate locations; define restrictions for terrain, safehouse boundaries, and story-critical areas.
+3. **Materials:** Use gathered wood, stone, fiber, rope, scrap, and other resources. Tools and stations can be required for more complex structures.
+4. **Defenses:** Barricades and traps help secure a safehouse against threats; walls, doors, and security upgrades should make its level of protection clear.
+5. **Base stations:** Include storage, workbenches, grow beds, drying racks, animal pens, and a bicycle workshop. 
+6. **Decoration:** Let players place furniture, lighting, wall decorations, trophies, notes, grow equipment, and personal items.
+7. **Functional decoration:** Some items should improve storage, comfort, drying, or recovery as well as appearance. A base’s comfort score can affect rest and mental recovery. 
+8. **NPC and companion visits:** Companions can use animal pens; trusted NPCs may visit or comment on the base. Whether NPCs can permanently live there remains to be decided.
+9. **Persistence:** Claimed safehouses become permanent at Security Level 2; player structures persist unless dismantled or targeted by a major story event. 
+10. **Base development:** As it grows, a base can shift from a basic shelter into a specialized space—such as a greenhouse, fortress, workshop, or sanctuary—with corresponding functional and visual changes.
+
+### **Character Creation & Customization**
+
+1. **Customizable traits:** Allow players to customize name, face, skin and zombie coloration, hair, eyes, scars, tattoos, clothing, outfits, and stylized body proportions. 
+2. **Fixed identity:** Keep Phoenix’s connection to ChroniX and the outbreak as the core story; let players customize selected memories, personality leanings, and starting background.
+3. **Starting choices:** Starting skills, background, and location can shape early dialogue and options. Exact quest effects still need to be written.
+4. **Decay and mutations:** Let decay visibly alter Phoenix over time; mutations can create lasting appearance changes and affect abilities or how NPCs perceive her. 
+5. **Cosmetic versus functional:** Keep face, hair, and tattoos cosmetic; clearly label clothing or mutations that affect disguise, stats, or abilities.
+6. **Changing appearance later:** Allow appearance edits at a safehouse mirror or character screen, while keeping story-related mutations and decay visible unless the player has a specific way to alter them.
+7. **Unlockables:** Unlock outfits, appearance presets, scars, tattoos, and alternate visual styles through gameplay, story, or challenges. 
+8. **NPC reactions:** NPCs may react to visible decay, mutations, and clothing; human and undead responses should differ.
+
+### **Survival, Health & Recovery**
+
+1. **Meters:** Track Health, Bloodlust, Decay, Stamina, Energy, Hydration, Body Temperature, Consciousness, and Mental Stability, plus separate human and zombie suspicion values. 
+2. **What changes them:** Bloodlust rises over time and faster near humans, wounded creatures, in combat, and under certain conditions. Decay rises gradually; fatigue grows with time awake, exertion, high bloodlust, and injuries.
+3. **Critical effects:** High decay affects appearance, movement, health, disguise, and social interactions. High fatigue lowers stamina and reaction speed; exact critical effects for hydration and temperature still need definition. 
+4. **Injuries:** Include bleeding, infection-related effects, broken limbs, movement impairment, and damage over time.
+5. **Healing:** Recovery items and healing treatments can restore health; fictional treatments and cannabis effects can temporarily slow decay. Exact item recipes remain to be set.
+6. **Rest:** Secure safehouses support long rests and recovery; short rests in hidden spots provide fewer benefits and may carry more risk. 
+7. **Defeat:** In standard mode, let players load the last save or last safehouse rest. Offer Iron Phoenix as an optional permadeath mode. 
+8. **Difficulty settings:** Offer Story, Normal, Hard, and Nightmare presets plus individual assists for bloodlust and decay rates, resource yields, detection, combat timing, aim assist, crafting hints, and quick-save limits. Endings should remain available at every setting. 
+
+I’ll read the attached Blood Alchemy & Mutations questions and answer every section included.
+
+The attachment includes seven sets of questions. Here are answers to all of them; where the design notes don’t specify a rule, I’ve called that out.
+
+### **Blood Alchemy & Mutations**
+
+1. Phoenix can collect human, zombie, and animal blood, including samples from dogs, cats, deer, wolves, rabbits, and rats. The design also includes rare Lab-Grade samples. 
+2. Fresh blood gives stronger effects but spoils faster; stale blood has weaker effects.
+3. Players discover recipes through experimentation, NPCs, and story discoveries. A journal records successful mixes; the proposed system allows three blood types at a workbench or two in a quick field mix. 
+4. Mixtures can boost strength, stamina, regeneration, perception, speed, night vision, or decay resistance. Risks include instability, increased bloodlust, mutation side effects, reduced disguise, or temporary weakness. 
+5. Most mixtures create temporary effects; blood resonance can contribute toward permanent mutations that change abilities, appearance, and social reactions. 
+6. Phoenix starts with one permanent mutation slot, expandable through progression; one design section sets four as the cap. Another perk proposes an extra slot, so the final limit needs reconciling. 
+7. Mutations can unlock combat abilities, affect disguise baselines, change appearance, and alter NPC reactions. For example, human blood may improve human camouflage, while predator or zombie blood can make Phoenix more powerful but more visibly undead. 
+8. Mutations are intended to be lasting choices; the notes don’t define a normal respec or removal system. New Game+ can let players keep or reset mutations, and discovered recipes are also listed as possible carry-over choices. 
+
+### **Cannabis Cultivation & Processing**
+
+1. Players can find seeds and wild plants while exploring; the notes also propose hidden strains and genetics. Specific guaranteed locations and seed sources still need to be mapped. 
+2. Plants pass through seed, sprout, young plant, developing plant, mature plant, and harvestable stages. 
+3. Players prepare dirt, plant seeds, water plants, maintain growing conditions, harvest flowers, collect seeds, and process stems.
+4. Weather affects growth and crop risk: rain can help growth but raise mold risk; storms can damage exposed plants; heat increases water needs; cold slows or stops growth. Protected grow rooms and drying shelters can reduce those effects. 
+5. Strains vary in quality and can affect bloodlust, stamina, consciousness, perception, decay, or mutations. Exact strain-by-strain effects still need balancing.
+6. Products can include smoked forms, edibles, and extracts; stems can be processed into hemp fiber. 
+7. The design mentions “soft dependency,” but doesn’t settle exact tolerance rules. A prototype effect is specified: smoking reduces bloodlust by 30 and pauses its increase for 25 seconds; repeated-use penalties need tuning. 
+8. Hemp can become fiber, rope, cordage, fabric, clothing, fishing line, nets, bags, and shelter or building materials. 
+
+### **Animal Companions**
+
+1. Possible companions include dogs, cats, wolves, deer, rabbits, rats, birds, foxes, and other wildlife. The broader concept also mentions larger domestic animals; the final roster is not settled. 
+2. Approach carefully, offer food, and build trust over repeated encounters. Animal Handling skills can help animals calm faster and enable taming more difficult species. 
+3. Roles include Guard, Scout, Hauler, Companion, and Mount. Examples: dogs track and find resources; birds scout and warn; haulers increase carrying capacity. 
+4. Companions can follow, stay, explore, and return. Additional commands can let them guard, scout, haul, or assist in combat.
+5. Companions need food, shelter, health care, and loyalty management. 
+6. Temperament, bloodlust, disguise, and mutations can affect animal reactions. The notes propose reduced animal fear from bloodlust as an Animal Handling perk.
+7. Companions can be endangered; their death or betrayal is meant to carry lasting weight. Exact recovery, replacement, and permanent-loss rules need deciding. 
+8. Yes. Players can train abilities, improve commands, build trust, and unlock stronger companion roles through Animal Handling progression. 
+
+### **NPC Relationships & Factions**
+
+1. Track NPC friendship, trust, rivalry, affinity, faction loyalty, and significant remembered events; use separate reputation values for factions. 
+2. Keeping promises, helping, feeding, protecting, or losing control can raise or damage relationships. Betrayal and witnessed feeding can have lasting consequences.
+3. NPCs should remember important choices and use that history to change dialogue, trust, and future interactions. 
+4. Factions can respond with changed patrols, hostility, quests, trade, raids, recruitment, and settlement activity. 
+5. Yes. Territory ownership and regional pressure are planned, though exact takeover and recovery rules need defining. 
+6. Reputation can change quest access, dialogue, prices, stock, and access to faction encampments. 
+7. NPCs can become allies, enemies, merchants, companions, or romance interests where appropriate. Romance is optional.
+8. Losing a major NPC or becoming hostile to a faction can close off services, quests, and story paths. The exact consequences should be clear before irreversible choices where possible.
+
+### **Quests, Progression & Endings**
+
+1. Main quests advance the outbreak mystery; side quests develop NPCs and factions; optional discoveries add lore, resources, and recipes.
+2. Players find quests through NPC dialogue, faction hubs, exploration, memory triggers, and research discoveries. The journal and map help track them. 
+3. Rewards can include skills, recipes, allies, reputation, information, abilities, and story opportunities—not only items.
+4. Choices can alter later dialogue, relationships, faction access, research outcomes, quests, and endings. 
+5. Quest expiry and failure rules aren’t settled. A good default is to keep core story quests available while allowing some optional objectives to change as the world reacts.
+6. Endings should depend on accumulated choices about Phoenix’s identity, bloodlust, alliances, relationships, and the ChroniX research—not a single isolated decision. The proposed outcomes include restoration, embracing the undead, coexistence, controlling or destroying ChroniX, and independent survival. 
+
+
+The attachment includes seven sections, so I’ve answered all of them. Where the design notes leave a rule open, I’ve said so.
+
+### **Blood Alchemy & Mutations**
+
+1. **Blood types:** Phoenix can collect human, zombie, and animal blood, including from dogs, cats, deer, wolves, rabbits, and rats. Rare Lab-Grade samples are also proposed. 
+2. **Freshness and quality:** Fresh blood has stronger effects but spoils faster. Mixtures can also vary by quality and stability. 
+3. **Discovering recipes:** Players discover mixtures through experimentation, flashbacks, and NPCs. Successful combinations are recorded; players can mix up to three blood types at a workbench or two in the field. 
+4. **Benefits and drawbacks:** Mixtures can improve strength, stamina, regeneration, perception, night vision, speed, decay resistance, or combat ability. They may also cause instability, higher bloodlust, mutation side effects, weaker disguise, or temporary weakness. 
+5. **Temporary versus permanent:** Mixtures usually create temporary effects; blood “resonance” can also contribute toward permanent mutations. Proposed temporary effects last roughly 8–25 minutes, depending on the mix.
+6. **Mutation limit:** The design starts Phoenix with one permanent mutation slot and proposes expanding it to four. A skill perk also mentions an extra slot, so the final maximum needs to be reconciled. 
+7. **Effects on Phoenix:** Mutations can change appearance, combat options, dialogue, and disguise. Human blood can improve human camouflage, while zombie or predator blood can make Phoenix stronger but more visibly undead.
+8. **Changing mutations and New Game+:** Mutations are intended to be lasting choices. New Game+ may let players keep or reset mutations, but the notes don’t specify how to remove or replace them during a normal playthrough. 
+
+### **Cannabis Cultivation & Processing**
+
+1. **Finding seeds:** Seeds and wild plants can be found while exploring; rare strains can be tied to hidden locations, research sites, or trading. Exact spawn locations still need to be mapped.
+2. **Growth stages:** Plants progress through seed, sprout, young, developing, mature, and harvestable stages. 
+3. **Plant care:** Players prepare dirt, plant seeds, water them, and maintain growing conditions. The notes don’t yet specify exact soil or lighting requirements.
+4. **Weather, season, and location:** Rain can boost growth but create mold risk; storms can damage exposed plants; heat increases water needs; and cold can slow or stop growth. Protected grow rooms and drying shelters help manage conditions. 
+5. **Strains, quality, and effects:** Strains can vary in quality and affect bloodlust, stamina, consciousness, perception, decay, or mutations. Players can identify and record strains in a journal. 
+6. **Products:** Players can smoke cannabis, make edibles or extracts, and process stems into hemp fiber. The exact recipe list remains to be designed.
+7. **Duration and tolerance:** One prototype effect is smoking cannabis to reduce bloodlust by 30 points and pause its rise for 25 seconds. The broader design mentions a “soft dependency,” but exact tolerance rules aren’t specified yet. 
+8. **Hemp uses:** Hemp can become fiber, rope, cordage, fabric, clothing, fishing line, nets, bags, and shelter or building materials. 
+
+### **Animal Companions**
+
+1. **Companion species:** Proposed animals include dogs, cats, wolves, rabbits, rats, deer, and birds, with other species such as horses also under consideration. The launch roster still needs to be chosen.
+2. **Taming:** Players approach carefully, offer food, and build trust over repeated interactions. Animal-handling skills can help animals calm faster.
+3. **Roles:** Companions can Guard, Scout, Haul, accompany Phoenix, or serve as a Mount. Dogs can track; birds can warn of danger; haulers increase carrying capacity. 
+4. **Commands:** Use clear commands such as follow, stay, explore, and return, with role-specific orders where appropriate. 
+5. **Needs:** Companions have health, hunger, loyalty, and shelter needs; players can feed, train, and house them.
+6. **Bloodlust and mutations:** Animals can react to Phoenix’s bloodlust, disguise, and behavior. The exact response should depend on species and temperament; animal-handling skills can reduce fear.
+7. **Injury or loss:** Companions can face serious danger, and death or betrayal is meant to matter. Whether a lost animal can be recovered or replaced needs a final rule.
+8. **Training and bonding:** Companions can gain trust and learn useful abilities; animal-handling progression can improve commands, scouting, carrying, and defense. 
+
+### **NPC Relationships & Factions**
+
+1. **Relationship values:** Track values such as friendship, trust, rivalry, affinity, and faction loyalty, as appropriate for each character. 
+2. **Building or damaging trust:** Keep promises, help NPCs, and respect their boundaries to build trust; betrayal, dangerous actions, or feeding in front of them can damage it.
+3. **Remembering choices:** NPCs should remember important events and refer to them in later dialogue, quests, and relationship stages. 
+4. **Faction responses:** Factions can adjust patrols, trade, territory, quests, raids, and hostility in response to Phoenix’s actions and reputation. 
+5. **Territory:** Factions can own territory and change their presence over time. The exact rules for expansion, retreat, or takeover still need defining.
+6. **Quests and trade:** Reputation affects which quests, dialogue, goods, prices, and camps are available. Extreme hostility can lock Phoenix out of entire encampments. 
+7. **Allies, enemies, and companions:** NPCs can become allies, rivals, enemies, merchants, or companions depending on relationship and story choices.
+8. **Losing a major NPC or faction:** The loss should change relationships, available services, and possibly story or ending options. The exact consequences should be set for each major character and faction.
+
+### **Quests, Progression & Endings**
+
+1. **Quest structure:** Main quests advance the outbreak story; side quests develop characters and factions; optional discoveries provide lore, resources, and recipes. 
+2. **Finding quests:** Players discover quests through NPCs, factions, locations, memory triggers, and story clues. A journal records objectives and discoveries. 
+3. **Quest rewards:** Rewards can include resources, recipes, skills, allies, reputation, information, and new story options—not just equipment.
+4. **Choices and later quests:** Important choices become story flags that alter dialogue, relationships, faction behavior, and later mission options.
+5. **Quest failure:** The rules aren’t fully specified. A good default is to keep main-story quests available while allowing some optional quests to change or expire when the world changes.
+6. **Endings:** Base endings on how Phoenix handles her identity and bloodlust, which factions and characters she supports, and what she does with ChroniX research. The final ending list should be consolidated from the different drafts.
+7. **Progression:** Seven proposed skill areas—Stealth, Combat, Herbalism/Cannabis, Blood Alchemy, Animal Handling, Crafting, and Social—support different builds and playstyles. 
+8. **New Game+:** Players may choose to carry over selected mutations, recipes, cosmetics, map knowledge, safehouses, and lore; story flags, inventory, meters, and world simulation reset. 
+
+### **World Simulation, Weather & Events**
+
+1. **World changes:** Crops, animals, and regional pressure can persist over time. How much simulation continues while the player is away still needs to be defined. 
+2. **Day and night:** Time affects visibility, enemy aggression, human patrols, animal activity, resources, stealth, weather, and settlement activity. 
+3. **Weather and seasons:** Rain, fog, storms, heat, cold, and seasonal changes can affect movement, sound, visibility, disguise, plant growth, resources, and NPC behavior. 
+4. **Wildlife and plants:** Crops grow through stages and wildlife can move or become more or less active; exact population and resource-replenishment rates remain to be determined.
+5. **Unprompted events:** The world can generate zombie hordes, survivor attacks, faction raids, weather events, and other encounters. 
+6. **Regional responses:** Factions and threats can react to player actions and regional pressure by changing patrols, territory, or hostility.
+7. **Temporary versus permanent changes:** Weather and encounters are temporary; claimed safehouses, built structures, key faction changes, and major story decisions can persist. Exact persistence rules should be documented per system.
+8. **Showing world changes:** Use map updates, NPC dialogue, visible changes to locations, and journal notices so players can understand what changed when they return.
+
+### **Economy & Trading**
+
+1. **Currency or barter:** The current proposal is barter plus reputation, with no universal currency. 
+2. **Faction values:** Human markets value water, medicine, ammunition, tools, information, and quality cannabis; conscious undead value blood, extracts, mutation knowledge, and rare recipes. 
+3. **Reputation and prices:** Reputation affects prices, stock, dialogue, and access to trading locations. Visible mutations and evidence of feeding can also influence how human traders treat Phoenix.
+4. **Scarcity:** Common materials should be renewable or findable in multiple regions; rare blood, research, and specialized goods should remain valuable. Exact stock and restock rates need balancing.
+5. **Information and services:** Players can trade information such as map knowledge, lab secrets, and the locations of other subjects. Services can be represented through quests, repairs, or access to safe locations. 
+6. **Selling crafted goods:** Let players barter useful crafted tools, clothing, extracts, and supplies where a faction or merchant values them.
+7. **Faction stock:** Factions can gain or lose supplies through trade, raids, and world events; exact restocking rules remain to be defined.
+8. **Rewarding playstyles:** Make different approaches economically useful: growers can trade cannabis and hemp goods, explorers can trade information, and blood alchemists can exchange rare samples or recipes.
+
+I’ll read the attached UI, accessibility, and saving questions and answer each one from the existing design notes.
+
+The attachment contains **eight sections**, so I’ve answered all of them—not just UI and accessibility. I’ve marked open decisions where the notes don’t set a firm rule.
+
+### **UI, Accessibility & Saving**
+
+1. **HUD:** Keep Bloodlust, Decay, disguise strength, and quick-use slots visible. Show stamina, Sanity, noise, and enemy detection cues only when relevant. 
+2. **Menus and quick access:** Provide inventory, crafting, map, journal, character, relationship, and mutation screens, plus a hotbar or radial wheel for frequently used items.
+3. **Teaching systems:** Introduce mechanics gradually through the opening sequence: movement, stealth, combat, gathering, crafting, and cannabis use.
+4. **Adjustable settings:** Include control remapping, text scaling, colorblind modes, screen-reader support, and adjustable difficulty. Add volume settings and captions for key audio cues; captions aren’t explicitly specified in the notes. 
+5. **Combat and stealth accessibility:** Offer timing and aiming assists, plus clear visual indicators for enemy detection and noise so important information doesn’t depend on hearing alone.
+6. **Save slots:** Support multiple manual saves, autosave, and quicksave. The exact number of manual slots is not specified. 
+7. **What saves preserve:** Save character state, inventory, skills, quests, relationships, discovered recipes, world seed, claimed bases, crops, and other persistent changes.
+8. **Irreversible choices:** Before a choice can permanently damage a relationship, change a faction outcome, or lock a story route, show a clear warning and confirmation.
+
+### **Platform, Prototype & Testing**
+
+1. **First-release platform:** The notes list PC, browser, and Android as possibilities, but also specify different engines and platforms in different drafts. Choose one launch target first; I’d avoid committing to all three until the prototype runs well. 
+2. **Controls:** Desktop plans include keyboard and mouse; mobile plans include a virtual joystick and touch buttons. Controller support is a useful option to decide, but isn’t specified yet. 
+3. **Prototype features:** The proposed vertical slice includes one region, movement and climbing, survival meters, basic cannabis use, a few blood mixes, the Multi-Stick, basic disguise, two or three enemy types, crafting, shelter, inventory, saving, the opening sequence, and a day/night cycle. 
+4. **Features to postpone:** Large-scale world expansion, full faction simulation, many animal species, advanced mutations, multiple endings, extensive audio, and mod support can follow once the core loop works.
+5. **Performance targets:** Set a measurable frame-rate and loading target for the chosen launch device; exact numbers aren’t specified. Test world streaming, NPC counts, and memory use on minimum supported hardware.
+6. **Bug reporting:** Have testers submit the build/platform, steps to reproduce, expected and actual result, and optional screenshots or clips. Tag bugs by severity and whether they block progress.
+7. **Testing the core loop:** Check whether new players understand their objective and meters, complete the gather–craft–survive loop, recognize detection, and find the tension engaging rather than confusing.
+8. **Release readiness:** Require stable saves, tested controls, completed core content, accessibility checks, resolved blocking bugs, and platform/content-rating compliance before release.
+
+### **Character Creation & Customization**
+
+1. **Customization:** Allow players to adjust name, face, skin and zombie coloration, hair, eyes, scars, tattoos, clothing, outfits, and stylized body proportions. 
+2. **Fixed identity:** Keep Phoenix’s connection to ChroniX and the outbreak as the story’s backbone; let players customize selected memories, background, and personality.
+3. **Starting choices:** Offer starting skills and possibly starting locations or memory fragments, with effects on early dialogue and available approaches.
+4. **Mutation and decay:** Let decay visibly affect Phoenix over time and mutations create lasting visual changes tied to abilities and NPC reactions.
+5. **Cosmetic versus functional:** Face, hair, and tattoos can be cosmetic; clearly label clothing or mutations that affect disguise, abilities, or stats.
+6. **Changing appearance later:** A safehouse mirror or character screen could allow cosmetic changes after starting. This is a recommendation; the notes don’t define a respec or appearance-change feature.
+7. **Unlockables:** Unlock outfits, scars, tattoos, appearance presets, and alternate mutation styles through story progress or challenges. 
+8. **NPC reactions:** Let human and undead characters react differently to visible decay, mutations, clothing, and Phoenix’s current disguise.
+
+### **Survival, Health & Recovery**
+
+1. **Meters:** Track Health, Bloodlust, Decay, Stamina, Energy, Hydration, Body Temperature, Consciousness, and Mental Stability, plus human and zombie suspicion. 
+2. **What changes them:** Bloodlust rises over time and faster near humans, wounded creatures, and combat; Decay rises gradually; Fatigue grows with time awake, exertion, high bloodlust, and injury.
+3. **Critical effects:** High Decay affects appearance, movement, health, disguise, and social interactions. High Fatigue reduces stamina and reaction speed; exact penalties for critically low hydration or temperature need defining. 
+4. **Injuries:** Include bleeding, infection-related effects, broken limbs, movement impairment, and damage over time.
+5. **Healing:** Use recovery items and treatments; certain fictional treatments and cannabis effects can temporarily slow Decay. Define the specific items and recipes during system balancing.
+6. **Rest and safehouses:** Safehouses provide saving, crafting, and recovery. A secure claimed safehouse supports a long rest; short rests in hidden places give fewer benefits and can carry extra risk. 
+7. **Defeat:** In standard mode, let players load the last save or last safehouse rest. Offer optional Iron Phoenix permadeath mode. 
+8. **Difficulty options:** Provide Story, Normal, Hard, and Nightmare presets, plus individual assists for bloodlust and decay rates, resource yields, enemy detection, combat timing, aiming, crafting hints, and quick-save limits. Don’t lock endings behind difficulty. 
+
+### **Blood Alchemy & Mutations**
+
+1. **Blood types:** Phoenix can collect human, zombie, animal, and rare Lab-Grade blood, with separate inventory types for different sources. 
+2. **Freshness and quality:** Fresh blood has stronger effects but spoils faster; quality and stability can further shape the mixture.
+3. **Recipe discovery:** Players can experiment, learn from NPCs, or uncover recipes through flashbacks. Successful combinations are recorded; workbenches allow more complex mixes than field crafting. 
+4. **Effects and risks:** Mixtures can alter strength, stamina, regeneration, perception, speed, decay, and combat ability, but may also cause instability, increased Bloodlust, mutation side effects, or reduced disguise. 
+5. **Temporary versus permanent:** Most blood mixes produce temporary effects; repeated mixing can build resonance toward a permanent mutation. The proposed temporary duration is about 8–25 minutes.
+6. **Mutation slots:** Start with one permanent slot and expand through progression. One section proposes a maximum of four, while a high-level perk adds a slot; reconcile the final cap.
+7. **Gameplay effects:** Mutations can unlock combat options and change disguise baselines, visible appearance, and dialogue reactions. 
+8. **Changing and carrying mutations:** Treat mutations as lasting choices during a run. New Game+ may let players keep or reset them; normal-run removal rules aren’t defined yet. 
+
+### **Cannabis Cultivation & Processing**
+
+1. **Seeds:** Players can find seeds and wild plants while exploring; rare strains can come from hidden locations, research sites, or trading. Exact spawn tables remain to be defined.
+2. **Growth stages:** Use visible stages from seed and sprout through young, developing, mature, and harvestable plant. 
+3. **Care:** Players prepare dirt, plant, water, and maintain growing conditions. Exact soil and light rules aren’t settled.
+4. **Weather and seasons:** Rain can help growth but increase mold risk; storms can damage exposed plants; heat raises water needs; cold slows or stops growth. Shelters can protect crops. 
+5. **Strains:** Strains vary in quality and can affect Bloodlust, stamina, consciousness, perception, Decay, or mutations.
+6. **Products:** Players can smoke cannabis, make edibles or extracts, and process stems into hemp fiber. The full recipe list remains open.
+7. **Duration and tolerance:** A prototype effect lowers Bloodlust by 30 and pauses its increase for 25 seconds. “Soft dependency” is mentioned, but exact tolerance and repeated-use rules are not defined. 
+8. **Hemp crafting:** Hemp can become fiber, rope, cordage, fabric, clothing, fishing line, nets, bags, and shelter materials. 
+
+### **Animal Companions**
+
+1. **Species:** Dogs, cats, wolves, rabbits, rats, deer, and birds are proposed; other tameable species are possible. Finalize a smaller launch roster first.
+2. **Taming:** Approach carefully, offer food, and build trust through repeated interactions. Animal-handling skills can speed this up.
+3. **Roles:** Assign Guard, Scout, Hauler, Companion, or Mount roles, with abilities such as tracking, finding supplies, scouting, and carrying resources. 
+4. **Commands:** Provide follow, stay, explore, and return commands, plus role-specific orders as needed. 
+5. **Needs:** Track animal health, hunger, loyalty, and shelter; players can feed, train, and house them.
+6. **Bloodlust and mutations:** Animals can respond to Phoenix’s Bloodlust, disguise, and mutations according to species and temperament. Exact response rules still need to be set.
+7. **Injury or loss:** Companions can be endangered, and death or betrayal is meant to carry weight. Decide whether they can be recovered or replaced.
+8. **Training and bonding:** Bonding and Animal Handling progression can unlock commands, scouting, carrying, and defensive abilities. 
+
+### **NPC Relationships & Factions**
+
+1. **Values:** Track trust, affinity, rivalry, friendship, and faction loyalty where relevant. 
+2. **Trust and betrayal:** Helping characters, keeping promises, and respecting boundaries can build trust; feeding, betrayal, or endangering others can damage it.
+3. **NPC memory:** Major events should be remembered and reflected in later dialogue, quests, and relationship states. 
+4. **Faction response:** Factions can change patrols, trade, territory, quests, raids, and hostility according to Phoenix’s actions and reputation. 
+5. **Territory:** Factions can gain or lose territory, but exact expansion and takeover rules remain to be designed.
+6. **Quest and trade effects:** Reputation can unlock or restrict quests, dialogue, camps, goods, and prices. 
+7. **NPC outcomes:** NPCs can become allies, enemies, merchants, or companions based on choices and relationships.
+8. **Losing a major character or faction:** Loss should affect available support, services, story branches, or endings. Define consequences for each major NPC and faction rather than using one generic penalty.
+
+I’ll read the attached quest and progression questions, then answer every section included.
+
+The attachment contains five sections, including **Game Foundations & Vision**. Here are answers to all of them; I’ve noted where the design documents conflict or leave a decision open.
+
+### **Quests, Progression & Endings**
+
+1. **Organization:** Main quests advance the outbreak story; side quests develop characters and factions; optional tasks reward exploration with clues, resources, and recipes. 
+2. **Discovery:** Players find quests through NPCs, factions, locations, memories, and research clues. Add discoveries to the journal and map.
+3. **Rewards:** Quests can provide skills, recipes, allies, reputation, information, resources, and new story options—not just equipment.
+4. **Choice effects:** Record major decisions as story flags that influence later dialogue, relationships, faction behavior, and quest availability.
+5. **Failure:** Keep main-story quests available when possible; optional quests can change as the world changes. Clearly signal when an action will close off a side quest.
+6. **Endings:** Base endings on Phoenix’s identity choices, bloodlust, faction loyalties, relationships, and what she does with ChroniX research. The notes contain different proposed ending lists, so consolidate them into one final roster.
+7. **Playstyles:** Seven proposed skill areas—Stealth, Combat, Herbalism/Cannabis, Blood Alchemy, Animal Handling, Crafting, and Social—support different character builds. 
+8. **New Game+:** Let players choose whether to carry over selected mutations, recipes, cosmetics, map knowledge, safehouses, and lore. Reset story flags, inventory, meters, and world simulation. 
+
+### **World Simulation, Weather & Events**
+
+1. **Changes while away:** Crops, animals, and regional pressure can persist over time. Decide how much simulation continues while an area is unloaded.
+2. **Day and night:** Time affects visibility, enemy aggression, patrols, animal activity, resource availability, stealth, weather, and settlement activity. 
+3. **Weather and seasons:** Weather can affect sound, visibility, movement, disguise, plant growth, resources, and NPC behavior; seasonal changes can alter those conditions further. 
+4. **Wildlife and crops:** Plants grow and animals can change local activity or population. Exact growth, migration, and replenishment rates still need to be balanced.
+5. **Events:** Generate encounters such as zombie hordes, survivor attacks, faction raids, and environmental events. Use authored versions for important story beats and generated versions for variety. 
+6. **Faction and threat response:** Let factions react to player actions and local pressure by changing patrols, territory, trade, or hostility.
+7. **Temporary and permanent changes:** Weather and many encounters are temporary; claimed safehouses, built structures, and major story or faction changes can persist.
+8. **Showing changes:** Use visible changes to locations, NPC dialogue, map updates, and journal notices so players understand what happened while they were away.
+
+### **Economy & Trading**
+
+1. **Currency:** The proposed economy uses barter and reputation rather than universal currency. 
+2. **Faction values:** Human markets value clean water, medicine, ammunition, tools, information, and quality cannabis. The conscious-undead network values blood, extracts, mutation knowledge, and rare recipes. 
+3. **Reputation and prices:** Reputation changes prices, stock, dialogue, and access to trading locations. Human traders may also react to visible mutations or evidence of feeding.
+4. **Scarcity:** Make common supplies renewable or available across multiple regions; keep rare blood, research, and specialized goods valuable. Exact supply levels need balancing.
+5. **Information and services:** Allow trades involving information such as map knowledge, lab secrets, and the locations of other subjects. Services can include repairs, safe passage, or access to facilities.
+6. **Crafted goods:** Let players barter useful tools, clothing, cannabis products, and other crafted supplies.
+7. **Faction supplies:** Factions can gain or lose resources through trade, raids, and world events. Their restocking rules still need to be defined.
+8. **Different playstyles:** Make growing, hunting, crafting, exploring, and social play each produce goods or information that some faction values.
+
+### **UI, Accessibility & Saving**
+
+1. **HUD:** Keep Bloodlust, Decay, disguise strength, and quick-use slots visible; show stamina, sanity, noise, and detection indicators contextually. 
+2. **Menus and quick access:** Provide inventory, crafting, map, journal, character, relationship, and mutation screens, plus a hotbar or radial wheel for frequently used items.
+3. **Teaching systems:** Use the opening sequence to teach movement and interaction, stealth, combat, gathering, crafting, and cannabis use one step at a time.
+4. **Adjustable settings:** Include control remapping, text scaling, colorblind modes, screen-reader support, and adjustable difficulty. Add audio sliders and captions for key sounds; captions aren’t specified in the notes yet. 
+5. **Combat and stealth accessibility:** Offer timing, aiming, and detection assists, with visual cues for important audio information.
+6. **Save slots:** Support several manual saves, autosave, and quicksave. The exact manual-slot count remains open. 
+7. **What saves preserve:** Save inventory, skills, quests, relationships, discovered recipes, world seed, claimed safehouses, crops, and other persistent world state.
+8. **Irreversible choices:** Warn and ask for confirmation before choices that permanently damage relationships, change faction outcomes, or lock story routes.
+
+### **Platform, Prototype & Testing**
+
+1. **First platform:** The notes list PC, browser, and Android as possibilities, but don’t settle on a single launch platform or engine. Choose one first; don’t promise support for all until it’s tested. 
+2. **Controls:** Plan keyboard and mouse for desktop and a virtual joystick with touch buttons for mobile. Controller support still needs a decision. 
+3. **First prototype:** Build one region with movement, climbing, core survival meters, basic cannabis use, a few blood mixes, Multi-Stick uses, disguise, two or three enemy types, crafting, shelter, inventory, saving, the opening, and day/night. 
+4. **Later features:** Defer large-scale world expansion, numerous factions and animals, advanced mutations, multiple endings, full audio, and mod support until the core loop works.
+5. **Performance target:** Set a frame-rate and load-time target for the chosen minimum device; exact numbers aren’t specified. Test world streaming, NPC counts, and memory use on that device.
+6. **Bug reporting:** Ask testers to provide build and device information, steps to reproduce, expected and actual results, and optional screenshots or clips. Prioritize bugs by severity.
+7. **Core-loop feedback:** Check whether players understand their objective and meters, complete the gather–craft–survive loop without outside help, recognize detection, and find the tension engaging rather than confusing.
+8. **Release readiness:** Require stable saves, tested controls, complete core content, accessibility checks, no blocking bugs, and platform and age-rating compliance.
+
+### **Game Foundations & Vision**
+
+1. **Working title:** The most consistent current title is **HIGH & UNDEAD: NATURAL SURVIVAL**, but other drafts use different titles. Pick one official title before creating public-facing materials. 
+2. **One-sentence description:** A 2D open-world survival game where Phoenix, a conscious zombie, gathers, crafts, manages bloodlust, and disguises herself to survive among humans and the undead while uncovering the ChroniX outbreak.
+3. **Genre:** 2D top-down open-world survival-crafting, stealth, RPG, and narrative sandbox.
+4. **Platforms and format:** The drafts mention PC, browser, and Android but conflict on engine and launch target. Choose one for the first release; the format isn’t settled yet. 
+5. **Audience and age:** The concept targets adult players and includes horror, gore, cannabis-related fictional gameplay, and optional mature relationships. Set a target rating and content warnings before release.
+6. **Player role:** The player is Phoenix, a newly turned zombie who retains her human consciousness.
+7. **Design pillars:** **Survive, disguise, and evolve**—supported by exploration, crafting, bloodlust management, and memory recovery.
+8. **Distinctive hook:** The player is the zombie, must blend into both human and undead groups, and evolves through blood mixing while cannabis is integrated into survival and crafting.
+9. **Tone and emotion:** Dark humor, body horror, melancholy, moments of tenderness, and hard-won clarity. 
+10. **Out of scope for the first release:** An unlimited world, every proposed feature, and systems that aren’t necessary to prove the core loop. Build the one-region playable slice first, then expand.
+
+## **2. Premise, Setting & Player Promise**
+
+1. **World at the beginning:** The game opens during the first chaotic phase of the outbreak—not years later. The city still has apartments, stores, transit, and emergency services, but routines are collapsing: alarms and sirens compete, traffic is jammed, broadcasts contradict each other, and people are fleeing or barricading themselves.
+
+2. **Cause of the outbreak:** ChroniX’s experimental Euphoria strain was contaminated with a viral agent, and the outbreak spread during a company event. The public initially knows only that people are becoming violent and ill; the corporate connection and Phoenix’s involvement are revealed gradually through alerts, research, records, and memories. 
+
+3. **Phoenix’s immediate situation:** Phoenix wakes in her apartment with a gap in her memory and assumes it’s an ordinary workday. She is newly turned, but her conscious mind hasn’t yet accepted what her body has become. Her morning routine gives her—and the player—time to notice that something is wrong before the city confirms it.
+
+4. **Player promise:** Play as a thinking zombie, not a human survivor. Survive by gathering, crafting, hiding, adapting, and deciding how much of Phoenix’s humanity she wants to keep.
+
+5. **Central theme:** **What remains of a person when their mind is still present, but their body and instincts have changed?** The game keeps asking whether Phoenix can control her hunger, whether she should seek restoration, and whether humans and undead can coexist.
+
+6. **First goal:** At first, Phoenix’s goal is mundane: get ready and go to work. After she steps outside, that goal becomes immediate survival—and finding out why the city has changed and why her own body feels wrong.
+
+7. **How the goal changes:** Survive the immediate outbreak, understand her transformation, uncover ChroniX’s role, then decide whether to pursue a cure, accept her undead nature, or help create coexistence.
+
+8. **Familiar versus strange:** The apartment, shower, breakfast, work clothes, phone, and commute should feel ordinary. The wrong temperature of her skin, absence of a normal heartbeat, strange appetite, distorted senses, zombies ignoring her, and humans recoiling from her should feel increasingly impossible.
+
+9. **Themes and motifs:** Routine against chaos; mirrors and identity; hunger versus self-control; blood and disguise; corporate memory and guilt; gardens and regrowth. Repeated visual details—an alarm that keeps going off, a mirror, a work badge, and the same city street before and after the outbreak—can tie the opening to later memories.
+
+10. **What players should remember:** An almost normal morning that gradually turns into the realization that Phoenix is a zombie—and the unusual survival fantasy of learning to pass among both humans and the undead.
+
+## **3. Opening, Prologue & First Hour**
+
+1. **First image:** A phone alarm vibrates on a bedside table in a dim apartment. The screen reads **7:12 AM**. A work reminder appears beneath several missed emergency alerts from overnight, but Phoenix is too groggy to understand their significance.
+
+2. **Where Phoenix begins—and the detailed opening:**
+
+   - **Waking up:** Phoenix silences the alarm. The room looks lived-in: work clothes laid out, a bag near the door, dishes from the night before, and a ChroniX badge or work item among her things. The player learns movement and simple interaction by sitting up, checking the room, and getting ready.
+   - **The morning routine:** She heads to the bathroom, turns on the shower, and gets ready for work. Keep it familiar and quiet, but introduce small wrong details: the water feels cold even when it’s hot, she doesn’t feel fully awake, and everyday sounds—the pipes, the refrigerator, a neighbor moving next door—seem unusually loud.
+   - **The mirror:** After the shower, she wipes steam from the mirror. At first she just looks tired. Then she notices her skin is unusually pale, her eyes look wrong, and a dark mark or wound is partly hidden by her hair or collar. Her reflection may seem subtly unfamiliar, but avoid explaining the cause yet. Phoenix dismisses it as illness, exhaustion, or bad lighting.
+   - **Getting dressed and breakfast:** She chooses work clothes, gathers her bag and keys, and attempts breakfast. Food has little taste or feels unpleasant; coffee smells familiar but doesn’t wake her up. A phone alert interrupts: emergency services are reporting an incident nearby, while a ChroniX message says employees should await instructions. Phoenix assumes the alerts are about a separate crisis.
+   - **Clues from the previous night:** Messages and a calendar reminder hint that something happened at a ChroniX event. A coworker’s unfinished message—“Don’t come in. Something’s wrong with the—”—is cut off. The player can inspect these clues, but none should fully explain the outbreak.
+   - **Leaving the apartment:** In the hallway, the building feels too quiet. A door is ajar; an elevator is stopped; there’s a distant thud or an indistinct call for help. Phoenix can take the stairs, learn basic movement and interaction, and encounter the first signs that the danger is close.
+   - **Stepping outside:** The street turns the ordinary morning into an emergency. Sirens, abandoned cars, an alarm still sounding, people running, and infected moving through the crowd create a sharp contrast with the apartment. A zombie passes Phoenix without attacking. A frightened human sees her, screams, and runs.
+   - **First loss of control:** A wounded person or sudden burst of blood triggers Phoenix’s hunger. The player feels the bloodlust rise and must choose whether to back away, hide, or approach. This introduces her condition as a playable problem without forcing the player to harm someone.
+   - **The first escape:** A nearby attack or crowd surge forces Phoenix to escape the street. She can use an alley, a stairwell, or a building entrance to break line of sight. The sequence teaches sneaking, sound, and hiding through the situation rather than a detached tutorial.
+
+3. **When control begins:** Give the player control shortly after the alarm, once Phoenix is awake. Let them explore the apartment and perform parts of the routine before the first outside danger.
+
+4. **What the opening establishes:** Phoenix thinks she is human and trying to get to work, but her body, senses, and the infected world contradict that assumption. The first clear evidence is that zombies don’t attack her while humans react as if she is one of them.
+
+5. **First objective:** Start with **Get ready for work**. Once the player sees the street, change it to **Find somewhere safe**; after reaching shelter, the next goal becomes **Find out what happened at ChroniX**.
+
+6. **Systems taught:** Apartment: movement, interaction, inspection, and inventory. Hallway: sound and attention. Street: stealth, suspicion, and bloodlust. First safe location: gathering, basic crafting, and checking Phoenix’s survival meters.
+
+7. **First danger:** The first danger is the public outbreak spilling into Phoenix’s immediate neighborhood. The first gameplay threat should be detection and a bloodlust spike—not a mandatory combat encounter.
+
+8. **Important item or clue:** Phoenix’s phone and ChroniX badge are key opening props. The phone provides emergency alerts and a coworker’s interrupted message; the badge establishes her connection to ChroniX and can later unlock or identify restricted locations.
+
+9. **First moment of safety:** Treat Phoenix’s apartment as the **first provisional safehouse**. After escaping the street, she can return, lock or barricade the door, and take a breath. Later, she can choose to secure it properly or move elsewhere.
+
+10. **End of the opening section:** End the first major section with a new warning: a recognizable coworker’s voice or message says ChroniX has sealed its campus and is searching for a missing employee or test subject. Phoenix checks her badge or a recovered record and realizes the mystery may be about her. That gives the player a clear next objective—reach the ChroniX perimeter—without revealing the full truth too soon.
+
+1. **What first made you want to create this game?**  
+   The concept seems to start with turning the usual zombie-survival idea around: instead of playing a human fighting zombies, the player is a zombie trying to survive. The unusual combination of zombie survival, cannabis, crafting, and mature content makes that perspective your own. 
+
+2. **What moment or image made the idea exciting?**  
+   A normal workday morning slowly feeling wrong: Phoenix showers, dresses, and tries to eat breakfast, notices something strange in the mirror, then steps outside and discovers that the city has become an outbreak zone—and that she is one of the zombies. That contrast between routine and horror is a strong opening image.
+
+3. **What experience do you wish existing games gave you?**  
+   The chance to experience survival from a conscious zombie’s point of view: managing bloodlust, avoiding human detection, blending in with zombies, and deciding how to respond to both groups. The cannabis system should be part of that survival experience, not just decoration.
+
+4. **What should players get to do that they usually can’t?**  
+   Grow and use cannabis as an in-game survival system: make products such as joints, pipes, papers, or bongs, then use them to help manage Phoenix’s bloodlust. Those items should be fictional gameplay tools with clear effects and limits.
+
+5. **What should an ordinary minute of play feel like?**  
+   Quiet but uneasy. The player might scavenge, manage supplies, disguise Phoenix, or explore—while listening for danger and deciding whether to risk a fight or take another route.
+
+6. **What should major success, loss, or discovery feel like?**  
+   Success should bring relief and a sense that the player adapted or made a smart choice. Loss should feel consequential, especially when it affects a companion or relationship. A major discovery should change how the player understands Phoenix, ChroniX, or the outbreak.
+
+7. **What is the one experience the game must deliver?**  
+   The experience of being a thinking zombie who must survive between human and undead worlds while deciding what she wants to become.
+
+8. **Which parts are non-negotiable?**  
+   The cannabis system, the NSFW/mature-content system, and the protagonist being a zombie. These should remain connected to the overall game rather than feel like separate add-ons.
+
+9. **Which parts can change?**  
+   The exact map size, platform, engine, number of regions, combat balance, crafting recipes, faction details, and whether co-op is added can change if a better or more manageable design emerges. Keep the core experience intact while adjusting the scope.
+
+10. **What should the game not become?**  
+   It shouldn’t become a conventional game where the zombie is only an enemy, a game where cannabis is just a collectible, or one where mature content replaces the survival and story. It should also avoid becoming so large in scope that its central gameplay loop never gets polished.
+
+11. **Which works inspired it?**  
+   Your notes name *Z Girls 2: Last One*, *Dawn of Zombies*, *Days After*, *The Forest*, *DayZ*, *Rust*, and *The Last of Us* as reference points for survival, crafting, tension, and post-apocalyptic settings. The goal is to draw on broad genre ideas while making the conscious-zombie perspective and integrated cannabis system distinct. 
+
+12. **What would make it feel like the game you wanted to make?**  
+   A playable game where the morning-apartment opening leads naturally into the outbreak; playing as a zombie changes how survival works; and cannabis, crafting, stealth, and mature content all support the same core experience.
+
+**Does this capture your intent, especially the morning-to-outbreak opening and the three non-negotiables?**
+
+I’ll read the attached scope and prototype questions, then answer each set in the context of your game.
+
+Here’s a proposed **developer baseline** for the whole attachment. These are recommendations for turning *High & Undead* into a buildable project; I haven’t invented a budget, team size, or release date.
+
+### **Scope & First Playable Version**
+
+1. **Smallest fun version:** A short playable slice where Phoenix wakes in her apartment, follows her routine, sees the outbreak, escapes one street encounter, and reaches a temporary safehouse.
+2. **Must-have features:** Movement and interaction, apartment-to-street opening, basic Bloodlust and disguise, one gathering/crafting loop, cannabis use, two enemy types, one safe place, and saving.
+3. **Postpone:** Multiple regions, full faction simulation, large animal roster, advanced mutation trees, co-op, many endings, and extensive mature scenes. Keep the NSFW setting option in the prototype, but the content itself can be minimal.
+4. **Realistic prototype size:** One small neighborhood, one main objective, one optional discovery, two or three enemy types, and around 20–30 minutes of play. Treat that as a vertical slice, not the full release.
+5. **Success evidence:** Test whether new players understand the objective, notice Phoenix’s condition, complete the first survival loop, and can describe whether playing as a zombie feels meaningfully different.
+
+The existing design notes also propose a one-region vertical slice with core survival meters, cannabis use, a few blood mixes, Multi-Stick, disguise, two or three enemies, crafting, shelter, and saving. 
+
+### **Technology & Platforms**
+
+1. **Engine:** I recommend Godot 4 for the 2D game and its growing systems. The notes conflict: one draft specifies GDevelop/HTML5, while another recommends Godot 4.
+2. **First platform:** Choose PC first; treat browser and Android as later ports after controls and performance are proven.
+3. **Minimum target:** Aim for smooth 60 FPS on modest supported PC hardware at 1080p; finalize the exact minimum spec after profiling.
+4. **Online requirement:** Make the single-player game fully playable offline. Don’t require accounts, multiplayer, or a paid AI service.
+5. **Technical limits:** Stream a finite world in manageable chunks. Set a tested cap for nearby NPCs, effects, and active encounters instead of promising an unlimited world. 
+
+### **Team, Schedule & Production**
+
+1. **Responsibilities:** Cover design, code, art, writing, audio, and testing; one person may hold multiple roles.
+2. **Team model:** The notes don’t say whether this is solo or team development. Plan the prototype so a solo developer can build it, then add contributors if available.
+3. **Budget and timeline:** These can’t be responsibly set without knowing the team, working hours, and funding. Estimate them only after the vertical-slice task list is sized.
+4. **Dependencies:** Lock the engine and controls first; then build movement, interaction, and the apartment/street scenes; then add survival, stealth, crafting, art, and polish.
+5. **If a feature takes too long:** Preserve the core zombie-survival loop and cut or simplify secondary systems rather than shipping many unfinished features.
+
+### **Assets & Development Workflow**
+
+1. **Asset creation:** Use a consistent 2D top-down art pipeline for characters, environments, UI, animation, and sound.
+2. **Asset standards:** Define sprite sizes, animation frames, color palettes, file formats, audio levels, and naming rules before producing large asset sets.
+3. **Asset rights:** Track whether each asset is original, licensed, or temporary placeholder art; keep licenses and attribution details with the project.
+4. **Backups and collaboration:** Use version control and regular backups for code, art, writing, and audio.
+5. **Content editing:** Store items, recipes, dialogue, quests, and effects in organized data files so changes don’t require rewriting core logic.
+
+### **Testing & Quality**
+
+1. **Milestone tests:** Test controls and scene transitions first, then survival meters, stealth detection, crafting, saving, and the complete opening loop.
+2. **Playtesters:** Start with a small group unfamiliar with the design; collect notes on where they get confused, stuck, or disengaged.
+3. **Bug tracking:** Record steps to reproduce, device/build, expected result, actual result, and severity; retest after fixes.
+4. **Balance testing:** Track how often players are detected, lose control, run out of resources, or avoid combat. Adjust rates based on observed play, not assumptions.
+5. **Release gate:** Require a stable build, working saves, clear controls, no blocking bugs, and complete core content before release. The notes already call for alpha testing and iteration. 
+
+### **Accessibility, Ratings & Rights**
+
+1. **Accessibility:** Include remappable controls, scalable text, colorblind options, screen-reader support where feasible, and combat assists. 
+2. **Rating and warnings:** Target an adult rating and provide clear warnings for horror, gore, cannabis-related fictional content, and mature relationship themes.
+3. **Mature-content settings:** Let players disable or limit mature content, and verify that each selected platform supports the intended presentation.
+4. **Ownership:** Confirm ownership and license terms for code, art, writing, music, fonts, and third-party tools.
+5. **Distribution rules:** Check each storefront’s current age-rating, content, privacy, and payment requirements before committing to launch there.
+
+### **Business & Release Plan**
+
+1. **Store:** For a PC-first version, choose a PC storefront and maintain a separate browser build only if it fits the technical plan.
+2. **Price and model:** The notes consider a paid game with optional cosmetics or expansions and reject pay-to-win or paywalling core survival systems. Exact pricing is still open. 
+3. **Launch format:** Prove the core loop in a prototype first; decide between a demo, Early Access, or full release after scope and production capacity are clearer.
+4. **Store materials:** Prepare a clear description, screenshots, trailer, feature list, content warnings, and supported-platform details.
+5. **Communicating scope:** Clearly distinguish what is playable at launch from ideas planned for later, so players aren’t promised unfinished systems.
+
+### **Post-Launch Support**
+
+1. **Support owner:** Assign a person or team to triage bug reports and player questions.
+2. **Update cadence:** Set a realistic patch schedule based on team capacity; don’t promise frequent updates before knowing the workload.
+3. **Save safety:** Version saves and test migrations before updates; back up saves where the platform allows it.
+4. **Expansions and mods:** Consider new regions, chapters, and mod support after the core game is stable. These are proposed future options, not commitments.
+5. **If support ends:** Communicate clearly, preserve the last stable version where possible, and avoid leaving saves dependent on unavailable online services.
+
+### **Data, Privacy & Security**
+
+1. **Data collection:** Collect only what the game needs; disclose optional crash reports or analytics and ask for consent where required.
+2. **Offline access:** Keep the core game playable without an account or external service.
+3. **Save protection:** Use versioned saves, backups, and clear recovery behavior if a save is damaged.
+4. **Third-party records:** Maintain a list of external tools, libraries, services, and licenses.
+5. **Privacy information:** Provide a plain-language privacy notice if any personal data, analytics, or online services are used.
+
+### **Game Flow**
+
+1. **Launch screen:** Show the title, content settings, accessibility options, and clear paths to start or continue.
+2. **Start to play:** Move from title screen to character creation, then into the apartment-morning prologue.
+3. **Session flow:** Let players pause, save where allowed, resume, return to the title, or load another save.
+4. **After the story:** Offer New Game+, challenge modifiers, and continued exploration only if they can be supported without undermining the ending.
+
+### **Camera & Controls**
+
+1. **Camera:** Use a top-down camera for exploration and combat, with limited zoom or framing changes for important scenes.
+2. **Movement and actions:** Use directional movement, contextual interaction, and quick inputs for attacks and survival items.
+3. **Combat targeting:** Use facing-direction attacks for melee and cursor or aim controls for ranged options, with lock-on assist available.
+4. **Control schemes:** Support keyboard and mouse first; add controller support for PC, and touch controls only if mobile becomes a launch target. The notes already propose keyboard and touch controls. 
+
+### **Rules & Outcomes**
+
+1. **Ordinary objective:** Survive, gather, craft, manage bloodlust and disguise, and pursue the next clue or objective.
+2. **Defeat or loss of control:** Standard defeat returns the player to a save or safehouse rest; losing control can cause relationship and faction consequences. Optional permadeath can be a separate mode. 
+3. **Mission failure:** Let optional quests fail or change when the world changes, but keep major story routes understandable and avoid invisible fail conditions.
+4. **Objective completion:** Use a journal, map markers, dialogue, and clear completion feedback to show when an objective is done or an ending is reached.
+
+### **Scenes & Build Requirements**
+
+1. **First-build scenes:** Title/menu, character creation, apartment, apartment building/hallway, nearby street, temporary safehouse, inventory/crafting, and a basic defeat/save flow.
+2. **Required content:** Phoenix, a few civilians, two or three enemy types, interactable household items, gathering points, one important clue, and a small neighborhood environment.
+3. **Transitions:** Keep the apartment, hallway, street, and nearby interiors connected through short, readable transitions; stream areas where feasible.
+4. **Build first:** Create the apartment-to-street opening first. It tests the protagonist, tone, controls, first reveal, and the key survival loop in one compact slice.
+
+### **Player Feedback & Interface**
+
+1. **Condition:** Keep Bloodlust, Decay, disguise strength, and quick-use slots visible; show stamina, sanity, and suspicion cues when relevant. 
+2. **Interactable objects:** Use contextual prompts and distinct visual states for usable, gatherable, and examinable objects.
+3. **Danger cues:** Give enemies readable animations and audio/visual signals when they notice, investigate, or pursue Phoenix.
+4. **Teaching controls:** Teach through short contextual prompts and safe practice moments rather than pausing the game for long tutorials.
+
+### **Saving & World State**
+
+1. **Save locations:** Support manual saves, autosave, and quicksave; safehouses can also serve as reliable rest/save points. 
+2. **Persistent state:** Save inventory, relationships, quest choices, recipes, buildings, crops, world seed, and important regional/faction changes.
+3. **After defeat or story choices:** Loading a save restores the state from that point; warn players before choices that permanently alter relationships or routes.
+4. **Preventing corruption:** Use versioned saves, backups, error handling, and never silently overwrite an existing save. 
+
+### **First Playable Build**
+
+1. **Smallest demonstration:** One continuous sequence from waking in the apartment to reaching a temporary safehouse after the first street encounter.
+2. **Must work, not just appear:** Movement, interaction, basic stealth, bloodlust feedback, one gathering/crafting action, cannabis use, an enemy detection response, and saving.
+3. **Tester’s task:** Start without instructions, discover the immediate objective, leave the apartment, respond to the street threat, reach safety, and explain what Phoenix is and what she needs to do next.
+4. **Change the concept if:** Players don’t understand the zombie perspective, the opening reveal doesn’t land, or the core gather–hide–survive loop feels less interesting than a conventional combat game.
+

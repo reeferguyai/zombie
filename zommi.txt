@@ -1,0 +1,717 @@
+✅ Step 1: Core Feature Breakdown (MVP – Minimum Viable Product)
+Let’s strip it down to the essentials you need to prototype:
+Feature
+MVP Implementation Idea
+Zombie Needs
+Simple blood meter (HP equivalent), stamina bar
+Basic Combat
+Tap/click or keypress attacks (bite, claw, shove)
+Basic Crafting
+UI with drag/drop crafting using sticks, stones, hemp
+Movement & Exploration
+Top-down or side-scroll navigation, simple world tiles
+Blood Mixing
+3-ingredient system to mix effects (speed, strength, etc.)
+Character Customization
+Limited body/face options, basic clothing toggle
+Basic NSFW (Toggleable)
+Text-based scenes or visual character customization
+Resource Gathering
+Clickable zones (bushes, rocks, corpses)
+Camouflage Mechanic
+Timer-based disguise with human/animal blood
+
+✅ Step 2: Choose an Engine or Framework
+Depending on how you want to start:
+Platform
+Recommendation
+Notes
+Browser
+Godot + HTML5
+Free, open-source, great for 2D games
+Mobile
+Unity
+Cross-platform build with NSFW toggle
+PC/Standalone
+Unity or Unreal
+Strong performance + asset pipeline
+
+✅ Step 3: NSFW Handling & Legal Setup
+Since this includes adult content:
+Use a clear NSFW content toggle in settings
+
+Add age verification gate
+
+Set up terms of service + disclaimer
+
+Know platform limitations (e.g., no explicit NSFW on iOS App Store)
+
+
+✅ Step 4: Art Style Prototyping
+Since the aesthetic combines dark, erotic, and grotesque, consider:
+2D Stylized Sprite Sheets (for quicker iteration)
+
+AI-Assisted Concepts for moodboards (I can help generate some)
+
+Think: “Darkest Dungeon meets Sexy Fallout” for tone
+
+
+✅ Step 5: Storyboarding Core Gameplay Loop
+Would you like me to mock up:
+A visual gameplay loop chart?
+
+A simple UI mockup for the crafting/inventory system?
+
+An example quest/encounter flow?
+
+
+🎮 OPTIONAL: DO YOU WANT TO SEE EXAMPLES?
+Let me know if you want examples of:
+Basic Crafting UI Design
+
+Blood Mixing System Interface
+
+Stealth Camouflage Mechanic Mockup
+
+Character Customization Menu (NSFW included)
+
+Sample First-Quest Flow ("Blood & Berries")
+
+🎮 Vertical Slice Includes:
+Character customization screen (lite version)
+
+Exploration with top-down/2.5D movement
+
+Simple weed use mechanic (smoke to reduce bloodlust / manage decay)
+
+Basic stealth mechanic (smear blood or wear clean clothes)
+
+Basic crafting (e.g., sharpen stick)
+
+Zombie perspective intro sequence (cutscene or event text)
+
+NSFW toggle in settings
+
+
+🔧 Tech Stack (for browser 2D game):
+Tool
+Why Use It
+Godot Engine (HTML5 export)
+Free, open-source, perfect for 2D sandbox. Easy to scale.
+Tiled + Godot Tilemaps
+For building overgrown cities, forests, beaches, labs
+DragonBones / Spine
+NSFW animation rigging (if using 2D skeletal animation)
+Ink or Yarn Spinner
+Dialogue trees with NSFW/SFW branching
+
+🛠️ Suggested First Modules to Build:
+Would you like me to show examples for any of the following now?
+Module
+What it Does
+Example
+1. Character Customizer
+Select skin tone, body type, tattoos, hair, weed perks, NSFW/SFW toggle
+Custom UI layout
+2. Bloodlust System
+Drains over time, refill with blood, reduce temporarily with weed
+HUD bar demo
+3. Stealth & Disguise
+Smear blood to fool zombies, wear clean clothes to fool humans
+Mechanic script
+4. Basic Crafting UI
+Combine stick + rock = spear, or hemp + fiber = rope
+Menu layout
+5. Combat Evolution Tree
+Bite > scratch > stick > sharpened weapon > weed rage buff
+Skill tree sketch
+6. Intro Cutscene (Playable)
+Story: waking up, chaos, memories, first choices
+Event flow
+7. Cannabis Mechanics
+Smoke = short-term bloodlust reduction / Eat = healing / Hemp = crafting
+Effect logic
+8. Save/Load System
+Keep progress: resources, story flags, skills, gear, relationships
+Data model
+
+🔥 Thematic Hook to Keep:
+“You’re a hot little stoner zombie scientist who wakes up mid-apocalypse with munchies, murder urges, and memories of corporate secrets that caused this sh*tstorm.”
+Let’s prototype around that.
+
+💾 File Structure for Browser Build (Godot):
+project/
+│
+├── assets/
+│   ├── characters/
+│   ├── tilesets/
+│   ├── UI/
+│   └── nsfw/
+│
+├── scenes/
+│   ├── character_creation.tscn
+│   ├── world_map.tscn
+│   ├── combat.tscn
+│   ├── crafting_menu.tscn
+│   └── intro_cutscene.tscn
+│
+├── scripts/
+│   ├── bloodlust.gd
+│   ├── cannabis_effects.gd
+│   ├── stealth_disguise.gd
+│   ├── npc_interactions.gd
+│   └── save_system.gd
+│
+└── main.tscn
+
+
+💡 Want Examples?
+I can show you any of these in detail, such as:
+UI mockup of Character Customization
+
+Simple Godot script for Bloodlust/Cannabis management
+
+Visual Crafting System grid layout
+
+Event scripting of the intro scene (chaotic city, realization, pass out)
+
+NSFW Toggle system UI + logic
+
+Alright, let’s start building this beast, piece by piece. First up, here’s the Character Customization System — tailored for your sexy stoner zombie girl setup.
+
+🎨 1. CHARACTER CUSTOMIZATION UI (NSFW + SFW)
+🧟 You create:
+A petite female zombie with personality, body traits, tattoos, pubic style, and weed-based perks.
+
+📱 UI Layout Mock (Panel Breakdown):
+[LEFT PANEL - Character Preview]
+┌────────────────────────────┐
+│  [Animated 2D Zombie Model]│
+│   - Idle animations        │
+│   - Toggle clothing/NSFW   │
+└────────────────────────────┘
+
+[RIGHT PANEL - Tabs Menu]
+┌──────────── Tabs ─────────────┐
+│ [Body] [Hair] [Tats] [NSFW]   │
+│ [Traits] [Weed] [Backstory]   │
+└───────────────────────────────┘
+
+[Tab: Body]
+- Skin Tone     [Slider]
+- Body Type     [Petite / Athletic / Thick]
+- Breast Size   [Slider]
+- Hips/Booty    [Slider]
+- Eyes/Nose     [Dropdown presets]
+
+[Tab: Hair]
+- Style         [Dropdown]
+- Color         [Palette Picker]
+- Length        [Slider]
+
+[Tab: Tattoos]
+- Arm / Back / Face tattoos
+- Apply from preset or custom
+
+[Tab: NSFW]
+- Areola size/color
+- Nipple piercings
+- Pubic style [Trimmed / Natural / Shaved]
+- Vag style [Dropdown presets – NSFW toggle]
+
+[Tab: Traits]
+- Personality: Stoner / Shy / Aggressive / Seductive
+- Dialogue tone changes with this
+
+[Tab: Weed Perk]
+- Choose 1 Starter Perk:
+  🌿 Calm Buzz (Reduces decay rate)
+  🔥 Lit Strike (Smoked weed boosts combat)
+  🧠 Weed Memory (Triggers flashbacks faster)
+  🌈 Toker’s Charm (NPCs more relaxed with you)
+
+[Tab: Backstory]
+- Free-text box for player backstory (used in story scenes)
+
+✅ Includes:
+NSFW Toggle at the top: [Hide NSFW Parts] / [Show All]
+
+Randomizer button
+
+“Save Preset” option
+
+Preview in Day/Night modes
+
+Simple sliders + dropdowns
+
+
+⚙️ 2. BLOODLUST + CANNABIS SYSTEM
+Here’s the core gameplay effect logic:
+🎮 HUD:
+🩸 Bloodlust Meter (fills over time)
+🪴 Weed Gauge (affects sanity, health, and bloodlust)
+♻️ Decay Meter (long-term wear-down unless weed is used)
+
+[Combat Buffs from Weed Use]
+
+🧠 Pseudo Code Example (Godot-style GDScript):
+var bloodlust = 0
+var decay = 0
+var highness = 0
+var max_high = 100
+var is_high = false
+
+func _process(delta):
+    # Bloodlust rises slowly
+    bloodlust += delta * 0.25
+    decay += delta * 0.05
+
+    # Highness decays over time
+    if highness > 0:
+        highness -= delta * 1
+        is_high = true
+    else:
+        is_high = false
+
+    # Weed effect on bloodlust
+    if is_high:
+        bloodlust -= delta * 0.75  # slows down bloodlust
+
+func smoke_weed(strain_strength):
+    highness = clamp(highness + strain_strength, 0, max_high)
+    decay -= strain_strength * 0.5  # slow the rot too
+
+🎯 Weed Strain Effects (Common Ones):
+Strain Name
+Effect
+Brain Buster
+Short-term +Speed, +Vision
+Rot-Stopper
+Slows decay dramatically
+Stealth Kush
+Reduces enemy detection radius
+Chronic Chill
+Lowers bloodlust, raises sanity
+Munchy Meltdown
+Heals minor damage, boosts stamina
+
+🔨 3. BASIC CRAFTING UI
+Here’s how to handle a drag & drop crafting system that feels right at home in an open-world survival game:
+[CRAFTING SCREEN]
+┌────────────────────────────────────────┐
+│ Inventory [icons]   →   Crafting Slots │
+│                                        │
+│ [Drag Stick] + [Drag Sharp Rock]       │
+│ → Preview: SHARP STICK                 │
+│ [Craft Button]                         │
+└────────────────────────────────────────┘
+
+🛠️ Crafting Output Examples:
+Item
+Components
+Use
+Sharp Stick
+Stick + Rock
+Weapon, digging, fish spear
+Rope
+Hemp + Fibers
+Building, traps, tools
+Weed Pipe
+Metal Tube + Wood Handle
+Smoke cannabis
+Fish Trap
+Sticks + Rope
+Passive food gathering
+Camouflage Kit
+Rotten meat + Cloth
+Stealth from zombies/humans
+
+🔥 NEXT: Want to See...
+Intro Scene Script (Where she wakes up in chaos with her first high?)
+
+Blood Mixing GUI (Drag different blood types into vials?)
+
+Stealth/Disguise Mechanics (e.g., hiding behind burning cars, wearing rags)
+
+Basic Combat Move Tree (Bite → Scratch → Stick → Weapon use → Blood Rage)
+
+Hell yeah. Let’s dive deeper into the grit and madness. Next up: the Intro Scene, then Blood Mixing GUI, Stealth Mechanics, and Combat Progression Tree. All of this is aimed at giving your player that wild first taste of being a confused, sexy, weed-powered zombie queen waking up to a decaying world.
+
+🎬 4. INTRO SCENE: "The Awakening" (Playable Cutscene)
+⚠️ Purpose:
+Introduce the world, set tone
+
+Establish you’re different (intelligent, aware zombie)
+
+Inject humor, horror, and weed use
+
+Lead into first choices (run, hide, feed)
+
+
+🔊 Scene Breakdown:
+ENVIRONMENT:
+ 🧪 Underground bio-tech facility, blinking red lights, overturned furniture, splattered blood
+ 💀 Bodies — both humans and zombies — everywhere
+ 🪴 A tipped-over cannabis grow lab with broken glass, smoke drifting
+
+SCRIPT FLOW:
+[Scene fades in from black]
+
+*Camera shakes slightly*  
+*You hear a distant alarm*  
+*A voice echoes in your head*
+
+> “Ugh... my head... what the hell happened...?”
+
+*Camera pans to reveal your hands — rotting, twitching slightly*
+
+> “...wait... my skin... am I...?”
+
+*A corpse near you twitches. A zombie snarls from the shadows.*
+
+> “...oh sh*t. I’m a f*cking zombie.”
+
+[A flashback plays: lab coats, injections, you laughing with coworkers around a bong.]
+
+> “Was it the project? ...The Lazarus strain? Or... was it the kush?”
+
+*Suddenly, explosion upstairs. The door flings open. Screams, gunfire, a zombie rushes past on fire.*
+
+You stumble out of the lab into:
+- Rioting
+- Zombies eating brains
+- Looters throwing Molotovs
+- And somewhere nearby... you smell **fresh weed**.
+
+**CHOICES:**
+🧭 Go toward the weed (gain cannabis + tutorial on smoke mechanic)  
+🥩 Approach injured human (introduces blood feeding mechanic)  
+🫣 Hide in locker (introduces stealth mechanic)  
+🧠 Try to remember more (gain +1 flashback for later)
+
+
+🎮 Engine Tip: This can be built using Godot's AnimationPlayer + input prompts for a basic playable cinematic.
+
+🩸 5. BLOOD MIXING GUI (Crafting for Power)
+You collect blood from:
+Fish 🐟
+
+Rat 🐀
+
+Rabbit 🐇
+
+Dog 🐕
+
+Human 🧍
+
+Zombie 🧟
+
+And mix it to get temporary powers, mutations, or buffs.
+
+🧪 GUI Layout:
+┌───────────── BLOOD MIXER ─────────────┐
+│  [Slot 1] [Slot 2] [Slot 3]           │
+│   (Drag blood samples here)           │
+│                                       │
+│  Result: [?? Unknown until mixed ??]  │
+│                                       │
+│  [Mix Button]                         │
+└───────────────────────────────────────┘
+
+🎯 Combo Examples:
+Combo
+Resulting Effect
+Human + Fish + Rat
+Enhanced smell (see enemies through walls)
+Zombie + Bear + Human
+Frenzy Mode (speed + attack boost, low control)
+Rabbit + Dog + Hemp Weed
+Agile Jump + Calm State (no bloodlust for 30s)
+Deer + Human + Cat
+Charmer Aura (easy human NPC manipulation)
+💡 Strain Integration:
+ Mix specific cannabis strains into blood vials to boost effects or add new ones.
+
+🕵️‍♀️ 6. STEALTH & DISGUISE MECHANIC
+Stealth is 🔑. Blend in with both humans and zombies.
+🧠 Core Mechanics:
+Blood Camouflage: Rub human/zombie blood on self
+
+Rotten Meat Cloak: Temporarily masks your scent
+
+Clothing: Clean human clothes = less detection by survivors
+
+Weed Use: “Stealth Kush” makes you harder to detect for 30 secs
+
+
+🎮 Stealth System Flow:
+var disguised = false
+var stealth_timer = 0
+var visibility_level = 100  # 0 = invisible, 100 = fully visible
+
+func apply_blood_camouflage():
+    disguised = true
+    stealth_timer = 30
+    visibility_level -= 50
+
+func _process(delta):
+    if disguised:
+        stealth_timer -= delta
+        visibility_level += delta * 2
+        if stealth_timer <= 0:
+            disguised = false
+            visibility_level = 100
+
+🔊 Alerts:
+Zombies sniffing you out? → Use rotten blood disguise
+
+Humans nearby with flashlights? → Hide in dumpsters, shadows, or pose like a corpse
+
+Too close? → Slow-mo panic heartbeat, breath sounds, stoner inner voice goes:
+
+
+ “Bro... stay still. You’re meat in a meat suit.”
+
+
+
+🔪 7. COMBAT TREE: EVOLVE OR DIE
+Your zombie gains strength over time — think primitive rage to intelligent predator.
+🧬 Evolution Tree Example:
+Bite ➝ Scratch ➝ Punch ➝ Kick ➝ Stick ➝ Sharp Stick ➝ 
+  |
+  +➝ Brutal Claw (mutation)
+  +➝ Blood Rage (weed + human blood = berserk mode)
+  +➝ Weed-Fueled Slam (Kush strain + zombie blood = AOE knockback)
+
+🎯 Each evolution can:
+Be tied to blood types used
+
+Be upgraded with crafting or cannabis
+
+Influence your combat animations and stances (e.g. more animalistic vs. martial)
+
+
+😈 Still Want More?
+Here’s what I’ve got ready to drop next:
+Relationship System Mockup (NSFW/SFW trees, affection system, betrayal mechanics)
+
+Flashback/Memory Trigger System (returning humanity, background choices)
+
+Animal Companion System (how you tame, feed, and bond with them)
+
+Shelter Building GUI + Blueprints
+
+Advanced NSFW Mechanics (flirting, seduction, stress relief)
+
+Alright, you twisted necro-genius — let’s keep this filthy fire burning. Next up: relationships, flashbacks, animal companions, building systems, and some tastefully savage NSFW mechanics to make your zombie queen's journey unforgettable.
+
+💋 8. RELATIONSHIP SYSTEM (SFW + NSFW)
+This ain’t just about biting necks or smoking blunts — it’s about bonding, banging, betraying, and surviving with others in this chaotic world.
+🧠 System Type:
+Think Affinity + Event Triggers + Dialogue Trees
+
+❤️ RELATIONSHIP TYPES:
+Type
+Description
+Outcomes
+Human Allies
+Scared survivors, ex-military, medics, traders
+Romance, protection, betrayal
+Other Zombies
+Mutated hotties, smart zombies, rivals
+NSFW zombie scenes, blood exchange
+Animals
+Pets or guard beasts (dog, wolf, rat, deer)
+Companions, combat support
+
+💬 Affection/Trust Scale (0–100):
+💀 0–25: Fear / hostility
+
+😐 26–50: Curiosity / wariness
+
+😊 51–75: Affection / alliance
+
+💘 76–100: Loyalty / intimacy (SFW or NSFW unlocked)
+
+
+🔥 NSFW DIALOGUE FLOW (Example):
+[You approach an ex-paramedic survivor smoking a joint.]
+
+🧟 You: “Nice smoke… mind if I share?”
+👤 Survivor: “You’re not like the others... but you reek of death.”
+→ [Option: Wipe off blood] +5 Trust
+→ [Option: Light your own blunt] +10 Trust
+→ [Option: Lick blood off lips] -10 Trust, +5 Lust
+
+If Trust > 60 & Lust > 30:
+→ New NSFW Scene Unlocked
+
+🧪 Blood exchanges during sex scenes could power up both characters with temporary buffs (yes, it’s that kinda game).
+
+🧠 9. FLASHBACK / MEMORY SYSTEM
+You’re a sexy stoner zombie, but not brain-dead. Flashbacks help you:
+Recall old skills
+
+Unlock dialogue options
+
+Boost sanity or unlock new abilities
+
+
+🎥 MEMORY TRIGGERS:
+Triggered by...
+Returning to familiar places (lab, old apartment)
+
+Smoking certain strains
+
+Certain characters
+
+Items (necklace, lab badge, broken bong)
+
+
+🧠 Memory Types:
+Memory Type
+Example Trigger
+Gameplay Benefit
+Personal
+Your bedroom
+Unlock +1 inventory slot (old backpack)
+Scientific
+Broken lab equipment
+Recall formula: Cannabis Healing Salve
+Romantic
+Shared joint with coworker
+Boost charisma with humans
+Dark
+Watching others mutate
+Mutate new zombie ability
+
+🧠 Sample Script Snippet:
+[Trigger: You find a photo in an abandoned apartment]
+
+🎞️ *Flashback Starts*
+
+[Young version of yourself laughing, passing a blunt to a coworker, whispering secrets about “Lazarus Compound X.”]
+
+Voiceover: “They said we could bring back the dead… but we never asked if they’d still want to live…”
+
+*Camera zooms back to present day: You drop the photo, fists clenched, new power unlocked: “Lazarus Grip”*
+
+
+
+🐺 10. ANIMAL COMPANION SYSTEM
+🐾 Catch. Tame. Bond. Command.
+From sewer rats to noble wolves — these creatures can:
+Scout areas
+
+Guard your shelter
+
+Fetch items
+
+Attack enemies
+
+Provide companionship (affects sanity meter)
+
+
+🐶 Types of Tameable Animals:
+Animal
+Perk
+Rat
+Sneaks through tight spaces
+Dog
+Loyalty boost, protects you
+Wolf
+Combat boost, tracks blood trails
+Rabbit
+Comfort companion (sanity+)
+Deer
+Travel companion, fast
+
+🦴 Taming Steps:
+Lure with food or weed (yes, weed bacon for dogs)
+
+Approach slowly (affection meter builds)
+
+Pet, Feed, or Smoke Together (yes, really)
+
+Name & Assign Role
+
+🧠 Bonus: Certain strains can calm animals, making them easier to tame. You can even grow a Petweed strain.
+
+🛖 11. SHELTER BUILDING SYSTEM
+Your zombie stoner girl needs a home base — for crafting, healing, weed growing, and smashing (both enemies and lovers).
+
+🪚 Core Building Types:
+Type
+Materials Needed
+Purpose
+Lean-To
+Sticks + Grass
+Rest & Storage
+Treehouse
+Logs + Rope + Nails
+Elevated safety
+Bunker
+Metal + Stone + Tools
+Advanced base (endgame shelter)
+Grow Room
+Wood + Grow Lights + Weed
+Indoor cannabis production
+Love Shack
+Cloth + Pillows + Mystery
+NSFW hangout, buffs rest/sanity
+
+📐 Shelter UI (Build Mode):
+[BUILD MENU]
+[ ] Floor
+[ ] Wall
+[ ] Door
+[ ] Crafting Table
+[ ] Fire Pit
+[ ] Bed (NSFW enabled)
+[ ] Grow Plot
+[ ] Storage Box
+
+[Drag pieces into world grid — rotate + place]
+[Upgrade with higher-tier materials later]
+
+🔧 Bonus Feature: Add Decorations that boost sanity or seduction chances (weed posters, blood-splatter art, lava lamps).
+
+🔞 12. ADVANCED NSFW MECHANICS
+Let’s get into the deep n’ dirty — optional but powerful.
+
+🍆 NSFW Action Types:
+Action
+Trigger Condition
+Result
+Seduce Human
+High Charisma, trust > 70
+Bond formed, unlock trade/intel
+Seduce Zombie
+Blood-mixing scene, mutation buffs
+May gain zombie ally or new mutation
+Solo "Relief" Scene
+High bloodlust + no partner + weed used
+Lowers stress, sanity boost
+Group Event
+Special strains + event triggers
+Unlock rare mutations + NSFW cutscene
+🎯 NSFW system can tie into:
+Perk Unlocks
+
+Blood Mutation Combos
+
+Relationship Progression
+
+Cannabis Buff Interactions
+
+
+✅ NEXT MODULE OPTIONS:
+Weed Strain Lab: Design your own strains
+
+Transportation & Raft Building System
+
+Dynamic World Events System (raids, hordes, storms)
+
+Mutation Tree: Fully develop your zombie girl’s evolution
+
+Cannabis Cooking & Infusion System (weed edibles, blood brownies)
