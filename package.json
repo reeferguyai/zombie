@@ -1,9 +1,11 @@
+
 {
   "name": "phoenix-blaze",
   "version": "0.1.0",
   "description": "A conscious zombie survival game with cannabis-based crafting",
   "main": "src/index.js",
   "type": "module",
+
   "scripts": {
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
@@ -11,18 +13,92 @@
     "test:watch": "jest --watch",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
-    "start": "npm run dev"
+    "start": "npm run dev",
+
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --runInBand",
+    "build:analyze": "webpack --mode production --profile --json > stats.json",
+    "check": "npm run lint && npm run test && npm run build",
+    "validate": "npm run format:check && npm run lint && npm run test",
+    "verify": "npm run check"
   },
+
   "keywords": [
     "zombie",
     "survival",
     "crafting",
     "sandbox",
     "phaser",
-    "game"
+    "game",
+    "phoenix-blaze",
+    "zombie-survival-rpg",
+    "conscious-zombie",
+    "human-zombie-hybrid",
+    "infection",
+    "transformation",
+    "open-world",
+    "survival-rpg",
+    "survival-sandbox",
+    "post-apocalyptic",
+    "post-apocalyptic-game",
+    "zombie-apocalypse",
+    "zombie-ai",
+    "artificial-intelligence",
+    "adaptive-ai",
+    "npc-ai",
+    "enemy-ai",
+    "behavior-simulation",
+    "social-stealth",
+    "stealth-game",
+    "combat",
+    "resource-management",
+    "base-building",
+    "settlement-building",
+    "exploration",
+    "scavenging",
+    "looting",
+    "survival-crafting",
+    "inventory-management",
+    "equipment-progression",
+    "character-progression",
+    "mutation-system",
+    "evolution-system",
+    "bloodlust",
+    "humanity-system",
+    "branching-narrative",
+    "player-choices",
+    "factions",
+    "relationships",
+    "mature-game",
+    "18-plus",
+    "cannabis-themed",
+    "fictional-cannabis-crafting",
+    "browser-game",
+    "html5-game",
+    "javascript-game",
+    "es6",
+    "web-game",
+    "phaser-3",
+    "webpack",
+    "indie-game",
+    "sandbox-rpg",
+    "psychological-horror",
+    "survival-horror",
+    "dark-humor",
+    "cyberpunk",
+    "psychedelic",
+    "grindhouse",
+    "science-fiction",
+    "interactive-storytelling"
   ],
+
   "author": "reeferguyai",
   "license": "PRIVATE",
+
+  "private": true,
+
   "devDependencies": {
     "@babel/core": "^7.22.0",
     "@babel/preset-env": "^7.22.0",
@@ -31,9 +107,1169 @@
     "jest": "^29.5.0",
     "webpack": "^5.85.0",
     "webpack-cli": "^5.1.0",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+
+    "html-webpack-plugin": "^5.5.3",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack-merge": "^5.9.0",
+    "webpack-bundle-analyzer": "^4.9.0",
+
+    "prettier": "^3.0.3",
+    "jest-environment-jsdom": "^29.5.0",
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/jest-dom": "^6.1.4",
+
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsdoc": "^46.5.1",
+    "eslint-plugin-security": "^1.7.1"
   },
+
   "dependencies": {
     "phaser": "^3.55.2"
+  },
+
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "last 2 versions",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 edge version"
+    ]
+  },
+
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.sass",
+    "*.less",
+    "*.html"
+  ],
+
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+
+  "phoenixBlaze": {
+
+    "identity": {
+      "projectName": "Phoenix Blaze",
+      "projectSlug": "phoenix-blaze",
+      "projectType": "Browser-Based Survival RPG",
+      "genre": [
+        "Open-World Survival",
+        "Zombie Survival",
+        "Crafting RPG",
+        "Sandbox",
+        "Survival Horror",
+        "Science Fiction",
+        "Psychological Horror",
+        "Dark Comedy"
+      ],
+      "platform": [
+        "Web",
+        "Desktop Browser",
+        "Mobile Browser",
+        "HTML5"
+      ],
+      "engine": "Phaser 3",
+      "rendering": "WebGL with Canvas fallback",
+      "language": "JavaScript ES6+",
+      "moduleSystem": "ECMAScript Modules",
+      "buildSystem": "Webpack",
+      "projectStatus": "In Development",
+      "audience": "Adults 18+",
+      "license": "Private - All Rights Reserved",
+      "developer": "reeferguyai"
+    },
+
+    "vision": {
+      "tagline": "Survival Is Human. Evolution Is Undead.",
+      "genreDescription": "A mature, cannabis-infused, post-apocalyptic zombie survival and crafting RPG.",
+      "corePremise": "The player begins as a human survivor, becomes infected, and gradually transforms into a conscious human-zombie hybrid.",
+      "centralQuestion": "How much of your humanity can you keep when your own body is turning against you?",
+      "corePillars": [
+        "Survival",
+        "Transformation",
+        "Exploration",
+        "Crafting",
+        "Combat",
+        "Social Stealth",
+        "Artificial Intelligence",
+        "Character Progression",
+        "Player Choice",
+        "Emergent Gameplay"
+      ],
+      "designPrinciples": [
+        "Player agency",
+        "Consequential decisions",
+        "Emergent systems",
+        "Believable NPC behavior",
+        "Meaningful progression",
+        "World reactivity",
+        "Atmospheric storytelling",
+        "Accessible gameplay",
+        "Expandable architecture"
+      ]
+    },
+
+    "gameplay": {
+
+      "survivalSystems": [
+        "Health",
+        "Stamina",
+        "Hunger",
+        "Thirst",
+        "Temperature",
+        "Fatigue",
+        "Infection",
+        "Bloodlust",
+        "Humanity",
+        "Mental Stability",
+        "Environmental Hazards",
+        "Disease and Status Effects"
+      ],
+
+      "transformationSystem": {
+        "enabled": true,
+        "concept": "Progressive human-to-undead transformation",
+        "stages": [
+          "The Last Human",
+          "Infection",
+          "Awakening",
+          "The Divide",
+          "Evolution",
+          "Choose Your Nature"
+        ],
+        "features": [
+          "Physical transformation",
+          "Sensory changes",
+          "Memory retention",
+          "Instinct development",
+          "Mutation progression",
+          "Biological upgrades",
+          "Humanity management",
+          "Undead ability development",
+          "Appearance evolution",
+          "Branching transformation paths"
+        ]
+      },
+
+      "characterSystems": [
+        "Character creation",
+        "Character customization",
+        "Attributes",
+        "Skills",
+        "Abilities",
+        "Perks",
+        "Traits",
+        "Mutations",
+        "Equipment",
+        "Progression",
+        "Reputation",
+        "Relationships",
+        "Moral choices",
+        "Character history"
+      ],
+
+      "worldSystems": [
+        "Open-world exploration",
+        "Dynamic weather",
+        "Day and night cycles",
+        "Environmental storytelling",
+        "Loot generation",
+        "Resource distribution",
+        "Territory control",
+        "World events",
+        "Environmental hazards",
+        "Discoverable locations",
+        "Hidden areas",
+        "Procedural content opportunities"
+      ],
+
+      "craftingSystems": [
+        "Resource gathering",
+        "Material processing",
+        "Weapon crafting",
+        "Armor crafting",
+        "Equipment crafting",
+        "Medicine crafting",
+        "Consumable crafting",
+        "Workstations",
+        "Blueprints",
+        "Recipes",
+        "Item upgrades",
+        "Repair systems",
+        "Fictional cannabis cultivation",
+        "Fictional cannabis processing"
+      ],
+
+      "constructionSystems": [
+        "Shelter construction",
+        "Base building",
+        "Structural upgrades",
+        "Defensive fortifications",
+        "Storage systems",
+        "Farming systems",
+        "Workstation placement",
+        "Power systems",
+        "Water systems",
+        "Settlement development",
+        "Environmental defenses"
+      ],
+
+      "combatSystems": [
+        "Melee combat",
+        "Ranged combat",
+        "Stealth takedowns",
+        "Dodging",
+        "Blocking",
+        "Weapon durability",
+        "Enemy detection",
+        "Combat awareness",
+        "Status effects",
+        "Mutated abilities",
+        "Environmental combat",
+        "Faction warfare"
+      ],
+
+      "socialSystems": [
+        "Social stealth",
+        "Disguise",
+        "Reputation",
+        "Dialogue",
+        "Persuasion",
+        "Deception",
+        "Relationships",
+        "Trust",
+        "Faction alliances",
+        "Betrayal",
+        "NPC reactions",
+        "Consequential conversations"
+      ],
+
+      "inventorySystems": [
+        "Item inventory",
+        "Equipment slots",
+        "Quick-access bar",
+        "Storage containers",
+        "Item stacking",
+        "Item weight",
+        "Item durability",
+        "Loot management",
+        "Crafting materials",
+        "Item rarity",
+        "Item comparison",
+        "Equipment progression"
+      ]
+    },
+
+    "artificialIntelligence": {
+
+      "architecture": "Modular, data-driven NPC and enemy behavior architecture",
+
+      "systems": [
+        "Zombie AI",
+        "Human NPC AI",
+        "Mutant AI",
+        "Companion AI",
+        "Faction AI",
+        "Environmental AI",
+        "Wildlife AI",
+        "Merchant AI",
+        "Quest NPC AI"
+      ],
+
+      "behaviorCapabilities": [
+        "Perception",
+        "Hearing",
+        "Vision",
+        "Scent detection",
+        "Threat assessment",
+        "Memory",
+        "Target selection",
+        "Patrolling",
+        "Investigation",
+        "Pursuit",
+        "Retreat",
+        "Group coordination",
+        "Territorial behavior",
+        "Resource awareness",
+        "Social responses",
+        "Environmental reactions"
+      ],
+
+      "behaviorArchitecture": [
+        "Finite state machines",
+        "Behavior trees",
+        "Utility-based decision making",
+        "Event-driven behavior",
+        "Navigation and pathfinding",
+        "Sensory systems",
+        "NPC memory systems",
+        "Relationship systems"
+      ],
+
+      "futureCapabilities": [
+        "Adaptive difficulty",
+        "Emergent NPC behavior",
+        "Faction intelligence",
+        "Dynamic encounters",
+        "Procedural dialogue opportunities",
+        "Player behavior analysis",
+        "Persistent NPC relationships"
+      ]
+    },
+
+    "worldBuilding": {
+
+      "locations": [
+        "Abandoned cities",
+        "Residential districts",
+        "Industrial zones",
+        "Research laboratories",
+        "Underground facilities",
+        "Military installations",
+        "Luxury estates",
+        "Commercial districts",
+        "Agricultural zones",
+        "Wilderness",
+        "Underground settlements",
+        "Quarantine zones",
+        "Survivor camps",
+        "Infected territories"
+      ],
+
+      "factions": [
+        "Human survivor groups",
+        "Military remnants",
+        "Scientific organizations",
+        "Commercial organizations",
+        "Zombie communities",
+        "Mutant groups",
+        "Independent settlements",
+        "Hostile raiders",
+        "Underground networks"
+      ],
+
+      "worldFeatures": [
+        "Dynamic faction relationships",
+        "Faction territories",
+        "Faction conflicts",
+        "World reputation",
+        "Discoverable lore",
+        "Environmental narratives",
+        "Hidden histories",
+        "World progression",
+        "Player-influenced events"
+      ]
+    },
+
+    "narrative": {
+
+      "storyThemes": [
+        "Humanity versus instinct",
+        "Identity",
+        "Survival",
+        "Evolution",
+        "Transformation",
+        "Morality",
+        "Memory",
+        "Belonging",
+        "Social division",
+        "Scientific responsibility",
+        "Trust",
+        "Isolation"
+      ],
+
+      "narrativeSystems": [
+        "Main storyline",
+        "Side quests",
+        "Branching dialogue",
+        "Player-driven decisions",
+        "Multiple outcomes",
+        "Character relationships",
+        "Faction storylines",
+        "Environmental storytelling",
+        "Discoverable documents",
+        "Lore entries",
+        "Character memories",
+        "World events"
+      ],
+
+      "matureContent": {
+        "ageRatingTarget": "18+",
+        "contentCategories": [
+          "Horror",
+          "Violence",
+          "Dark humor",
+          "Mature themes",
+          "Adult relationships",
+          "Psychological horror",
+          "Fictional substance themes"
+        ],
+        "contentControls": [
+          "Content disclosures",
+          "Optional content filters",
+          "Age-gating",
+          "Accessibility options"
+        ]
+      }
+    },
+
+    "interface": {
+
+      "designIdentity": [
+        "Cyberpunk",
+        "Grindhouse",
+        "Elegant Horror",
+        "Psychedelic Science Fiction",
+        "Post-Apocalyptic Industrial",
+        "Futuristic Corporate Technology"
+      ],
+
+      "colorPalette": {
+        "voidBlack": "#080808",
+        "concreteGray": "#4A5568",
+        "charcoal": "#2D3748",
+        "toxicGreen": "#39FF14",
+        "neuralPurple": "#9F7AEA",
+        "warningGold": "#ECC94B",
+        "infernoOrange": "#FF4500",
+        "bloodRed": "#B22222",
+        "ghostWhite": "#E3E6FF",
+        "sageGreen": "#A3B18A",
+        "deepNavy": "#283747",
+        "coral": "#E27D60"
+      },
+
+      "typography": {
+        "headings": "Montserrat",
+        "editorial": "Lora",
+        "body": "Montserrat",
+        "technical": "Roboto Mono",
+        "display": "Cinematic distressed display typography"
+      },
+
+      "interfaceFeatures": [
+        "Responsive layout",
+        "Asymmetrical composition",
+        "Floating navigation",
+        "Holographic panels",
+        "Parallax effects",
+        "Layered depth",
+        "Glitch transitions",
+        "Animated particles",
+        "Smoke effects",
+        "Interactive cards",
+        "Dynamic backgrounds",
+        "Micro-interactions",
+        "Touch gestures",
+        "Keyboard navigation",
+        "Voice navigation opportunities",
+        "Reduced-motion support"
+      ],
+
+      "navigation": [
+        "Home",
+        "Story",
+        "Gameplay",
+        "Transformation",
+        "AI Systems",
+        "Characters",
+        "World Map",
+        "Crafting",
+        "Dispensary",
+        "Research",
+        "Factions",
+        "Media",
+        "News",
+        "Development",
+        "Community",
+        "Support",
+        "Wishlist"
+      ]
+    },
+
+    "website": {
+
+      "pages": [
+        "Home",
+        "About Phoenix Blaze",
+        "Story",
+        "Gameplay",
+        "Transformation",
+        "AI Showcase",
+        "Characters",
+        "World Map",
+        "Crafting",
+        "Underground Dispensary",
+        "Research Labs",
+        "Factions",
+        "Media Gallery",
+        "Screenshots",
+        "Trailers",
+        "News",
+        "Development Blog",
+        "Roadmap",
+        "Team",
+        "Community",
+        "Forums",
+        "Fan Creations",
+        "FAQ",
+        "Support",
+        "Wishlist",
+        "Purchase",
+        "Contact"
+      ],
+
+      "interactiveFeatures": [
+        "AI demonstration",
+        "Interactive world map",
+        "Character showcases",
+        "Transformation showcase",
+        "Gameplay demonstrations",
+        "Media gallery",
+        "Video integration",
+        "Newsletter signup",
+        "Community features",
+        "Search",
+        "Filtering",
+        "AI support assistant"
+      ],
+
+      "contentManagement": [
+        "News publishing",
+        "Development updates",
+        "Media management",
+        "Character information",
+        "Gameplay documentation",
+        "FAQ management",
+        "Community moderation",
+        "Roadmap updates"
+      ]
+    },
+
+    "seo": {
+
+      "primaryKeyword": "Phoenix Blaze zombie survival game",
+
+      "secondaryKeywords": [
+        "conscious zombie survival game",
+        "human zombie hybrid game",
+        "post apocalyptic survival RPG",
+        "zombie crafting game",
+        "open world zombie game",
+        "AI zombie survival game",
+        "zombie transformation game",
+        "survival sandbox RPG",
+        "Phaser zombie game",
+        "browser zombie survival game"
+      ],
+
+      "searchIntentCategories": [
+        "Informational",
+        "Navigational",
+        "Commercial",
+        "Transactional"
+      ],
+
+      "optimizationAreas": [
+        "Search intent mapping",
+        "Keyword research",
+        "Page titles",
+        "Meta descriptions",
+        "Canonical URLs",
+        "Heading hierarchy",
+        "Internal linking",
+        "Image alt text",
+        "Image compression",
+        "Descriptive URLs",
+        "XML sitemap",
+        "Robots directives",
+        "Structured data",
+        "Open Graph metadata",
+        "Social sharing metadata",
+        "Mobile optimization",
+        "Core Web Vitals",
+        "Page speed",
+        "Crawlability",
+        "Indexability",
+        "Duplicate content prevention",
+        "Breadcrumb navigation",
+        "Content freshness",
+        "Semantic HTML"
+      ],
+
+      "contentStrategy": [
+        "Game overview",
+        "Gameplay guides",
+        "Character profiles",
+        "World and lore articles",
+        "Development updates",
+        "Technical articles",
+        "Feature explanations",
+        "FAQ content",
+        "Media descriptions",
+        "Community news"
+      ],
+
+      "technicalSeo": [
+        "robots.txt",
+        "XML sitemap",
+        "Canonical metadata",
+        "Open Graph",
+        "Twitter card metadata",
+        "Structured data",
+        "Mobile-first design",
+        "HTTPS",
+        "Performance monitoring",
+        "404 handling",
+        "Redirect management",
+        "Indexing controls"
+      ],
+
+      "structuredDataTypes": [
+        "VideoGame",
+        "WebSite",
+        "Organization",
+        "Person",
+        "Article",
+        "NewsArticle",
+        "BreadcrumbList",
+        "VideoObject",
+        "FAQPage where eligible",
+        "SoftwareApplication where applicable"
+      ],
+
+      "measurement": [
+        "Organic traffic",
+        "Search impressions",
+        "Search clicks",
+        "Click-through rate",
+        "Search rankings",
+        "Indexed pages",
+        "Referral traffic",
+        "Landing page performance",
+        "Conversion tracking"
+      ]
+    },
+
+    "aeo": {
+
+      "definition": "Answer Engine Optimization",
+
+      "objectives": [
+        "Make Phoenix Blaze easy for answer engines to understand",
+        "Provide direct and accurate answers",
+        "Establish consistent game identity",
+        "Improve entity recognition",
+        "Create useful structured information",
+        "Support conversational discovery"
+      ],
+
+      "optimizationAreas": [
+        "Question-based content",
+        "Direct-answer sections",
+        "Concise game descriptions",
+        "Consistent terminology",
+        "Entity clarity",
+        "Structured data",
+        "Semantic headings",
+        "FAQ content",
+        "Glossary",
+        "Author and developer information",
+        "Source transparency",
+        "Fact consistency",
+        "Content freshness",
+        "Accessible page structure"
+      ],
+
+      "answerContent": [
+        "What is Phoenix Blaze?",
+        "What type of game is Phoenix Blaze?",
+        "What makes Phoenix Blaze different?",
+        "How does the infection system work?",
+        "Can the player retain human consciousness?",
+        "What are the transformation stages?",
+        "What gameplay systems are included?",
+        "How does the zombie AI work?",
+        "What crafting systems are planned?",
+        "Which platforms are supported?",
+        "Who is developing Phoenix Blaze?",
+        "What is the current development status?"
+      ],
+
+      "entityConsistency": {
+        "primaryEntity": "Phoenix Blaze",
+        "entityType": "Video Game",
+        "genre": "Post-Apocalyptic Zombie Survival RPG",
+        "developer": "reeferguyai",
+        "engine": "Phaser 3",
+        "coreIdentity": "A human survivor progressively transforms into a conscious human-zombie hybrid."
+      }
+    },
+
+    "accessibility": {
+
+      "standardsTarget": "WCAG 2.2 AA",
+
+      "features": [
+        "Keyboard navigation",
+        "Visible focus indicators",
+        "Screen reader support",
+        "Semantic HTML",
+        "Accessible forms",
+        "Image alternative text",
+        "Color contrast",
+        "Text scaling",
+        "Reduced motion",
+        "Captions",
+        "Audio controls",
+        "Configurable controls",
+        "Color-independent indicators",
+        "Accessible error messages"
+      ]
+    },
+
+    "performance": {
+
+      "optimizationAreas": [
+        "Code splitting",
+        "Asset compression",
+        "Lazy loading",
+        "Texture optimization",
+        "Sprite atlases",
+        "Audio optimization",
+        "Memory management",
+        "Object pooling",
+        "Efficient update loops",
+        "Render optimization",
+        "Network request optimization",
+        "Caching",
+        "Bundle analysis",
+        "Mobile performance",
+        "Loading screen optimization"
+      ],
+
+      "monitoring": [
+        "Frame rate",
+        "Memory usage",
+        "Load time",
+        "Bundle size",
+        "Asset loading",
+        "Runtime errors",
+        "Network performance",
+        "WebGL availability"
+      ]
+    },
+
+    "security": {
+
+      "areas": [
+        "Input validation",
+        "Output sanitization",
+        "Secure asset handling",
+        "Dependency auditing",
+        "Authentication security",
+        "Authorization",
+        "Session management",
+        "Rate limiting",
+        "Secure communications",
+        "Data protection",
+        "Privacy controls",
+        "Error handling",
+        "Abuse prevention",
+        "Content moderation"
+      ],
+
+      "privacyPrinciples": [
+        "Data minimization",
+        "Purpose limitation",
+        "Transparent data practices",
+        "Secure storage",
+        "User consent",
+        "Account deletion support",
+        "Privacy documentation"
+      ]
+    },
+
+    "testing": {
+
+      "framework": "Jest",
+
+      "testCategories": [
+        "Unit testing",
+        "Integration testing",
+        "Gameplay testing",
+        "AI behavior testing",
+        "Combat testing",
+        "Crafting testing",
+        "Inventory testing",
+        "Transformation testing",
+        "Save and load testing",
+        "Performance testing",
+        "Browser compatibility",
+        "Mobile compatibility",
+        "Accessibility testing",
+        "Regression testing",
+        "Security testing"
+      ],
+
+      "qualityObjectives": [
+        "Stable gameplay systems",
+        "Predictable game state",
+        "Reliable persistence",
+        "Consistent controls",
+        "Accurate collision detection",
+        "Reliable resource handling",
+        "Reproducible bug reports",
+        "Documented acceptance criteria"
+      ]
+    },
+
+    "dataArchitecture": {
+
+      "dataCategories": [
+        "Player profiles",
+        "Character data",
+        "Inventory data",
+        "World state",
+        "NPC state",
+        "Faction data",
+        "Quest data",
+        "Crafting recipes",
+        "Item definitions",
+        "Character abilities",
+        "Transformation state",
+        "Settings",
+        "Save data",
+        "Analytics events"
+      ],
+
+      "designPrinciples": [
+        "Data-driven gameplay",
+        "Modular data definitions",
+        "Schema validation",
+        "Versioned save formats",
+        "Backward compatibility",
+        "Separation of concerns",
+        "Deterministic state transitions"
+      ]
+    },
+
+    "audio": {
+
+      "categories": [
+        "Ambient sound",
+        "Environmental sound",
+        "Zombie vocalizations",
+        "Human NPC dialogue",
+        "Combat sound effects",
+        "Weapon sound effects",
+        "Crafting sound effects",
+        "UI audio",
+        "Music",
+        "Dynamic music",
+        "Psychological audio",
+        "Spatial audio opportunities"
+      ]
+    },
+
+    "graphics": {
+
+      "visualSystems": [
+        "2D rendering",
+        "WebGL",
+        "Canvas fallback",
+        "Lighting effects",
+        "Particle effects",
+        "Smoke effects",
+        "Weather effects",
+        "Environmental animation",
+        "Character animation",
+        "Sprite animation",
+        "Post-processing opportunities",
+        "Screen effects",
+        "Transformation effects"
+      ],
+
+      "artDirections": [
+        "Cyberpunk",
+        "Grindhouse",
+        "Industrial decay",
+        "Elegant horror",
+        "Psychedelic surrealism",
+        "Dark science fiction",
+        "Neon underground culture",
+        "Cinematic post-apocalyptic environments"
+      ]
+    },
+
+    "related": {
+
+      "inspirationalGames": [
+        "Live or Die",
+        "Last Day on Earth",
+        "Zgirls 2: Last One",
+        "Dawn of Zombies",
+        "No Way to Die",
+        "Prey Day",
+        "Lost in Blue"
+      ],
+
+      "relatedGenres": [
+        "Zombie survival",
+        "Open-world RPG",
+        "Survival crafting",
+        "Base building",
+        "Stealth survival",
+        "Psychological horror",
+        "Post-apocalyptic fiction",
+        "Science fiction",
+        "Sandbox simulation"
+      ],
+
+      "relatedTechnologies": [
+        "Phaser",
+        "JavaScript",
+        "ECMAScript Modules",
+        "Webpack",
+        "WebGL",
+        "HTML5",
+        "CSS3",
+        "Jest",
+        "Babel"
+      ],
+
+      "referencePolicy": "Use genre conventions and high-level gameplay inspiration while maintaining original characters, artwork, narrative, mechanics, branding, and implementation."
+    },
+
+    "integrations": {
+
+      "plannedCategories": [
+        "Analytics",
+        "Error reporting",
+        "Community platforms",
+        "Newsletter services",
+        "Content management",
+        "Authentication",
+        "Cloud storage",
+        "Game telemetry",
+        "AI services",
+        "Payment processing",
+        "Social sharing",
+        "Customer support"
+      ],
+
+      "integrationPrinciples": [
+        "Provider-independent architecture",
+        "Environment-based configuration",
+        "Secure API credentials",
+        "Graceful failure handling",
+        "Optional service integrations",
+        "Documented API contracts"
+      ]
+    },
+
+    "analytics": {
+
+      "measurementAreas": [
+        "Website visitors",
+        "Traffic sources",
+        "Page engagement",
+        "Content engagement",
+        "Wishlist conversions",
+        "Newsletter conversions",
+        "Community engagement",
+        "Gameplay telemetry",
+        "Session performance",
+        "Crash reporting",
+        "Feature adoption"
+      ],
+
+      "privacyRequirements": [
+        "Consent management where required",
+        "Data minimization",
+        "Transparent analytics",
+        "Retention policies",
+        "Privacy-conscious tracking"
+      ]
+    },
+
+    "monetization": {
+
+      "potentialModels": [
+        "Premium game purchase",
+        "Optional expansions",
+        "Cosmetic content",
+        "Downloadable content",
+        "Soundtrack",
+        "Art book",
+        "Supporter editions",
+        "Community merchandise"
+      ],
+
+      "principles": [
+        "Transparent pricing",
+        "Clear purchase disclosures",
+        "No misleading offers",
+        "Age-appropriate purchasing controls",
+        "Respectful player monetization"
+      ]
+    },
+
+    "documentation": {
+
+      "recommendedFiles": [
+        "README.md",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "SECURITY.md",
+        "CODE_OF_CONDUCT.md",
+        "ARCHITECTURE.md",
+        "GAME_DESIGN_DOCUMENT.md",
+        "GAMEPLAY_SYSTEMS.md",
+        "AI_ARCHITECTURE.md",
+        "WORLD_BIBLE.md",
+        "CHARACTER_GUIDE.md",
+        "CRAFTING_GUIDE.md",
+        "CONTENT_GUIDELINES.md",
+        "ACCESSIBILITY.md",
+        "PERFORMANCE.md",
+        "SEO_STRATEGY.md",
+        "AEO_STRATEGY.md",
+        "TESTING.md",
+        "DEPLOYMENT.md",
+        "ROADMAP.md"
+      ],
+
+      "documentationPrinciples": [
+        "Clear ownership",
+        "Version tracking",
+        "Consistent terminology",
+        "Implementation status labels",
+        "Technical explanations",
+        "Developer onboarding",
+        "Player-facing documentation"
+      ]
+    },
+
+    "development": {
+
+      "workflow": [
+        "Feature planning",
+        "Requirements definition",
+        "Architecture design",
+        "Implementation",
+        "Code review",
+        "Automated testing",
+        "Performance validation",
+        "Documentation",
+        "Release preparation",
+        "Post-release maintenance"
+      ],
+
+      "environments": [
+        "Local development",
+        "Testing",
+        "Staging",
+        "Production"
+      ],
+
+      "releaseManagement": [
+        "Version control",
+        "Release notes",
+        "Build verification",
+        "Regression testing",
+        "Deployment checks",
+        "Rollback planning",
+        "Dependency updates"
+      ],
+
+      "statusLabels": [
+        "Planned",
+        "Designed",
+        "In Development",
+        "Implemented",
+        "Testing",
+        "Verified",
+        "Deferred",
+        "Deprecated"
+      ]
+    },
+
+    "futureExpansion": [
+
+      "Additional regions",
+      "Expanded faction systems",
+      "Advanced NPC memory",
+      "More transformation paths",
+      "Additional crafting branches",
+      "Expanded settlement systems",
+      "Companion systems",
+      "Expanded storylines",
+      "World events",
+      "Additional character archetypes",
+      "Dynamic encounters",
+      "More environmental hazards",
+      "Advanced social stealth",
+      "Additional game modes",
+      "Modding support",
+      "Localization",
+      "Optional multiplayer research",
+      "Expanded accessibility",
+      "Additional browser platform support"
+    ]
+  },
+
+  "relatedDocumentation": {
+    "readme": "README.md",
+    "architecture": "ARCHITECTURE.md",
+    "gameDesign": "GAME_DESIGN_DOCUMENT.md",
+    "gameplay": "GAMEPLAY_SYSTEMS.md",
+    "ai": "AI_ARCHITECTURE.md",
+    "world": "WORLD_BIBLE.md",
+    "seo": "SEO_STRATEGY.md",
+    "aeo": "AEO_STRATEGY.md",
+    "accessibility": "ACCESSIBILITY.md",
+    "security": "SECURITY.md",
+    "testing": "TESTING.md",
+    "deployment": "DEPLOYMENT.md",
+    "roadmap": "ROADMAP.md",
+    "changelog": "CHANGELOG.md",
+    "contributing": "CONTRIBUTING.md"
+  },
+
+  "projectMetadata": {
+    "project": "Phoenix Blaze",
+    "developer": "reeferguyai",
+    "projectCategory": "Video Game",
+    "gameEngine": "Phaser 3",
+    "buildTool": "Webpack",
+    "primaryLanguage": "JavaScript",
+    "moduleFormat": "ESM",
+    "contentAudience": "18+",
+    "projectVisibility": "Private",
+    "developmentStatus": "In Development",
+    "coreGameplayIdentity": "Progressive human-to-conscious-undead transformation survival RPG",
+    "primaryPlatform": "Web Browser",
+    "futurePlatformStrategy": "Platform-independent architecture"
   }
 }
