@@ -1,30 +1,27 @@
 import Phaser from 'phaser';
-import PlayerDataManager from '../managers/PlayerDataManager.js';
+import CharacterCreationScene from './scenes/CharacterCreationScene.js';
+import { GameScene } from './scenes/GameScene.js';
+import { TitleMenuScene } from './scenes/TitleMenuScene.js';
+import { UIScene } from './scenes/UIScene.js';
 
-const config = {
+const game = new Phaser.Game({
     type: Phaser.AUTO,
     parent: 'game-container',
     width: 1280,
     height: 720,
-    backgroundColor: '#0d0d0d',
+    backgroundColor: '#080d09',
     physics: {
         default: 'arcade',
-        arcade: {
-            gravity: { y: 0 },
-            debug: false
-        }
+        arcade: { gravity: { y: 0 }, debug: false }
     },
-    scene: [
-        CharacterCreationScene,
-        GameScene,
-        UIScene
-    ],
-    render: {
-        pixelArt: true,
-        antialias: false
-    }
-};
+    scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        min: { width: 640, height: 360 },
+        max: { width: 1920, height: 1080 }
+    },
+    scene: [TitleMenuScene, CharacterCreationScene, GameScene, UIScene],
+    render: { pixelArt: true, antialias: false }
+});
 
-const game = new Phaser.Game(config);
 window.game = game;
-console.log('🧟 Phoenix Blaze initialized...');
