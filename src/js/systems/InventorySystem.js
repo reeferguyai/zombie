@@ -1,3 +1,5 @@
+import { itemCatalog } from '../data/items.js';
+
 export class InventorySystem {
     constructor(maxSlots = 20, maxWeight = 50) {
         this.maxSlots = maxSlots;
@@ -7,17 +9,13 @@ export class InventorySystem {
     }
 
     addItem(item, quantity = 1) {
-        if (!item || typeof item.id !== 'string' || !Number.isInteger(quantity) || quantity <= 0) {
-            return { success: false, reason: 'invalid' };
-        }
+        if (!item || typeof item.id !== 'string' || !Number.isInteger(quantity) || quantity <= 0) return { success: false, reason: 'invalid' };
         const existing = this.items.find((entry) => entry.id === item.id);
-        const addedWeight = (Number(item.weight) || 0) * quantity;
-        if ((!existing && this.items.length >= this.maxSlots) || this.weight + addedWeight > this.maxWeight) {
-            return { success: false, reason: 'capacity' };
-        }
+        const weight = (Number(item.weight) || 0) * quantity;
+        if ((!existing && this.items.length >= this.maxSlots) || this.weight + weight > this.maxWeight) return { success: false, reason: 'capacity' };
         if (existing) existing.quantity += quantity;
         else this.items.push({ ...item, quantity });
-        this.weight += addedWeight;
+        this.weight += weight;
         return { success: true, canCarry: this.canCarry() };
     }
 
@@ -30,25 +28,23 @@ export class InventorySystem {
         return true;
     }
 
-    canCarry() {
-        return this.weight <= this.maxWeight && (this.items.length < this.maxSlots || this.items.length === 0);
+    useItem(itemId) {
+        const item = this.getItem(itemId);
+        if (!item || !this.removeItem(itemId, 1)) return null;
+        return item;
     }
 
-    getItem(itemId) {
-        return this.items.find((item) => item.id === itemId);
-    }
-
-    getAllItems() {
-        return this.items.map((item) => ({ ...item }));
-    }
+    canCarry() { return this.weight <= this.maxWeight && (this.items.length < this.maxSlots || this.items.length === 0); }
+    getItem(itemId) { return this.items.find((item) => item.id === itemId); }
+    getAllItems() { return this.items.map((item) => ({ ...item })); }
 
     restore(items = []) {
         this.clear();
-        items.forEach((item) => this.addItem(item, item.quantity));
+        items.forEach((entry) => {
+            const definition = itemCatalog[entry.id] || entry;
+            this.addItem(definition, entry.quantity);
+        });
     }
 
-    clear() {
-        this.items = [];
-        this.weight = 0;
-    }
+    clear() { this.items = []; this.weight = 0; }
 }
