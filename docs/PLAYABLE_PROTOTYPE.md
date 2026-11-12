@@ -1,10 +1,11 @@
-# Game feature controls
+# Story, world and progression controls
 
-- **WASD / arrows:** Move; player and zombie sprites have generated pixel-frame idle/walk animations.
-- **Space:** Attack nearby zombies. Enemies transition between idle, wander, chase, and attack states.
-- **E:** Speak with nearby faction NPCs, accept/claim quests, select moral choices, trade, or use a nearby workbench.
-- **C:** Open crafting. Recipes can only be made near the workbench.
-- **M:** Open region map; a minimap is visible in the top-right of the play screen.
-- **Escape:** Pause, save/load, and return to title.
+- **WASD / arrows:** Move; **Space:** attack; **E:** interact; **C:** craft at a workbench; **V:** use one fictional Emberleaf item to ease bloodlust; **U:** weapon upgrade; **J:** character story and quest journal; **M:** world map; **Esc:** pause/save slots.
+- The character profile records the player's name, custom backstory, and choices. The journal presents the character's point of view and records discoveries and decisions.
+- Emberleaf is a fictional game resource. Its effects are abstracted to bloodlust reduction and a temporary in-game steadiness bonus; this is not a real-world preparation or usage guide.
+- Infected follow patrol waypoints, investigate the player's last known location, chase when detected, and attack at close range. Difficulty changes their damage.
+- The world now spans six regions with distinct temperate, urban, forest, industrial, wetland, and highland color palettes; exploration reveals region markers and grants XP.
+- Three local save slots preserve the active run. A separate local profile tracks lifetime XP, completed quests, and discovered regions.
+- Crafting is station-gated. Salvage can upgrade a spear up to three times. The journal/map include active quest context and markers.
 
-The title menu lets you cycle Easy/Normal/Hard difficulty and access options. Faction reputation, accepted quest progress, discoveries, and player progress are persisted in local browser storage. Periodic world events include alerts, supply caches, and calm intervals. Visuals are procedurally generated pixel-style sprites and tile-like ground graphics; external art assets still need to be sourced/licensed for final production.
+All visuals remain procedurally generated prototypes; replace them with licensed art before release.
